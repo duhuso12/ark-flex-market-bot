@@ -199,19 +199,21 @@ function makeButtonRow() {
 // ARK creature artwork. We use the ARK Official Community Wiki
 // file redirect so Discord receives the actual creature image.
 const IMAGE_ALIASES = {
-  'Tek Giganotosaurus': 'Giganotosaurus.png',
+  // Use actual ARK creature artwork from the ARK Official Community Wiki.
+  // Keep these as direct file URLs so Discord gets the real creature image.
+  'Tek Giganotosaurus': 'Giganotosaurus Transparent.png',
   'Cap Carcharodontosaurus': 'Carcharodontosaurus.png',
   'Cap Therizinosaur': 'Therizinosaur.png',
   'Cap Thylacoleo': 'Thylacoleo.png',
   'Cap Rexs': 'Rex.png',
-  'Cap Woolly Rhino': 'Woolly Rhino.png',
-  'Chalicotheriums': 'Chalicotherium.png',
+  'Cap Woolly Rhino': 'Woolly_Rhino.png',
+  'Chalicotheriums': 'Chalicotherium_large.png',
   'Cap Pyromanes': 'Pyromane.png',
   'Cap Basilisk': 'Basilisk.png',
   'Cap Dreadmare': 'Dreadmare.png',
-  'Cap Aber Megalosaurus': 'Aberrant Megalosaurus.png',
-  'Cap Aber Carnotaurus': 'Aberrant Carnotaurus.png',
-  'Cap Aberrant Spino': 'Aberrant Spino.png',
+  'Cap Aber Megalosaurus': 'Aberrant_Megalosaurus.png',
+  'Cap Aber Carnotaurus': 'Aberrant_Carnotaurus.png',
+  'Cap Aberrant Spino': 'Aberrant_Spino.png',
   'Megatherium': 'Megatherium.png',
   'Cap Velonasaurs': 'Velonasaur.png',
   'Cap Managarmrs': 'Managarmr.png',
@@ -233,17 +235,17 @@ const IMAGE_ALIASES = {
   'Cap Quetzal': 'Quetzal.png',
   'Cap Tapejara': 'Tapejara.png',
   'Cap Pteranodons': 'Pteranodon.png',
-  'Argentavis': 'Argentavis.png',
+  'Argentavis': 'Render_Argentavis.png',
   'Cap Wyverns': 'Wyvern.png',
   'War Rhyniognathas': 'Rhyniognatha.png',
-  'Cap Snow Owl': 'Snow Owl.png',
+  'Cap Snow Owl': 'Snow_Owl.png',
   'Farm Rhyniognatha': 'Rhyniognatha.png',
   'Cap Griffins': 'Griffin.png',
   'Cap Desmodus': 'Desmodus.png',
   'Gigadesmodus': 'Desmodus.png',
   'Aureliax': 'Aureliax.png',
   'Cap Yutyrannus': 'Yutyrannus.png',
-  'Cap Yi Ling': 'Yi Ling.png',
+  'Cap Yi Ling': 'Yi_Ling.png',
   'Cap Daeodon': 'Daeodon.png',
   'Cap Arthropluera': 'Arthropluera.png',
   'Cap Deinonychus': 'Deinonychus.png',
@@ -254,12 +256,12 @@ const IMAGE_ALIASES = {
   'Cap Veilwyn': 'Veilwyn.png',
   'Burrowbuck': 'Burrowbuck.png',
   'Cryolophosaurus': 'Cryolophosaurus.png',
-  'Grand Tortugar': 'Grand Tortugar.png',
+  'Grand Tortugar': 'Grand_Tortugar.png',
   'Cap Kentrosaurus': 'Kentrosaurus.png',
   'Cap Brontosaurus': 'Brontosaurus.png',
-  'Dung Beetle': 'Dung Beetle.png',
+  'Dung Beetle': 'Dung_Beetle.png',
   'Achatina': 'Achatina.png',
-  'Giant Bee': 'Giant Bee.png',
+  'Giant Bee': 'Giant_Bee.png',
   'Iguanodon': 'Iguanodon.png',
   'Diplocaulus': 'Diplocaulus.png',
   'Armadoggo': 'Armadoggo.png',
@@ -274,18 +276,14 @@ const IMAGE_ALIASES = {
   'Dunkleosteus': 'Dunkleosteus.png',
   'Anglerfish': 'Anglerfish.png',
   'Fasolasuchus': 'Fasolasuchus.png',
-  'Doedicurus': 'Doedicurus.png',
+  'Doedicurus': 'Doedicurus_Transparent.png',
   'Deinotherium': 'Deinotherium.png'
 };
 
 function getImageUrl(name) {
-  const baseName = name
-    .replace(/\s+\[.*?\]$/, '')
-    .trim();
-
+  const baseName = name.replace(/\s+\[.*?\]$/, '').trim();
   const file = IMAGE_ALIASES[baseName];
   if (!file) return null;
-
   return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(file)}`;
 }
 
