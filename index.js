@@ -201,7 +201,7 @@ function makeButtonRow() {
 const IMAGE_ALIASES = {
   // Use actual ARK creature artwork from the ARK Official Community Wiki.
   // Keep these as direct file URLs so Discord gets the real creature image.
-  'Tek Giganotosaurus': 'Giganotosaurus Transparent.png',
+  'Tek Giganotosaurus': 'Giganotosaurus.png',
   'Cap Carcharodontosaurus': 'Carcharodontosaurus.png',
   'Cap Therizinosaur': 'Therizinosaur.png',
   'Cap Thylacoleo': 'Thylacoleo.png',
@@ -276,7 +276,7 @@ const IMAGE_ALIASES = {
   'Dunkleosteus': 'Dunkleosteus.png',
   'Anglerfish': 'Anglerfish.png',
   'Fasolasuchus': 'Fasolasuchus.png',
-  'Doedicurus': 'Doedicurus_Transparent.png',
+  'Doedicurus': 'Doedicurus.png',
   'Deinotherium': 'Deinotherium.png'
 };
 
