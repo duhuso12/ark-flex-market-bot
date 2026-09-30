@@ -25,6 +25,7 @@ const client = new Client({
 });
 
 const PREFIX = '!';
+const EMBED_BLUE = 0x00BFFF;
 const TICKET_URL =
   `https://discord.com/channels/${config.guildId}/${config.ticketChannelId}`;
 
@@ -290,11 +291,11 @@ function getImageUrl(name) {
 function makeDinoEmbed(category, product, index, total) {
   const [name, price, stats] = product;
   const embed = new EmbedBuilder()
-    .setColor(config.embedColor)
+    .setColor(EMBED_BLUE)
     .setAuthor({ name: 'Infinity Market - Small Tribes Crossplay' })
-    .setTitle(`💠 ${name}`)
+    .setTitle(`🔷 ${name}`)
     .setDescription(
-      `${stats ? `💠 **${stats}**\n\n` : ''}` +
+      `${stats ? `🔷 **${stats}**\n\n` : ''}` +
       `💰 **Price:**\n` +
       `➤ ${price.replace(/\n/g, '\n➤ ')}`
     )
