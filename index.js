@@ -196,55 +196,138 @@ function makeButtonRow() {
   );
 }
 
-function makeEmbed(category, products, page, totalPages) {
+// ARK creature artwork. We use the ARK Official Community Wiki
+// file redirect so Discord receives the actual creature image.
+const IMAGE_ALIASES = {
+  'Tek Giganotosaurus': 'Giganotosaurus.png',
+  'Cap Carcharodontosaurus': 'Carcharodontosaurus.png',
+  'Cap Therizinosaur': 'Therizinosaur.png',
+  'Cap Thylacoleo': 'Thylacoleo.png',
+  'Cap Rexs': 'Rex.png',
+  'Cap Woolly Rhino': 'Woolly Rhino.png',
+  'Chalicotheriums': 'Chalicotherium.png',
+  'Cap Pyromanes': 'Pyromane.png',
+  'Cap Basilisk': 'Basilisk.png',
+  'Cap Dreadmare': 'Dreadmare.png',
+  'Cap Aber Megalosaurus': 'Aberrant Megalosaurus.png',
+  'Cap Aber Carnotaurus': 'Aberrant Carnotaurus.png',
+  'Cap Aberrant Spino': 'Aberrant Spino.png',
+  'Megatherium': 'Megatherium.png',
+  'Cap Velonasaurs': 'Velonasaur.png',
+  'Cap Managarmrs': 'Managarmr.png',
+  'Karkinos': 'Karkinos.png',
+  'Cap Unicorn': 'Unicorn.png',
+  'Ossidon': 'Ossidon.png',
+  'Acrocanthosaurus': 'Acrocanthosaurus.png',
+  'Cap Deinosuchus': 'Deinosuchus.png',
+  'Plesiosaur': 'Plesiosaur.png',
+  'Mosasaurus': 'Mosasaurus.png',
+  'Shastasaurus': 'Shastasaurus.png',
+  'Cap Xiphactinus': 'Xiphactinus.png',
+  'Cap Basilosaurus': 'Basilosaurus.png',
+  'Cap Megalodon': 'Megalodon.png',
+  'Cap Baryonyx': 'Baryonyx.png',
+  'Cap Tuso': 'Tusoteuthis.png',
+  'Cap Kaprosuchus': 'Kaprosuchus.png',
+  'Cap Helicoprion': 'Helicoprion.png',
+  'Cap Quetzal': 'Quetzal.png',
+  'Cap Tapejara': 'Tapejara.png',
+  'Cap Pteranodons': 'Pteranodon.png',
+  'Argentavis': 'Argentavis.png',
+  'Cap Wyverns': 'Wyvern.png',
+  'War Rhyniognathas': 'Rhyniognatha.png',
+  'Cap Snow Owl': 'Snow Owl.png',
+  'Farm Rhyniognatha': 'Rhyniognatha.png',
+  'Cap Griffins': 'Griffin.png',
+  'Cap Desmodus': 'Desmodus.png',
+  'Gigadesmodus': 'Desmodus.png',
+  'Aureliax': 'Aureliax.png',
+  'Cap Yutyrannus': 'Yutyrannus.png',
+  'Cap Yi Ling': 'Yi Ling.png',
+  'Cap Daeodon': 'Daeodon.png',
+  'Cap Arthropluera': 'Arthropluera.png',
+  'Cap Deinonychus': 'Deinonychus.png',
+  'Cap Beelzebufo': 'Beelzebufo.png',
+  'Cap Ovis': 'Ovis.png',
+  'Cap Gigantopithecus': 'Gigantopithecus.png',
+  'Cap Drakeling': 'Drakeling.png',
+  'Cap Veilwyn': 'Veilwyn.png',
+  'Burrowbuck': 'Burrowbuck.png',
+  'Cryolophosaurus': 'Cryolophosaurus.png',
+  'Grand Tortugar': 'Grand Tortugar.png',
+  'Cap Kentrosaurus': 'Kentrosaurus.png',
+  'Cap Brontosaurus': 'Brontosaurus.png',
+  'Dung Beetle': 'Dung Beetle.png',
+  'Achatina': 'Achatina.png',
+  'Giant Bee': 'Giant Bee.png',
+  'Iguanodon': 'Iguanodon.png',
+  'Diplocaulus': 'Diplocaulus.png',
+  'Armadoggo': 'Armadoggo.png',
+  'Mammoth': 'Mammoth.png',
+  'Otter': 'Otter.png',
+  'Gachas': 'Gacha.png',
+  'Maeguana': 'Maeguana.png',
+  'Oviraptor': 'Oviraptor.png',
+  'Pegomastax': 'Pegomastax.png',
+  'Procoptodon': 'Procoptodon.png',
+  'Pelagornis': 'Pelagornis.png',
+  'Dunkleosteus': 'Dunkleosteus.png',
+  'Anglerfish': 'Anglerfish.png',
+  'Fasolasuchus': 'Fasolasuchus.png',
+  'Doedicurus': 'Doedicurus.png',
+  'Deinotherium': 'Deinotherium.png'
+};
+
+function getImageUrl(name) {
+  const baseName = name
+    .replace(/\s+\[.*?\]$/, '')
+    .trim();
+
+  const file = IMAGE_ALIASES[baseName];
+  if (!file) return null;
+
+  return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(file)}`;
+}
+
+function makeDinoEmbed(category, product, index, total) {
+  const [name, price, stats] = product;
   const embed = new EmbedBuilder()
     .setColor(config.embedColor)
-    .setAuthor({ name: 'ARK FLEX MARKET' })
-    .setTitle(category.title)
-    .setDescription('**💎 PRICES**')
-    .setFooter({
-      text: `ARK FLEX MARKET • ${page}/${totalPages}`
-    });
+    .setAuthor({ name: 'Infinity Market - Small Tribes Crossplay' })
+    .setTitle(`💠 ${name}`)
+    .setDescription(
+      `${stats ? `💠 **${stats}**\n\n` : ''}` +
+      `💰 **Price:**\n` +
+      `➤ ${price.replace(/\n/g, '\n➤ ')}`
+    )
+    .setFooter({ text: `ARK FLEX MARKET • ${category.title.replace('💠 ', '')} • ${index}/${total}` });
 
-  for (const [name, price, stats] of products) {
-    let value = `➤ ${price}`;
-
-    if (stats) {
-      value += `\n\n${stats}`;
-    }
-
-    embed.addFields({
-      name: `💠 ${name}`,
-      value,
-      inline: false
-    });
-  }
+  const imageUrl = getImageUrl(name);
+  if (imageUrl) embed.setImage(imageUrl);
 
   return embed;
 }
 
 async function sendCategory(message, key) {
   const category = categories[key];
-
   if (!category) return;
 
-  const perPage = 20;
-  const pages = [];
+  // Discord allows up to 10 embeds per message. Each product stays
+  // separate so its image appears directly below its own price block.
+  const perMessage = 10;
 
-  for (let i = 0; i < category.products.length; i += perPage) {
-    pages.push(category.products.slice(i, i + perPage));
-  }
+  for (let i = 0; i < category.products.length; i += perMessage) {
+    const batch = category.products.slice(i, i + perMessage);
 
-  for (let i = 0; i < pages.length; i++) {
     await message.channel.send({
-      embeds: [
-        makeEmbed(
+      embeds: batch.map((product, offset) =>
+        makeDinoEmbed(
           category,
-          pages[i],
-          i + 1,
-          pages.length
+          product,
+          i + offset + 1,
+          category.products.length
         )
-      ],
+      ),
       components: [makeButtonRow()]
     });
   }
