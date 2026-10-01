@@ -31,10 +31,7 @@ const client = new Client({
 });
 
 const PREFIX = '!';
-const TICKET_URL =
-  config.guildId && config.ticketChannelId
-    ? `https://discord.com/channels/${config.guildId}/${config.ticketChannelId}`
-    : null;
+const TICKET_URL = 'https://discord.com/channels/1554939641507872778/1554959741724131348';
 
 const categories = {
   pvp: {
@@ -573,7 +570,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha']
+    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha','ticket']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -710,6 +707,18 @@ client.on('messageCreate', async (message) => {
       .setFooter({ text: 'ARK FLEX MARKET • Giveaway' });
 
     await message.channel.send({ embeds: [embed] });
+    return;
+  }
+
+  if (key === 'ticket') {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('💠 Open a Ticket')
+      .setDescription('**Need help or want to place an order? Open up a ticket!**')
+      .setFooter({ text: 'ARK FLEX MARKET • Ticket' });
+
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
     return;
   }
 
