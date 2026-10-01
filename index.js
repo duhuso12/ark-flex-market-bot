@@ -9,7 +9,11 @@ const {
   ButtonStyle
 } = require('discord.js');
 
-const config = require('./config');
+const config = {
+  guildId: process.env.GUILD_ID || '',
+  ticketChannelId: process.env.TICKET_CHANNEL_ID || '',
+  embedColor: process.env.EMBED_COLOR || '#00cfff'
+};
 
 if (!process.env.DISCORD_TOKEN) {
   console.error('Missing DISCORD_TOKEN in .env');
@@ -26,7 +30,9 @@ const client = new Client({
 
 const PREFIX = '!';
 const TICKET_URL =
-  `https://discord.com/channels/${config.guildId}/${config.ticketChannelId}`;
+  config.guildId && config.ticketChannelId
+    ? `https://discord.com/channels/${config.guildId}/${config.ticketChannelId}`
+    : null;
 
 const categories = {
   pvp: {
@@ -90,7 +96,31 @@ const categories = {
     ]
   },
 
-  supports: {
+  farm: {
+    title: '💠 Farm Dinos',
+    products: [
+      ['Dung Beetle [Random LvL]', '1x » $1.99', ''],
+      ['Cap Brontosaurus', 'Male or Female » $4.99\nPair » $7.99', 'V1: 127056 Health • V2: 8000 Weight / 27870 Health'],
+      ['Moschops', 'Male or Female » $2.99\nPair » $4.99', '1280% Damage'],
+      ['Achatina [Random LvL]', '1x » $1.99', ''],
+      ['Procoptodon', 'Male or Female » $2.99\nPair » $4.99', '1199 Weight'],
+      ['Giant Bee [Random LvL]', '1x » $1.99', ''],
+      ['Cap Mantis', 'Male or Female » $2.99\nPair » $4.99', 'V1: 872% Damage • 3245 Health • V2: 1025% Damage'],
+      ['Pelagornis', 'Male or Female » $2.99\nPair » $4.99', '475% Damage'],
+      ['Dunkleosteus', 'Male or Female » $2.99\nPair » $4.99', 'V1: 2930 Weight / 616% Damage • V2: 3840 Weight / 663% Damage'],
+      ['Anglerfish', 'Male or Female » $2.99\nPair » $4.99', '851% Damage'],
+      ['Iguanodon [Random LvL]', '1x » $1.99', ''],
+      ['Gachas', 'Male or Female » $2.99\nPair » $4.99', 'V1–V6 available'],
+      ['Beelzebufo [Random LvL]', '1x » $1.99', ''],
+      ['Fasolasuchus', 'Male or Female » $2.99\nPair » $4.99', '972 Weight • 425% Damage'],
+      ['Doedicurus', 'Male or Female » $2.99\nPair » $4.99', '704% Damage'],
+      ['Karkinos', 'Male or Female » $4.99\nPair » $7.99', '2416 Weight'],
+      ['Cap Ovis [369 LvL]', 'Male or Female » $2.99\nPair » $4.99', '6200 Health'],
+      ['Cap Ankylosaurus [369 LvL]', 'Male or Female » $2.99\nPair » $4.99', '1927% Damage']
+    ]
+  },
+
+  support: {
     title: '💠 Supports',
     products: [
       ['Cap Yutyrannus [384 LvL]', 'Male or Female » $4.99\nPair » $7.99', '69740 Health'],
@@ -162,6 +192,16 @@ const categories = {
     ]
   },
 
+  cloners: {
+    title: '💠 Cloners',
+    products: [
+      ['Phoenix', '1 clone » $4.99\n6 clones » $17.50\n20 clones » $49.99', '6 LvL • Purple'],
+      ['Karkinos', '1 clone » $4.99\n6 clones » $9.99\n20 clones » $29.99', '1 LvL'],
+      ['Reaper', '1 clone » $4.99\n6 clones » $9.99\n20 clones » $29.99', '3 LvL'],
+      ['Tek Giga Female', '1 clone » $4.99\n6 clones » $9.99\n20 clones » $29.99', '1 LvL']
+    ]
+  },
+
   ffa: {
     title: '💠 FFA Cryofridges',
     products: [
@@ -192,14 +232,14 @@ function makeButtonRow() {
       .setLabel('OPEN TICKET')
       .setEmoji('🎫')
       .setStyle(ButtonStyle.Link)
-      .setURL(TICKET_URL)
+      .setURL(TICKET_URL || 'https://discord.com/')
   );
 }
 
 // ARK creature artwork. We use the ARK Official Community Wiki
 // file redirect so Discord receives the actual creature image.
 const IMAGE_ALIASES = {
-  // Original ARK Wiki dossier images for classic creatures.
+  // ONLY original ARK dossier-book files. No creature-art fallbacks.
   'Tek Giganotosaurus': 'Dossier Giganotosaurus.png',
   'Cap Carcharodontosaurus': 'Dossier Carcharodontosaurus.png',
   'Cap Therizinosaur': 'Dossier Therizinosaur.png',
@@ -207,22 +247,20 @@ const IMAGE_ALIASES = {
   'Cap Rexs': 'Dossier Rex.png',
   'Cap Woolly Rhino': 'Dossier Woolly Rhino.png',
   'Chalicotheriums': 'Dossier Chalicotherium.png',
-  'Cap Pyromanes': 'Pyromane.png',
   'Cap Basilisk': 'Dossier Basilisk.png',
-  'Cap Dreadmare': 'Dreadmare.png',
   'Cap Aber Megalosaurus': 'Dossier Megalosaurus.png',
   'Cap Aber Carnotaurus': 'Dossier Carnotaurus.png',
   'Cap Aberrant Spino': 'Dossier Spino.png',
   'Megatherium': 'Dossier Megatherium.png',
-  'Cap Velonasaurs': 'Velonasaur.png',
-  'Cap Managarmrs': 'Managarmr.png',
+  'Cap Velonasaurs': 'Dossier Velonasaur.png',
+  'Cap Managarmrs': 'Dossier Managarmr.png',
   'Karkinos': 'Dossier Karkinos.png',
   'Deinotherium': 'Dossier Deinotherium.png',
-
-  // Original ARK Wiki images for the creatures added later.
   'Cap Ankylosaurus': 'Dossier Ankylosaurus.png',
   'Cap Beelzebufo': 'Dossier Beelzebufo.png',
   'Cap Mantis': 'Dossier Mantis.png',
+  'Phoenix': 'Dossier Phoenix.png',
+  'Tek Giga Female': 'Dossier Giganotosaurus.png',
   'Moschops': 'Dossier Moschops.png',
   'Cap Yutyrannus': 'Dossier Yutyrannus.png',
   'Cap Deinonychus': 'Dossier Deinonychus.png',
@@ -244,34 +282,22 @@ const IMAGE_ALIASES = {
   'Otter': 'Dossier Otter.png',
   'Mammoth': 'Dossier Mammoth.png',
   'Diplocaulus': 'Dossier Diplocaulus.png',
-  'Cap Unicorn': 'Equus.png',
-  'Acrocanthosaurus': 'Acrocanthosaurus.png',
-  'Cap Deinosuchus': 'Deinosuchus.png',
+  'Cap Unicorn': 'Dossier Equus.png',
   'Plesiosaur': 'Dossier Plesiosaur.png',
   'Mosasaurus': 'Dossier Mosasaurus.png',
-  'Shastasaurus': 'Shastasaurus.png',
-  'Cap Xiphactinus': 'Xiphactinus.png',
   'Cap Basilosaurus': 'Dossier Basilosaurus.png',
   'Cap Megalodon': 'Dossier Megalodon.png',
   'Cap Baryonyx': 'Dossier Baryonyx.png',
   'Cap Tuso': 'Dossier Tusoteuthis.png',
-  'Cap Kaprosuchus': 'Kaprosuchus.png',
-  'Cap Helicoprion': 'Helicoprion.png',
   'Cap Quetzal': 'Dossier Quetzal.png',
   'Cap Tapejara': 'Dossier Tapejara.png',
   'Cap Pteranodons': 'Dossier Pteranodon.png',
   'Argentavis': 'Dossier Argentavis.png',
   'Cap Wyverns': 'Dossier Wyvern.png',
-  'War Rhyniognathas': 'Dossier Rhyniognatha.png',
   'Cap Snow Owl': 'Dossier Snow Owl.png',
-  'Farm Rhyniognatha': 'Dossier Rhyniognatha.png',
   'Cap Griffins': 'Dossier Griffin.png',
-  'Aureliax': 'Aureliax.png',
-  'Cap Yi Ling': 'Yi Ling.png',
   'Cap Arthropluera': 'Dossier Arthropluera.png',
   'Cap Ovis': 'Dossier Ovis.png',
-  'Cap Drakeling': 'Drakeling.png',
-  'Burrowbuck': 'Burrowbuck.png',
   'Cap Brontosaurus': 'Dossier Brontosaurus.png',
   'Achatina': 'Dossier Achatina.png',
   'Giant Bee': 'Dossier Giant Bee.png',
@@ -279,21 +305,16 @@ const IMAGE_ALIASES = {
   'Armadoggo': 'Dossier Armadoggo.png',
   'Gachas': 'Dossier Gacha.png',
   'Anglerfish': 'Dossier Angler.png',
-  'Fasolasuchus': 'Fasolasuchus.png',
-
-  // Official ARK creature artwork for Lost Colony/custom creatures.
-  'Maeguana': 'Maeguana.png',
-  'Cap Gloon': 'Gloon.png',
-  'Cap Veilwyn': 'Veilwyn.png',
-  'Ossidon': 'Ossidon.png',
-  'Cap Solwyn': 'Solwyn.png',
-  'Cap Malwyn': 'Malwyn.png',
-  'Grand Tortugar': 'Grand Tortugar.png',
-  'Cryolophosaurus': 'Cryolophosaurus.png',
-  'Gigadesmodus': 'Dossier Desmodus.png',
-  'Cap Desmodus': 'Dossier Desmodus.png',
   'Reaper': 'Dossier Reaper.png',
-  'Rock Drake': 'Dossier Rock Drake.png'
+  'Rock Drake': 'Dossier Rock Drake.png',
+  'Yi Ling': 'Dossier Yi Ling.jpg',
+  'Cryolophosaurus': 'Mod ARK Additions Dossier Cryolophosaurus.png',
+  'Acrocanthosaurus': 'Mod ARK Additions Dossier Acrocanthosaurus.png',
+  'Cap Deinosuchus': 'Mod ARK Additions Dossier Deinosuchus.png',
+  'Cap Xiphactinus': 'Mod ARK Additions Dossier Xiphactinus.png',
+  'Cap Helicoprion': 'ARK Additions Dossier Helicoprion.png',
+  'Gigadesmodus': 'Dossier Desmodus.png',
+  'Cap Desmodus': 'Dossier Desmodus.png'
 };
 
 function getImageUrl(name) {
@@ -352,7 +373,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    Object.keys(categories)
+    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -385,12 +406,12 @@ client.on('messageCreate', async (message) => {
 
     await message.channel.send({
       embeds: [
-        makeEmbed(
-          arb,
-          arb.products,
-          1,
-          1
-        )
+        new EmbedBuilder()
+          .setColor(config.embedColor)
+          .setAuthor({ name: 'Infinity Market - Small Tribes Crossplay' })
+          .setTitle('💠 Advanced Rifle Bullet [ARB]')
+          .setDescription(arb.products.map(p => `**${p[0]}** — ${p[1]}\n${p[2]}`).join('\n\n'))
+          .setFooter({ text: 'ARK FLEX MARKET • ARB' })
       ],
       components: [makeButtonRow()]
     });
@@ -398,8 +419,28 @@ client.on('messageCreate', async (message) => {
     return;
   }
 
-  if (categories[key]) {
-    await sendCategory(message, key);
+  const aliases = {
+    pvp: 'pvp',
+    soaker: 'soakers',
+    soakers: 'soakers',
+    flyer: 'flyers',
+    flyers: 'flyers',
+    water: 'water',
+    farm: 'farm',
+    support: 'support',
+    supports: 'support',
+    eggs: 'eggs',
+    egg: 'eggs',
+    cloner: 'cloners',
+    cloners: 'cloners',
+    ffa: 'ffa',
+    mix: 'mix',
+    breeder: 'breeder'
+  };
+
+  const categoryKey = aliases[key] || key;
+  if (categories[categoryKey]) {
+    await sendCategory(message, categoryKey);
   }
 });
 
