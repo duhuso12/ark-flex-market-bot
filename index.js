@@ -40,7 +40,8 @@ const categories = {
   pvp: {
     title: '💠 PvP Dinos',
     products: [
-            ['Cap Carcharodontosaurus', 'Male or Female $7.50\nPair $12.50', '51 HP • 51+254 DMG'],
+            ['Cap Unicorn', 'Male or Female $4.99\nPair $7.99', '48 HP • 50+230 DMG'],
+      ['Cap Carcharodontosaurus', 'Male or Female $7.50\nPair $12.50', '51 HP • 51+254 DMG'],
       ['Cap Therizinosaur', 'Male or Female $4.99\nPair $7.99', '53+42 HP • 59+230 DMG'],
       ['Cap Thylacoleo', 'Male or Female $4.99\nPair $7.99', '54+254 HP'],
       ['Cap Rexs', 'Male or Female $4.99\nPair $7.99', '61+80 HP • 56+192 DMG'],
@@ -410,6 +411,19 @@ const IMAGE_ALIASES = {
 
 
 const LOCAL_IMAGES = {
+  'Cap Unicorn': ['pvp', 'unicorn.png'],
+  'Cap Carcharodontosaurus': ['pvp', 'carcharodontosaurus.png'],
+  'Cap Therizinosaur': ['pvp', 'therizinosaur.png'],
+  'Cap Thylacoleo': ['pvp', 'thylacoleo.png'],
+  'Cap Rexs': ['pvp', 'rex.png'],
+  'Cap Pyromanes': ['pvp', 'pyromane.png'],
+  'Cap Basilisk': ['pvp', 'basilisk.png'],
+  'Cap Dreadmare': ['pvp', 'dreadmare.png'],
+  'Cap Aber Megalosaurus': ['pvp', 'megalosaurus.png'],
+  'Cap Aber Carnotaurus': ['pvp', 'carnotaurus.png'],
+  'Cap Aberrant Spino': ['pvp', 'spinosaurus.png'],
+  'Cap Velonasaurs': ['pvp', 'velonasaur.png'],
+  'Cap Managarmrs': ['pvp', 'managarmr.png'],
   'Karkinos': ['pvp', 'karkinos.png'],
   'Ossidon': ['pvp', 'ossidon.png'],
   'Aureliax': ['flyers', 'aureliax.png'],
