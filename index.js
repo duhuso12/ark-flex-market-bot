@@ -554,8 +554,13 @@ client.on('messageCreate', async (message) => {
         .setURL(TICKET_URL || 'https://discord.com/channels/@me')
     );
 
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setTitle('Create ticket for price list')
+      .setDescription('Click the button below to open the ticket system.');
+
     await message.channel.send({
-      content: 'Create ticket for price list',
+      embeds: [embed],
       components: [row]
     });
     return;
