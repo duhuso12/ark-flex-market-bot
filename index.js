@@ -55,7 +55,7 @@ const categories = {
       ['Cap Managarmrs', 'Male or Female $4.99\nPair $7.99', '55+0 HP • 54+20 STAM • 55+200 DMG'],
       ['Karkinos', 'Male or Female $4.99\nPair $7.99', '62+100 HP'],
       ['Ossidon', 'Male or Female $4.99\nPair $7.99', '49+60 HP • 49+60 DMG'],
-      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG'],
+      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG'],
     ]
   },
 
@@ -495,7 +495,8 @@ function makeDinoEmbed(category, product, index, total, localImageName = null) {
   const displayTitle = isSoaker
     ? `${isCarbonemys ? '💠 ' : ''}${name}`
     : `💠 ${name}`;
-  const statsPrefix = isSoaker ? '' : '💠 ';
+  const isPvpWyverns = category.title.includes('PvP') && name === 'Cap Wyverns';
+  const statsPrefix = (isSoaker || isPvpWyverns) ? '' : '💠 ';
 
   const embed = new EmbedBuilder()
     .setColor(config.embedColor)
