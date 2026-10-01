@@ -216,6 +216,111 @@ const categories = {
     ]
   },
 
+
+  soon: {
+    title: '⏳ Soon',
+    products: [
+      { name: 'Create ticket for price list', price: 'Create ticket for price list', stats: '' }
+    ]
+  },
+  resources: {
+    title: '💠 Resources',
+    products: [
+      [':BG: Blue | Green Gems :GG:', '30000 [300 slots] » $3.99\n180000 [1800 slots] » $9.99', ''],
+      [':Sulfur: Sulfur :Sulfur:', '10000 [100 slots] » $3.99\n30000 [300 slots] » $8.99', ''],
+      [':Chitin: Chitin :Chitin:', '180000 [1800 slots] » $2.99', ''],
+      [':Silk: Silk :Silk:', '10000 [100 slots] » $2.99\n30000 [300 slots] » $8.99', ''],
+      [':Oil: Oil :Oil:', '30000 [300 slots] » $3.99\n180000 [1800 slots] » $13.99', ''],
+      [':Sap: Sap :Sap:', '3000 [100 slots] » $1.99\n9000 [300 slots] » $4.99', ''],
+      [':Hi: Hide :Hi:', '60000 [300 slots] » $1.99\n360000 [1800 slots] » $4.99', ''],
+      [':Sp: Silica Pearls :Sp:', '30000 [300 slots] » $1.99\n180000 [1800 slots] » $6.99', ''],
+      [':E_: Electronics :E_:', '30000 [300 slots] » $4.99\n180000 [1800 slots] » $19.99', ''],
+      [':Cr: Crystal :Cr:', '30000 [300 slots] » $1.99\n180000 [1800 slots] » $5.99', ''],
+      [':Pa: Cementing Paste :Pa:', '30000 [300 slots] » $2.99\n180000 [1800 slots] » $9.99', ''],
+      [':B_: Black Pearls :B_:', '60000 [300 slots] » $4.99\n360000 [1800 slots] » $19.99', ''],
+      [':P_: Hard Polymer :P_:', '30000 [300 slots] » $4.99\n180000 [1800 slots] » $14.99', ''],
+      [':M_: Metal Ingots :M_:', '90000 [300 slots] » $1.99\n540000 [1800 slots] » $9.99', '']
+    ]
+  },
+
+  structures: {
+    title: '💠 Structures',
+    products: [
+      [':Found: Metal Foundations :Found:', '100x = $1.99', ''],
+      [':Wall_: Metal Walls :Wall_:', '100x = $0.99', ''],
+      [':Ceiling: Metal Ceilings :Ceiling:', '100x = $1.49', ''],
+      [':TriaFound: Metal Triangle Foundations :TriaFound:', '100x = $0.99', ''],
+      [':Pillar: Metal Pilars :Pillar:', '100x = $0.99', ''],
+      [':Gateway: Metal Gateways :Gateway:', '100x = $4.99', ''],
+      [':Cliff: Metal Cliff Platforms :Cliff:', '3x = $1.79', ''],
+      [':Forge: Industrial Forges :Forge:', '1x = $0.49', ''],
+      [':Chem: Chemistry Benchs :Chem:', '1x = $0.49', ''],
+      [':Cooker: Industrial Cookers :Cooker:', '1x = $0.49', ''],
+      [':Grinder: Industrial Grinders :Grinder:', '1x = $0.49', ''],
+      [':Grill: Industrial Grills :Grill:', '1x = $0.10', ''],
+      [':Refrigerator: Refrigerators :Refrigerator:', '1x = $0.10', ''],
+      [':Vault: Vaults :Vault:', '1x = $0.25', ''],
+      [':Air: Air Conditioners :Air:', '1x = $0.09', ''],
+      [':ElecGen: Electrical Generators :ElecGen:', '1x = $0.09', ''],
+      [':Cryofridge: Cryofridges :Cryofridge:', '1x = $0.09', ''],
+      [':Motorboat: Motorboats :Motorboat:', '1x = $1.49', ''],
+      [':Zeppelin: Zeppelins :Zeppelin:', '1x = $0.69', ''],
+      [':Clockface: Clockfaces :Clockface:', '1x = $0.69', ''],
+      [':LinkedBox: Linked Storage Boxs :LinkedBox:', '1x = $0.69', ''],
+      [':SteamForges: Steam Forges :SteamForges:', '1x = $1.49', ''],
+      [':Megalabt: Makeshift Megalab :Megalabt:', '1x = $0.69', ''],
+      [':EmbryoIncub: Embryo Incubators :EmbryoIncub:', '1x = $0.69', ''],
+      [':Sir5RM8: Sir5RM8 :Sir5RM8:', '1x = $0.99', ''],
+      [':GeneScanner: Gene Scanners :GeneScanner:', '1x = $0.69', ''],
+      [':GeneStorage: Gene Storages :GeneStorage:', '1x = $0.69', ''],
+      [':PreserBins: Industrial Preserving Bins :PreserBins:', '1x = $0.69', ''],
+      [':TinkerDesks: Tinkering Desks :TinkerDesks:', '1x = $0.69', ''],
+      [':BioGrinder: Bio Grinder :BioGrinder:', '1x = $0.69', ''],
+      [':Library: Library Storage :Library:', '1x = $0.69', ''],
+      [':Garage: Battlerig Garage :Garage:', '1x = $0.69', '']
+    ]
+  },
+
+  tekstructures: {
+    title: '💠 Tek Structures',
+    products: [
+      [':TekFound: Tek Foundations :TekFound:', '100x = $1.99'],
+      [':TekWall: Tek Walls :TekWall:', '100x = $0.99'],
+      [':TekCeiling: Tek Ceilings :TekCeiling:', '100x = $1.49'],
+      [':TekTriaFound: Tek Triangle Foundations :TekTriaFound:', '100x = $0.99'],
+      [':TekPillar: Tek Pillars :TekPillar:', '100x = $0.99'],
+      [':TekGateway: Tek Gateways :TekGateway:', '100x = $4.99'],
+      [':Vacuum: Vacuum Compartments :Vacuum:', '5x = $1.99'],
+      [':TekTrough: Tek Troughs :TekTrough:', '1x = $1.49'],
+      [':SmallTekTP: Small Tek Teleporters :SmallTekTP:', '1x = $1.49'],
+      [':SmallTekTP: Medium Tek Teleporters :SmallTekTP:', '1x = $2.49'],
+      [':SmallTekTP: Large Tek Teleporters :SmallTekTP:', '1x = $4.49'],
+      [':T_~1: Tek Generators :T_~1:', '1x = $2.49'],
+      [':Rep: Tek Replicators :Rep:', '1x = $4.49'],
+      [':Transmiter: Tek Transmiters :Transmiter:', '1x = $3.49'],
+      [':TekForce: Tek Forcefields :TekForce:', '1x = $4.49'],
+      [':Cloning: Cloning Chambers :Cloning:', '1x = $4.49'],
+      [':Dedi: Tek Dedicated Storages :Dedi:', '10x = $0.99'],
+      [':SleepingPod: Tek Sleeping Pods :SleepingPod:', '1x = $0.19'],
+      [':LargeCellark: Behemoth Tek Cellar Doors :LargeCellark:', '100x = $2.99'],
+      [':TekPlot: Tek Crop Plots :TekPlot:', '10x = $0.99'],
+      [':Sensorv2: Tek Sensor :Sensorv2:', '1x = $0.49'],
+      [':Skiffv2: Tek Hover Skiff :Skiffv2:', '1x = $4.99'],
+      [':Jump: Tek Jump Pad :Jump:', '1x = $0.49']
+    ]
+  },
+
+  turrets: {
+    title: '💠 Turrets',
+    products: [
+      [':AutoTurret: Auto Turrets :AutoTurret:', '1x = $0.19\n10x = $1.49\n100x = $9.99\n300x = $24.99'],
+      [':HiveTurret: Bladewasp Hive Turrets :HiveTurret:', '1x = $0.89\n10x = $7.99\n100x = $69.99\n300x = $179.99'],
+      [':HeavyTurret: Heavy Turrets :HeavyTurret:', '1x = $0.45\n10x = $4.49\n100x = $13.49\n300x = $35.99'],
+      [':T_: Tek Turrets :T_:', '1x = $0.45\n10x = $4.49\n100x = $13.49\n300x = $29.99'],
+      [':TeslaTurret: Tesla Turrets :TeslaTurret:', '1x = $0.45\n10x = $4.49\n100x = $26.99\n300x = $62.99']
+    ]
+  },
+
   breeder: {
     title: '💠 Breeder Packs',
     products: [
@@ -392,7 +497,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa']
+    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','resources','structures','tekstructures','turrets','soon']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -454,7 +559,17 @@ client.on('messageCreate', async (message) => {
     cloners: 'cloners',
     ffa: 'ffa',
     mix: 'mix',
-    breeder: 'breeder'
+    breeder: 'breeder',
+    resource: 'resources',
+    resources: 'resources',
+    structure: 'structures',
+    structures: 'structures',
+    tek: 'tekstructures',
+    tekstructure: 'tekstructures',
+    tekstructures: 'tekstructures',
+    turret: 'turrets',
+    turrets: 'turrets',
+    soon: 'soon'
   };
 
   const categoryKey = aliases[key] || key;
