@@ -1,8 +1,8 @@
 {
   "name": "ark-flex-market-bot",
   "version": "1.0.0",
-  "description": "ARK FLEX MARKET Discord embed bot",
+  "private": true,
   "main": "index.js",
   "scripts": {"start": "node index.js"},
-  "dependencies": {"discord.js": "^14.19.3", "dotenv": "^16.5.0"}
+  "dependencies": {"discord.js": "^14.16.3", "dotenv": "^16.4.5"}
 }
