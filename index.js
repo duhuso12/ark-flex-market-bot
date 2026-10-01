@@ -492,10 +492,12 @@ function makeDinoEmbed(category, product, index, total, localImageName = null) {
   const [name, price, stats] = product;
   const isSoaker = category.title.includes('Soakers');
   const isCarbonemys = name === 'Cap Carbonemys';
+  const isPvpWyverns = category.title.includes('PvP') && name === 'Cap Wyverns';
   const displayTitle = isSoaker
     ? `${isCarbonemys ? '💠 ' : ''}${name}`
-    : `💠 ${name}`;
-  const isPvpWyverns = category.title.includes('PvP') && name === 'Cap Wyverns';
+    : isPvpWyverns
+      ? name
+      : `💠 ${name}`;
   const statsPrefix = (isSoaker || isPvpWyverns) ? '' : '💠 ';
 
   const embed = new EmbedBuilder()
@@ -557,7 +559,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices']
+    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -676,6 +678,24 @@ client.on('messageCreate', async (message) => {
       components: [makeButtonRow()]
     });
 
+    return;
+  }
+
+  if (key === 'giveaway') {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('💠 Invite Giveaway')
+      .setDescription(
+        '**1 invite**  3 FFAs Random\n\n' +
+        '**3 invites**  30 Eggs [3x Dino]\n\n' +
+        '**5 invites**  15 FFAs Random\n\n' +
+        '**10 invites**  12 FFAs of choice\n\n' +
+        '**15 invites**  150 Eggs [15x Different dinos]'
+      )
+      .setFooter({ text: 'ARK FLEX MARKET • Giveaway' });
+
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
