@@ -147,7 +147,6 @@ const categories = {
       ['Cap Carbonemys', 'Male or Female » $2.99\nPair » $4.99', '40950 Health [66+254=320p]'],
       ['Cap Stegosaurus', 'Male or Female » $4.99\nPair » $7.99', '41080 Health [63+254=311p]\n825 Oxygen [46p]\n930 Stamina [21p]'],
       ['Cap Paraceratherium', 'Male or Female » $4.99\nPair » $7.99', '65458 Health [60+254=314p]'],
-      ['Cap Tek Triceratops', 'Male or Female » $4.99\nPair » $7.99', '24075 Health [62+254=316p]'],
       ['Cap Gasbags', 'Male or Female » $4.99\nPair » $7.99', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
       ['Dreadnoughtus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 580640 Health [48+212=260p]\n510% Damage [51+72=123p]\n\nV2: 674080 Health [52+254=306p]\n356% Damage [51+26=77p]\n\nV3: 456480 Health [50+144=194p]\n673% Damage [48+124=172p]']
     ]
