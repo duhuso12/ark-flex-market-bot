@@ -52,6 +52,10 @@ const categories = {
       ['Cap Aberrant Spino', 'Male or Female » $4.99\nPair » $7.99', '54+24 HP • 48+124 DMG'],
       ['Cap Velonasaurs', 'Male or Female » $4.99\nPair » $7.99', '49 HP • 44 STAM • 58+232 DMG'],
       ['Cap Managarmrs', 'Male or Female » $4.99\nPair » $7.99', '55+0 HP • 54+20 STAM • 55+200 DMG'],
+      ['Karkinos', 'Male or Female » $4.99\nPair » $7.99', '62+100 HP'],
+      ['Cap Unicorn', 'Male or Female » $4.99\nPair » $7.99', '48 HP • 50+230 DMG'],
+      ['Ossidon', 'Male or Female » $4.99\nPair » $7.99', '49+60 HP • 49+60 DMG'],
+      ['Acrocanthosaurus', 'Male or Female » $4.99\nPair » $7.99', '59+50 HP • 52+50 DMG']
     ]
   },
 
@@ -59,14 +63,14 @@ const categories = {
     title: '💠 Water Dinos',
     products: [
       ['Cap Deinosuchus [367 LvL]', 'Male or Female » $4.99\nPair » $7.99', '33400 Health • 954% Damage'],
-      ['Plesiosaur', 'Male or Female » $4.99\nPair » $7.99', 'V1: 43296 Health • V2: 66912 Health'],
+      ['Plesiosaur', 'Male or Female » $4.99\nPair » $7.99', '62+130 HP'],
       ['Mosasaurus', 'Male or Female » $4.99\nPair » $7.99', '30384 Health • 522% Damage'],
-      ['Shastasaurus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 100620 Health • V2: 172980 Health'],
+      ['Shastasaurus', 'Male or Female » $7.50\nPair » $12.50', '51+254 HP'],
       ['Cap Xiphactinus [387 LvL]', 'Male or Female » $4.99\nPair » $7.99', '24390 Health • 839% Damage'],
       ['Cap Basilosaurus', 'Male or Female » $4.99\nPair » $7.99', '69+254 HP'],
       ['Cap Megalodon', 'Male or Female » $4.99\nPair » $7.99', '68+254 HP'],
-      ['Cap Baryonyx [364 LvL]', 'Male or Female » $4.99\nPair » $7.99', '28512 Health'],
-      ['Cap Tuso [376 LvL]', 'Male or Female » $7.50\nPair » $12.50', '1625% Damage • 56700 Health'],
+      ['Cap Baryonyx [364 LvL]', 'Male or Female » $4.99\nPair » $7.99', '65+254 HP'],
+      ['Cap Tuso [376 LvL]', 'Male or Female » $7.50\nPair » $12.50', '62+38 HP • 69+186 DMG'],
       ['Cap Kaprosuchus [386 LvL]', 'Male or Female » $4.99\nPair » $7.99', '6000 Health • 1007% Damage'],
       ['Cap Helicoprion', 'Male or Female » $2.99\nPair » $4.99', 'Craft: 80%']
     ]
@@ -99,7 +103,7 @@ const categories = {
       ['Achatina [Random LvL]', '1x » $1.99', ''],
       ['Procoptodon', 'Male or Female » $2.99\nPair » $4.99', '1199 Weight'],
       ['Giant Bee [Random LvL]', '1x » $1.99', ''],
-      ['Cap Mantis', 'Male or Female » $2.99\nPair » $4.99', 'V1: 872% Damage • 3245 Health • V2: 1025% Damage'],
+      ['Cap Mantis', 'Male or Female » $2.99\nPair » $4.99', '54 HP • 52+202 DMG'],
       ['Pelagornis', 'Male or Female » $2.99\nPair » $4.99', '475% Damage'],
       ['Dunkleosteus', 'Male or Female » $2.99\nPair » $4.99', 'V1: 2930 Weight / 616% Damage • V2: 3840 Weight / 663% Damage'],
       ['Anglerfish', 'Male or Female » $2.99\nPair » $4.99', '851% Damage'],
@@ -108,7 +112,7 @@ const categories = {
       ['Beelzebufo [Random LvL]', '1x » $1.99', ''],
       ['Fasolasuchus', 'Male or Female » $2.99\nPair » $4.99', '972 Weight • 425% Damage'],
       ['Doedicurus', 'Male or Female » $2.99\nPair » $4.99', '704% Damage'],
-      ['Karkinos', 'Male or Female » $4.99\nPair » $7.99', '2416 Weight'],
+      ['Karkinos', 'Male or Female » $4.99\nPair » $7.99', '62+100 HP'],
       ['Cap Ovis', 'Male or Female » $2.99\nPair » $4.99', '51+254 HP'],
       ['Cap Ankylosaurus [369 LvL]', 'Male or Female » $2.99\nPair » $4.99', '1927% Damage']
     ]
@@ -117,8 +121,11 @@ const categories = {
   support: {
     title: '💠 Supports',
     products: [
-      ['Cap Yutyrannus [384 LvL]', 'Male or Female » $4.99\nPair » $7.99', '69740 Health'],
-      ['Cap Yi Ling [389 LvL]', 'Male or Female » $4.99\nPair » $7.99', '20150 Health'],
+      ['Reaper', '1 clone » $4.99\n6 clones » $9.99\n20 clones » $29.99', '59 HP • 36 DMG'],
+      ['Maeguana', 'Male or Female » $2.99\nPair » $4.99', '64+26 HP • 62+102 Food'],
+      ['Gloon', 'Male or Female » $4.99\nPair » $7.99', '44 HP • 51+200 DMG'],
+      ['Cap Yutyrannus [384 LvL]', 'Male or Female » $4.99\nPair » $7.99', '58+254 HP'],
+      ['Cap Yi Ling [389 LvL]', 'Male or Female » $4.99\nPair » $7.99', '51+254 HP'],
       ['Cap Daeodon [362 LvL]', 'Male or Female » $4.99\nPair » $7.99', '93437 Food'],
       ['Cap Arthropluera', 'Male or Female » $4.99\nPair » $7.99', '62+254 DMG'],
       ['Cap Deinonychus [384 LvL]', 'Male or Female » $4.99\nPair » $7.99', '11720 Health • 502% Damage'],
@@ -140,7 +147,7 @@ const categories = {
       ['Cap Stegosaurus', 'Male or Female » $4.99\nPair » $7.99', '63+254 HP'],
       ['Cap Paraceratherium', 'Male or Female » $4.99\nPair » $7.99', '60+254 HP'],
       ['Cap Gasbags', 'Male or Female » $4.99\nPair » $7.99', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
-      ['Dreadnoughtus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 580640 Health [48+212=260p]\n510% Damage [51+72=123p]\n\nV2: 674080 Health [52+254=306p]\n356% Damage [51+26=77p]\n\nV3: 456480 Health [50+144=194p]\n673% Damage [48+124=172p]']
+      ['Dreadnoughtus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 50+254 HP\n\nV2: 50+152 HP • 51+124 DMG']
     ]
   },
     mix: {
@@ -435,6 +442,43 @@ const IMAGE_ALIASES = {
   'Cap Grand Tortugar': null
 };
 
+
+const LOCAL_IMAGES = {
+  'Karkinos': ['pvp', 'karkinos.png'],
+  'Ossidon': ['pvp', 'ossidon.png'],
+  'Aureliax': ['flyers', 'aureliax.png'],
+  'Gigadesmodus': ['flyers', 'gigadesmodus.png'],
+  'Cap Desmodus': ['flyers', 'desmodus.png'],
+  'Cap Griffins': ['flyers', 'griffin.png'],
+  'Cap Wyverns': ['flyers', 'wyverns.png'],
+  'Cap Pteranodons': ['flyers', 'pteranodon.png'],
+  'Cap Tapejara': ['flyers', 'tapejara.png'],
+  'Cap Quetzal': ['flyers', 'quetzal.png'],
+  'Cap Xiphactinus': ['water', 'xiphactinus.png'],
+  'Cap Tuso': ['water', 'tusoteuthis.png'],
+  'Cap Baryonyx': ['water', 'baryonyx.png'],
+  'Cap Megalodon': ['water', 'megalodon.png'],
+  'Cap Basilosaurus': ['water', 'basilosaurus.png'],
+  'Shastasaurus': ['water', 'shastasaurus.png'],
+  'Plesiosaur': ['water', 'plesiosaur.png'],
+  'Cap Mantis': ['farm', 'mantis.png'],
+  'Cap Ovis': ['farm', 'ovis.png'],
+  'Reaper': ['support', 'reaper.png'],
+  'Maeguana': ['support', 'maeguana.png'],
+  'Cap Yutyrannus': ['support', 'yutyrannus.png'],
+  'Cap Yi Ling': ['support', 'yiling.png'],
+  'Cap Arthropluera': ['support', 'arthropluera.png'],
+  'Gloon': ['support', 'gloon.png'],
+  'Cap Veilwyn': ['support', 'veilwyn.png'],
+  'Karkinos@farm': ['farm', 'karkinos.png']
+};
+
+function getLocalImage(name, categoryKey) {
+  const baseName = name.replace(/\s+\[.*?\]$/, '').trim();
+  if (baseName === 'Karkinos' && categoryKey === 'farm') return LOCAL_IMAGES['Karkinos@farm'];
+  return LOCAL_IMAGES[baseName] || null;
+}
+
 const SOAKER_IMAGES = {
   'Cap Carbonemys': 'carbonemys.png',
   'Cap Stegosaurus': 'stegosaurus.png',
@@ -442,27 +486,6 @@ const SOAKER_IMAGES = {
   'Cap Gasbags': 'gasbags.png',
   'Dreadnoughtus': 'dreadnoughtus.png'
 };
-
-
-const PVP_IMAGES = {
-  'Cap Carcharodontosaurus': 'carcharodontosaurus.png',
-  'Cap Therizinosaur': 'therizinosaur.png',
-  'Cap Thylacoleo': 'thylacoleo.png',
-  'Cap Rexs': 'rex.png',
-  'Cap Pyromanes': 'pyromane.png',
-  'Cap Basilisk': 'basilisk.png',
-  'Cap Dreadmare': 'dreadmare.png',
-  'Cap Aber Megalosaurus': 'megalosaurus.png',
-  'Cap Aber Carnotaurus': 'carnotaurus.png',
-  'Cap Aberrant Spino': 'spinosaurus.png',
-  'Cap Velonasaurs': 'velonasaur.png',
-  'Cap Managarmrs': 'managarmr.png'
-};
-
-function getPvpImage(name) {
-  const baseName = name.replace(/\s+\[.*?\]$/, '').trim();
-  return PVP_IMAGES[baseName] || null;
-}
 
 function getSoakerImage(name) {
   const baseName = name.replace(/\s+\[.*?\]$/, '').trim();
@@ -510,37 +533,30 @@ async function sendCategory(message, key) {
   const category = categories[key];
   if (!category) return;
 
-  // Discord allows up to 10 embeds per message. Products are sent in batches,
-  // but the ticket button is sent ONCE, only after the final batch.
-  const perMessage = 10;
+  // Send each dino separately so every embed can carry its own local image.
+  for (let i = 0; i < category.products.length; i++) {
+    const product = category.products[i];
+    let local = null;
+    let folder = null;
 
-  if (key === 'soakers' || key === 'pvp') {
-    for (let i = 0; i < category.products.length; i++) {
-      const product = category.products[i];
-      const localImageName = key === 'soakers' ? getSoakerImage(product[0]) : getPvpImage(product[0]);
-      const payload = {
-        embeds: [makeDinoEmbed(category, product, i + 1, category.products.length, localImageName)]
-      };
-      if (localImageName) {
-        const folder = key === 'soakers' ? 'soakers' : 'pvp';
-        payload.files = [new AttachmentBuilder(path.join(__dirname, 'assets', folder, localImageName), { name: localImageName })];
-      }
-      await message.channel.send(payload);
+    if (key === 'soakers') {
+      const fn = getSoakerImage(product[0]);
+      if (fn) { local = fn; folder = 'soakers'; }
+    } else {
+      const li = getLocalImage(product[0], key);
+      if (li) { folder = li[0]; local = li[1]; }
     }
-  } else {
-    for (let i = 0; i < category.products.length; i += perMessage) {
-      const batch = category.products.slice(i, i + perMessage);
-      await message.channel.send({
-        embeds: batch.map((product, offset) =>
-          makeDinoEmbed(category, product, i + offset + 1, category.products.length)
-        )
-      });
+
+    const payload = {
+      embeds: [makeDinoEmbed(category, product, i + 1, category.products.length, local)]
+    };
+    if (local && folder) {
+      payload.files = [new AttachmentBuilder(path.join(__dirname, 'assets', folder, local), { name: local })];
     }
+    await message.channel.send(payload);
   }
 
-  await message.channel.send({
-    components: [makeButtonRow()]
-  });
+  await message.channel.send({ components: [makeButtonRow()] });
 }
 
 client.once('ready', () => {

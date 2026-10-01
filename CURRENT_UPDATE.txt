@@ -1,0 +1,6 @@
+Current custom-image categories:
+PvP: Karkinos, Ossidon
+Flyers: Aureliax, Gigadesmodus, Desmodus, Griffin, Wyverns, Pteranodon, Tapejara, Quetzal
+Water: Xiphactinus, Tusoteuthis, Baryonyx, Megalodon, Basilosaurus, Shastasaurus, Plesiosaur
+Farm: Mantis, Karkinos, Ovis
+Support: Reaper, Maeguana, Yutyrannus, Yi Ling, Arthropluera, Gloon, Veilwyn
