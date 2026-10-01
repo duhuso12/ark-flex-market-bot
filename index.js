@@ -547,12 +547,27 @@ client.on('messageCreate', async (message) => {
     .split(/\s+/)[0];
 
   if (key === 'soon') {
-    await message.channel.send({ content: 'Create ticket for price list' });
+    const row = new ActionRowBuilder().addComponents(
+      new ButtonBuilder()
+        .setLabel('Create ticket for price list')
+        .setStyle(ButtonStyle.Link)
+        .setURL(TICKET_URL || 'https://discord.com/channels/@me')
+    );
+
+    await message.channel.send({
+      content: 'Create ticket for price list',
+      components: [row]
+    });
     return;
   }
 
   if (key === 'prices') {
-    await message.channel.send({ content: pricesText });
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setTitle('Boss Prices')
+      .setDescription(pricesText)
+      .setFooter({ text: 'ARK FLEX MARKET • Boss Prices' });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
