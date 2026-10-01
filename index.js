@@ -579,3 +579,36 @@ client.on('messageCreate', async (message) => {
 });
 
 client.login(process.env.DISCORD_TOKEN);\n// !soon\nconst soonCommand = "Create ticket for price list";\n
+// !prices
+const pricesCommand = `**Rockwell**
+1x Seat 14.99
+2x Seats 26.99
+3x Seats 37.49
+4x Seats 44.99
+5x Seats 52.49
+6x Seats 59.99
+
+**Manticore**
+1x Seat 9.99
+2x Seats 17.99
+3x Seats 24.99
+4x Seats 29.99
+5x Seats 34.99
+6x Seats 39.99
+
+**Island boss pack**
+1x Seat 24.99
+2x Seats 44.99
+3x Seats 62.49
+4x Seats 74.99
+5x Seats 87.49
+6x Seats 99.99
+
+**Tek cave**
+1x Seat 11.99
+2x Seats 21.99
+3x Seats 29.99
+4x Seats 35.99
+5x Seats 41.99
+6x Seats 47.99
+`;
