@@ -220,7 +220,7 @@ const categories = {
   soon: {
     title: '⏳ Soon',
     products: [
-      { name: 'Create ticket for price list', price: 'Create ticket for price list', stats: '' }
+      ['Create ticket for price list', '', '']
     ]
   },
   resources: {
@@ -497,11 +497,43 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','resources','structures','tekstructures','turrets','soon']
+    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices']
       .map(command => `!${command}`)
       .join(', ')
   );
 });
+
+const pricesText = `**Rockwell**
+1x Seat 14.99
+2x Seats 26.99
+3x Seats 37.49
+4x Seats 44.99
+5x Seats 52.49
+6x Seats 59.99
+
+**Manticore**
+1x Seat 9.99
+2x Seats 17.99
+3x Seats 24.99
+4x Seats 29.99
+5x Seats 34.99
+6x Seats 39.99
+
+**Island boss pack**
+1x Seat 24.99
+2x Seats 44.99
+3x Seats 62.49
+4x Seats 74.99
+5x Seats 87.49
+6x Seats 99.99
+
+**Tek cave**
+1x Seat 11.99
+2x Seats 21.99
+3x Seats 29.99
+4x Seats 35.99
+5x Seats 41.99
+6x Seats 47.99`;
 
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
@@ -513,6 +545,16 @@ client.on('messageCreate', async (message) => {
   const key = command
     .slice(PREFIX.length)
     .split(/\s+/)[0];
+
+  if (key === 'soon') {
+    await message.channel.send({ content: 'Create ticket for price list' });
+    return;
+  }
+
+  if (key === 'prices') {
+    await message.channel.send({ content: pricesText });
+    return;
+  }
 
   // ARB command
   if (key === 'arb') {
@@ -578,37 +620,4 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login(process.env.DISCORD_TOKEN);\n// !soon\nconst soonCommand = "Create ticket for price list";\n
-// !prices
-const pricesCommand = `**Rockwell**
-1x Seat 14.99
-2x Seats 26.99
-3x Seats 37.49
-4x Seats 44.99
-5x Seats 52.49
-6x Seats 59.99
-
-**Manticore**
-1x Seat 9.99
-2x Seats 17.99
-3x Seats 24.99
-4x Seats 29.99
-5x Seats 34.99
-6x Seats 39.99
-
-**Island boss pack**
-1x Seat 24.99
-2x Seats 44.99
-3x Seats 62.49
-4x Seats 74.99
-5x Seats 87.49
-6x Seats 99.99
-
-**Tek cave**
-1x Seat 11.99
-2x Seats 21.99
-3x Seats 29.99
-4x Seats 35.99
-5x Seats 41.99
-6x Seats 47.99
-`;
+client.login(process.env.DISCORD_TOKEN);
