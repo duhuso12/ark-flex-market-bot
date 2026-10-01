@@ -205,11 +205,11 @@ const categories = {
   ffa: {
     title: '💠 FFA Cryofridges',
     products: [
-      ['Fridges of Flyers', 'Pteras $34.99 • Tapejaras $39.99 • Quetzals $49.99 • Wyverns $44.99\nSnow Owl $34.99 • Griffin $39.99 • Desmodus $39.99', 'Top Stats'],
-      ['Fridges of DPS', 'Gigas $59.99 • Carchas $59.99 • Therizino $34.99 • Thyla $44.99\nRex $34.99 • Pyro $34.99 • Basilisk $39.99 • Megalos $34.99\nCarno $34.99 • Spino $44.99 • Mana $49.99 • Karki $54.99', 'Top Stats'],
-      ['Fridges of Supports', 'Yuty $54.99 • Yi Ling $24.99 • Daeodon $49.99 • Arthro $39.99\nDimorph $34.99 • Deinonychus $34.99 • Beelzebufo $34.99 • Ovis $29.99', 'Top Stats'],
-      ['Fridges of Waters', 'Plesio $54.99 • Shasta $89.99 • Xipha $29.99 • Basilo $44.99\nMegalodon $44.99 • Bary $39.99 • Tuso $49.99', 'Top Stats'],
-      ['Fridges of Soakers', 'Carbo $24.99 • Stego $29.99 • Paracer $44.99 • Dread $59.99', 'Top Stats'],
+      ['Fridges of Flyers', 'Pteras $34.99\nTapejaras $39.99\nQuetzals $49.99\nWyverns $44.99\nSnow Owl $34.99\nGriffin $39.99\nDesmodus $39.99', 'Top Stats'],
+      ['Fridges of DPS', 'Gigas $59.99\nCarchas $59.99\nTherizino $34.99\nThyla $44.99\nRex $34.99\nPyro $34.99\nBasilisk $39.99\nMegalos $34.99\nCarno $34.99\nSpino $44.99\nMana $49.99\nKarki $54.99', 'Top Stats'],
+      ['Fridges of Supports', 'Yuty $54.99\nYi Ling $24.99\nDaeodon $49.99\nArthro $39.99\nDimorph $34.99\nDeinonychus $34.99\nBeelzebufo $34.99\nOvis $29.99', 'Top Stats'],
+      ['Fridges of Waters', 'Plesio $54.99\nShasta $89.99\nXipha $29.99\nBasilo $44.99\nMegalodon $44.99\nBary $39.99\nTuso $49.99', 'Top Stats'],
+      ['Fridges of Soakers', 'Carbo $24.99\nStego $29.99\nParacer $44.99\nDread $59.99', 'Top Stats'],
       ['Fridges of Mixs', 'Random » $49.99', 'Top Stats'],
       ['Small Dinos', '1x FFA » $0.99\n12x FFAs » $5.99\n36x FFAs » $12.50', '1 imprint during the event'],
       ['Large Dinos', '1x FFA » $1.99\n12x FFAs » $14.99\n36x FFAs » $24.50', '2–3 imprints during the event']
