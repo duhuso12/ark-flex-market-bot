@@ -55,7 +55,7 @@ const categories = {
       ['Cap Managarmrs', 'Male or Female $4.99\nPair $7.99', '55+0 HP • 54+20 STAM • 55+200 DMG'],
       ['Karkinos', 'Male or Female $4.99\nPair $7.99', '62+100 HP'],
       ['Ossidon', 'Male or Female $4.99\nPair $7.99', '49+60 HP • 49+60 DMG'],
-      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\nVeilwyrn: 57+96 HP • 52+118 DMG'],
+      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG'],
     ]
   },
 
@@ -460,6 +460,14 @@ function getLocalImage(name, categoryKey) {
   return LOCAL_IMAGES[baseName] || null;
 }
 
+const FFA_IMAGES = {
+  'Fridges of Flyers': ['flyers', 'wyverns.png'],
+  'Fridges of DPS': ['pvp', 'carcharodontosaurus.png'],
+  'Fridges of Supports': ['support', 'yutyrannus.png'],
+  'Fridges of Waters': ['water', 'shastasaurus.png'],
+  'Fridges of Soakers': ['soakers', 'stegosaurus.png']
+};
+
 const SOAKER_IMAGES = {
   'Cap Carbonemys': 'carbonemys.png',
   'Cap Stegosaurus': 'stegosaurus.png',
@@ -523,6 +531,9 @@ async function sendCategory(message, key) {
     if (key === 'soakers') {
       const fn = getSoakerImage(product[0]);
       if (fn) { local = fn; folder = 'soakers'; }
+    } else if (key === 'ffa') {
+      const fi = FFA_IMAGES[product[0]];
+      if (fi) { folder = fi[0]; local = fi[1]; }
     } else {
       const li = getLocalImage(product[0], key);
       if (li) { folder = li[0]; local = li[1]; }
