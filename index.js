@@ -573,7 +573,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway']
+    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -710,6 +710,49 @@ client.on('messageCreate', async (message) => {
       .setFooter({ text: 'ARK FLEX MARKET • Giveaway' });
 
     await message.channel.send({ embeds: [embed] });
+    return;
+  }
+
+  if (key === 'craft') {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('💠 BP Crafting')
+      .setDescription(
+        '**Want your own BPs crafted by a Level 210+ character? Then this is the place for you! (We can provide BPs as well.)**\n\n' +
+        '**Just open up a ticket!**'
+      )
+      .setFooter({ text: 'ARK FLEX MARKET • Crafting' });
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    return;
+  }
+
+  if (key === 'demo') {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('💠 Structure Demo')
+      .setDescription(
+        '**Need structures demoed fast and easily for resources? Then this is the place for you! (Everything will be demoed on your server.)**\n\n' +
+        '**Just open up a ticket!**'
+      )
+      .setFooter({ text: 'ARK FLEX MARKET • Demo' });
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    return;
+  }
+
+  if (key === 'gacha') {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('💠 Gacha Tower')
+      .setDescription(
+        '**Tired of building your own Gacha Tower? We\'ve got you covered!**\n\n' +
+        '**Just open up a ticket!**\n\n' +
+        '**(For more information, open up a ticket.)**'
+      )
+      .setFooter({ text: 'ARK FLEX MARKET • Gacha Tower' });
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
     return;
   }
 
