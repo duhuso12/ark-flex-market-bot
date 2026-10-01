@@ -52,10 +52,6 @@ const categories = {
       ['Cap Aberrant Spino', 'Male or Female » $4.99\nPair » $7.99', '54+24 HP • 48+124 DMG'],
       ['Cap Velonasaurs', 'Male or Female » $4.99\nPair » $7.99', '49 HP • 44 STAM • 58+232 DMG'],
       ['Cap Managarmrs', 'Male or Female » $4.99\nPair » $7.99', '55+0 HP • 54+20 STAM • 55+200 DMG'],
-      ['Karkinos', 'Male or Female » $4.99\nPair » $7.99', '62+100 HP'],
-      ['Cap Unicorn', 'Male or Female » $4.99\nPair » $7.99', '48 HP • 50+230 DMG'],
-      ['Ossidon', 'Male or Female » $4.99\nPair » $7.99', '49+60 HP • 49+60 DMG'],
-      ['Acrocanthosaurus', 'Male or Female » $4.99\nPair » $7.99', '59+50 HP • 52+50 DMG']
     ]
   },
 
