@@ -6,8 +6,10 @@ const {
   EmbedBuilder,
   ActionRowBuilder,
   ButtonBuilder,
-  ButtonStyle
+  ButtonStyle,
+  AttachmentBuilder
 } = require('discord.js');
+const path = require('path');
 
 const config = {
   guildId: process.env.GUILD_ID || '',
@@ -143,11 +145,11 @@ const categories = {
     title: '💠 Soakers',
     products: [
       ['Cap Carbonemys [376 LvL]', 'Male or Female » $2.99\nPair » $4.99', '40950 Health [66+254=320p]'],
-      ['Cap Stegosaurus [385 LvL]', 'Male or Female » $4.99\nPair » $7.99', '41080 Health [63+254=311p] • 825 Oxygen [46p] • 930 Stamina [21p]'],
+      ['Cap Stegosaurus [385 LvL]', 'Male or Female » $4.99\nPair » $7.99', '41080 Health [63+254=311p]\n825 Oxygen [46p]\n930 Stamina [21p]'],
       ['Cap Paraceratherium [373 LvL]', 'Male or Female » $4.99\nPair » $7.99', '65458 Health [60+254=314p]'],
       ['Cap Tek Triceratops [317 LvL]', 'Male or Female » $4.99\nPair » $7.99', '24075 Health [62+254=316p]'],
-      ['Cap Gasbags [389 LvL]', 'Male or Female » $4.99\nPair » $7.99', '32370 Health [50+194=244p] • 9550 Oxygen [41+54=95p] • 3060 Stamina [41p]'],
-      ['Dreadnoughtus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 580640 Health [48+212=260p] • 510% Damage [51+72=123p]\nV2: 674080 Health [52+254=306p] • 356% Damage [51+26=77p]\nV3: 456480 Health [50+144=194p] • 673% Damage [48+124=172p]']
+      ['Cap Gasbags [389 LvL]', 'Male or Female » $4.99\nPair » $7.99', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
+      ['Dreadnoughtus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 580640 Health [48+212=260p]\n510% Damage [51+72=123p]\n\nV2: 674080 Health [52+254=306p]\n356% Damage [51+26=77p]\n\nV3: 456480 Health [50+144=194p]\n673% Damage [48+124=172p]']
     ]
   },
     mix: {
@@ -442,6 +444,19 @@ const IMAGE_ALIASES = {
   'Cap Grand Tortugar': null
 };
 
+const SOAKER_IMAGES = {
+  'Cap Carbonemys': 'carbonemys.png',
+  'Cap Stegosaurus': 'stegosaurus.png',
+  'Cap Paraceratherium': 'paraceratherium.png',
+  'Cap Gasbags': 'gasbags.png',
+  'Dreadnoughtus': 'dreadnoughtus.png'
+};
+
+function getSoakerImage(name) {
+  const baseName = name.replace(/\s+\[.*?\]$/, '').trim();
+  return SOAKER_IMAGES[baseName] || null;
+}
+
 function getImageUrl(name) {
   const baseName = name.replace(/\s+\[.*?\]$/, '').trim();
   const file = IMAGE_ALIASES[baseName];
@@ -449,7 +464,7 @@ function getImageUrl(name) {
   return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(file)}`;
 }
 
-function makeDinoEmbed(category, product, index, total) {
+function makeDinoEmbed(category, product, index, total, localImageName = null) {
   const [name, price, stats] = product;
   const embed = new EmbedBuilder()
     .setColor(config.embedColor)
@@ -462,8 +477,12 @@ function makeDinoEmbed(category, product, index, total) {
     )
     .setFooter({ text: `ARK FLEX MARKET • ${category.title.replace('💠 ', '')} • ${index}/${total}` });
 
-  const imageUrl = getImageUrl(name);
-  if (imageUrl) embed.setImage(imageUrl);
+  if (localImageName) {
+    embed.setImage(`attachment://${localImageName}`);
+  } else {
+    const imageUrl = getImageUrl(name);
+    if (imageUrl) embed.setImage(imageUrl);
+  }
 
   return embed;
 }
@@ -476,19 +495,27 @@ async function sendCategory(message, key) {
   // but the ticket button is sent ONCE, only after the final batch.
   const perMessage = 10;
 
-  for (let i = 0; i < category.products.length; i += perMessage) {
-    const batch = category.products.slice(i, i + perMessage);
-
-    await message.channel.send({
-      embeds: batch.map((product, offset) =>
-        makeDinoEmbed(
-          category,
-          product,
-          i + offset + 1,
-          category.products.length
+  if (key === 'soakers') {
+    for (let i = 0; i < category.products.length; i++) {
+      const product = category.products[i];
+      const localImageName = getSoakerImage(product[0]);
+      const payload = {
+        embeds: [makeDinoEmbed(category, product, i + 1, category.products.length, localImageName)]
+      };
+      if (localImageName) {
+        payload.files = [new AttachmentBuilder(path.join(__dirname, 'assets', 'soakers', localImageName), { name: localImageName })];
+      }
+      await message.channel.send(payload);
+    }
+  } else {
+    for (let i = 0; i < category.products.length; i += perMessage) {
+      const batch = category.products.slice(i, i + perMessage);
+      await message.channel.send({
+        embeds: batch.map((product, offset) =>
+          makeDinoEmbed(category, product, i + offset + 1, category.products.length)
         )
-      )
-    });
+      });
+    }
   }
 
   await message.channel.send({
