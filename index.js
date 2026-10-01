@@ -551,7 +551,7 @@ client.on('messageCreate', async (message) => {
   if (key === 'dust') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
-      .setTitle('Advanced Dust')
+      .setTitle('💠 Dust')
       .setDescription(
         '100000 [100 slots] — 0.99 $\n' +
         '100 slots\n\n' +
