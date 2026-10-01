@@ -470,8 +470,8 @@ async function sendCategory(message, key) {
   const category = categories[key];
   if (!category) return;
 
-  // Discord allows up to 10 embeds per message. Each product stays
-  // separate so its image appears directly below its own price block.
+  // Discord allows up to 10 embeds per message. Products are sent in batches,
+  // but the ticket button is sent ONCE, only after the final batch.
   const perMessage = 10;
 
   for (let i = 0; i < category.products.length; i += perMessage) {
@@ -485,10 +485,13 @@ async function sendCategory(message, key) {
           i + offset + 1,
           category.products.length
         )
-      ),
-      components: [makeButtonRow()]
+      )
     });
   }
+
+  await message.channel.send({
+    components: [makeButtonRow()]
+  });
 }
 
 client.once('ready', () => {
