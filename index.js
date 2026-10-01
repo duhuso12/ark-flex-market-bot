@@ -40,158 +40,157 @@ const categories = {
   pvp: {
     title: '💠 PvP Dinos',
     products: [
-            ['Cap Unicorn', 'Male or Female $4.99\nPair $7.99', '48 HP • 50+230 DMG'],
-      ['Cap Carcharodontosaurus', 'Male or Female $7.50\nPair $12.50', '51 HP • 51+254 DMG'],
-      ['Cap Therizinosaur', 'Male or Female $4.99\nPair $7.99', '53+42 HP • 59+230 DMG'],
-      ['Cap Thylacoleo', 'Male or Female $4.99\nPair $7.99', '54+254 HP'],
-      ['Cap Rexs', 'Male or Female $4.99\nPair $7.99', '61+80 HP • 56+192 DMG'],
-      ['Cap Pyromanes', 'Male or Female $4.99\nPair $7.99', '52+16 HP • 53+200 DMG'],
-      ['Cap Basilisk', 'Male or Female $4.99\nPair $7.99', '58+40 HP • 62+192 DMG'],
-      ['Cap Dreadmare', 'Male or Female $4.99\nPair $7.99', '50+200 HP • 50+38 Weight'],
-      ['Cap Aber Megalosaurus', 'Male or Female $4.99\nPair $7.99', '52+70 HP • 53+73 DMG'],
-      ['Cap Aber Carnotaurus', 'Male or Female $4.99\nPair $7.99', '45+200 HP'],
-      ['Cap Aberrant Spino', 'Male or Female $4.99\nPair $7.99', '54+24 HP • 48+124 DMG'],
-      ['Cap Velonasaurs', 'Male or Female $4.99\nPair $7.99', '49 HP • 44 STAM • 58+232 DMG'],
-      ['Cap Managarmrs', 'Male or Female $4.99\nPair $7.99', '55+0 HP • 54+20 STAM • 55+200 DMG'],
-      ['Karkinos', 'Male or Female $4.99\nPair $7.99', '62+100 HP'],
-      ['Ossidon', 'Male or Female $4.99\nPair $7.99', '49+60 HP • 49+60 DMG'],
-      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
+            ['Cap Unicorn', 'Male or Female $3.99\nPair $6.39', '48 HP • 50+230 DMG'],
+      ['Cap Carcharodontosaurus', 'Male or Female $6.00\nPair $10.00', '51 HP • 51+254 DMG'],
+      ['Cap Therizinosaur', 'Male or Female $3.99\nPair $6.39', '53+42 HP • 59+230 DMG'],
+      ['Cap Thylacoleo', 'Male or Female $3.99\nPair $6.39', '54+254 HP'],
+      ['Cap Rexs', 'Male or Female $3.99\nPair $6.39', '61+80 HP • 56+192 DMG'],
+      ['Cap Pyromanes', 'Male or Female $3.99\nPair $6.39', '52+16 HP • 53+200 DMG'],
+      ['Cap Basilisk', 'Male or Female $3.99\nPair $6.39', '58+40 HP • 62+192 DMG'],
+      ['Cap Dreadmare', 'Male or Female $3.99\nPair $6.39', '50+200 HP • 50+38 Weight'],
+      ['Cap Aber Megalosaurus', 'Male or Female $3.99\nPair $6.39', '52+70 HP • 53+73 DMG'],
+      ['Cap Aber Carnotaurus', 'Male or Female $3.99\nPair $6.39', '45+200 HP'],
+      ['Cap Aberrant Spino', 'Male or Female $3.99\nPair $6.39', '54+24 HP • 48+124 DMG'],
+      ['Cap Velonasaurs', 'Male or Female $3.99\nPair $6.39', '49 HP • 44 STAM • 58+232 DMG'],
+      ['Cap Managarmrs', 'Male or Female $3.99\nPair $6.39', '55+0 HP • 54+20 STAM • 55+200 DMG'],
+      ['Karkinos', 'Male or Female $3.99\nPair $6.39', '62+100 HP'],
+      ['Ossidon', 'Male or Female $3.99\nPair $6.39', '49+60 HP • 49+60 DMG'],
+      ['Cap Wyverns', 'Male or Female $6.00\nPair $10.00', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
     ]
   },
 
   water: {
     title: '💠 Water Dinos',
     products: [
-      ['Plesiosaur', 'Male or Female $4.99\nPair $7.99', '62+130 HP'],
-      ['Shastasaurus', 'Male or Female $7.50\nPair $12.50', '51+254 HP Clone\n58+88 HP'],
-      ['Cap Xiphactinus [387 LvL]', 'Male or Female $4.99\nPair $7.99', '24390 Health • 839% Damage'],
-      ['Cap Basilosaurus', 'Male or Female $4.99\nPair $7.99', '69+254 HP'],
-      ['Cap Megalodon', 'Male or Female $4.99\nPair $7.99', '68+254 HP'],
-      ['Cap Baryonyx [364 LvL]', 'Male or Female $4.99\nPair $7.99', '65+254 HP'],
-      ['Cap Tuso [376 LvL]', 'Male or Female $7.50\nPair $12.50', '62+38 HP • 69+186 DMG'],
-      ['Cap Deinosuchus', 'Create ticket for price', '55+22 HP • 65+218 DMG'],
+      ['Plesiosaur', 'Male or Female $3.99\nPair $6.39', '62+130 HP'],
+      ['Shastasaurus', 'Male or Female $6.00\nPair $10.00', '51+254 HP Clone\n58+88 HP'],
+      ['Cap Xiphactinus [387 LvL]', 'Male or Female $3.99\nPair $6.39', '24390 Health • 839% Damage'],
+      ['Cap Basilosaurus', 'Male or Female $3.99\nPair $6.39', '69+254 HP'],
+      ['Cap Megalodon', 'Male or Female $3.99\nPair $6.39', '68+254 HP'],
+      ['Cap Baryonyx [364 LvL]', 'Male or Female $3.99\nPair $6.39', '65+254 HP'],
+      ['Cap Tuso [376 LvL]', 'Male or Female $6.00\nPair $10.00', '62+38 HP • 69+186 DMG'],
+      ['Cap Deinosuchus', 'Male or Female $3.99\nPair $6.39', '55+22 HP • 65+218 DMG'],
     ]
   },
 
   flyers: {
     title: '💠 Flyers',
     products: [
-      ['Cap Quetzal [378 LvL]', 'Male or Female $7.50\nPair $12.50', '63240 Health • 305 pts'],
-      ['Cap Tapejara', 'Male or Female $4.99\nPair $7.99', '53+254 HP'],
-      ['Cap Pteranodons', 'Male or Female $2.99\nPair $4.99', '2 variants available'],
-      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
-      ['Cap Griffins', 'Male or Female $4.99\nPair $7.99', '45+40 HP • 54+152 DMG'],
-      ['Cap Desmodus', 'Male or Female $4.99\nPair $7.99', 'V1: 53+254 HP • V2: 53+50 HP / 62+142 DMG'],
-      ['Gigadesmodus', 'Male or Female $7.50\nPair $12.50', '14585 • 429%'],
-      ['Aureliax', 'Male or Female $4.99\nPair $7.99', '42160 Health'],
-      ['Argentavis', 'Create ticket for price', '49+20 HP • 49+14 STAM • 59+14 Weight • 58+16 DMG']
+      ['Cap Quetzal [378 LvL]', 'Male or Female $6.00\nPair $10.00', '63240 Health • 305 pts'],
+      ['Cap Tapejara', 'Male or Female $3.99\nPair $6.39', '53+254 HP'],
+      ['Cap Pteranodons', 'Male or Female $2.39\nPair $3.99', '2 variants available'],
+      ['Cap Wyverns', 'Male or Female $6.00\nPair $10.00', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
+      ['Cap Griffins', 'Male or Female $3.99\nPair $6.39', '45+40 HP • 54+152 DMG'],
+      ['Cap Desmodus', 'Male or Female $3.99\nPair $6.39', 'V1: 53+254 HP • V2: 53+50 HP / 62+142 DMG'],
+      ['Gigadesmodus', 'Male or Female $6.00\nPair $10.00', '14585 • 429%'],
+      ['Aureliax', 'Male or Female $3.99\nPair $6.39', '42160 Health'],
+      ['Argentavis', 'Male or Female $2.39\nPair $3.99', '49+20 HP • 49+14 STAM • 59+14 Weight • 58+16 DMG']
     ]
   },
 
   farm: {
     title: '💠 Farm Dinos',
     products: [
-      ['Cap Mantis', 'Male or Female $2.99\nPair $4.99', '54 HP • 52+202 DMG'],
-      ['Cap Ankylosaurus', 'Male or Female $2.99\nPair $4.99', '51+254 DMG'],
-      ['Karkinos', 'Male or Female $4.99\nPair $7.99', '62+100 HP'],
-      ['Cap Ovis', 'Male or Female $2.99\nPair $4.99', '51+254 HP'],
-      ['Gachas', 'Male or Female $2.99\nPair $4.99', 'Multiple variants available'],
+      ['Cap Mantis', 'Male or Female $2.39\nPair $3.99', '54 HP • 52+202 DMG'],
+      ['Cap Ankylosaurus', 'Male or Female $2.39\nPair $3.99', '51+254 DMG'],
+      ['Karkinos', 'Male or Female $3.99\nPair $6.39', '62+100 HP'],
+      ['Cap Ovis', 'Male or Female $2.39\nPair $3.99', '51+254 HP'],
+      ['Gachas', 'Male or Female $2.39\nPair $3.99', 'Multiple variants available'],
     ]
   },
 
   support: {
     title: '💠 Supports',
     products: [
-      ['Reaper', '1 clone $4.99\n6 clones $9.99\n20 clones $29.99', '59 HP • 36 DMG'],
-      ['Maeguana', 'Male or Female $2.99\nPair $4.99', '64+26 HP • 62+102 Food'],
-      ['Gloon', 'Male or Female $4.99\nPair $7.99', '44 HP • 51+200 DMG'],
-      ['Cap Yutyrannus [384 LvL]', 'Male or Female $4.99\nPair $7.99', '58+254 HP'],
-      ['Cap Yi Ling [389 LvL]', 'Male or Female $4.99\nPair $7.99', '51+254 HP'],
-      ['Cap Arthropluera', 'Male or Female $4.99\nPair $7.99', '62+254 DMG'],
-      ['Cap Veilwyn', 'Male or Female $4.99\nPair $7.99', '57+96 HP • 52+118 DMG'],
-      ['Cap Deinonychus', 'Create ticket for price', '34+254 HP • 36+28 DMG'],
-      ['Cap Daeodon', 'Create ticket for price', '61+254 Food'],
-      ['Cap Terror Bird', 'Create ticket for price', '53+254 HP'],
-      ['Cap Drakeling', 'Create ticket for price', '55+102 HP'],
-      ['Tideup', 'Create ticket for price', '43 Food'],
+      ['Reaper', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '59 HP • 36 DMG'],
+      ['Maeguana', 'Male or Female $2.39\nPair $3.99', '64+26 HP • 62+102 Food'],
+      ['Gloon', 'Male or Female $3.99\nPair $6.39', '44 HP • 51+200 DMG'],
+      ['Cap Yutyrannus [384 LvL]', 'Male or Female $3.99\nPair $6.39', '58+254 HP'],
+      ['Cap Yi Ling [389 LvL]', 'Male or Female $3.99\nPair $6.39', '51+254 HP'],
+      ['Cap Arthropluera', 'Male or Female $3.99\nPair $6.39', '62+254 DMG'],
+      ['Cap Veilwyn', 'Male or Female $3.99\nPair $6.39', '57+96 HP • 52+118 DMG'],
+      ['Cap Deinonychus', 'Male or Female $3.99\nPair $6.39', '34+254 HP • 36+28 DMG'],
+      ['Cap Daeodon', 'Male or Female $3.99\nPair $6.39', '61+254 Food'],
+      ['Cap Terror Bird', 'Male or Female $2.39\nPair $3.99', '53+254 HP'],
+      ['Cap Drakeling', 'Male or Female $3.99\nPair $6.39', '55+102 HP'],
+      ['Tideup', 'Male or Female $3.19\nPair $5.59', '43 Food'],
     ]
   },
 
   soakers: {
     title: '💠 Soakers',
     products: [
-      ['Cap Carbonemys', 'Male or Female $2.99\nPair $4.99', '40950 Health [66+254=320p]'],
-      ['Cap Stegosaurus', 'Male or Female $4.99\nPair $7.99', '63+254 HP'],
-      ['Cap Paraceratherium', 'Male or Female $4.99\nPair $7.99', '60+254 HP'],
-      ['Cap Gasbags', 'Male or Female $4.99\nPair $7.99', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
-      ['Dreadnoughtus', 'Male or Female $7.50\nPair $12.50', 'V1: 50+254 HP\n\nV2: 50+152 HP • 51+124 DMG']
+      ['Cap Carbonemys', 'Male or Female $2.39\nPair $3.99', '40950 Health [66+254=320p]'],
+      ['Cap Stegosaurus', 'Male or Female $3.99\nPair $6.39', '63+254 HP'],
+      ['Cap Paraceratherium', 'Male or Female $3.99\nPair $6.39', '60+254 HP'],
+      ['Cap Gasbags', 'Male or Female $3.99\nPair $6.39', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
+      ['Dreadnoughtus', 'Male or Female $6.00\nPair $10.00', 'V1: 50+254 HP\n\nV2: 50+152 HP • 51+124 DMG']
     ]
   },
     mix: {
     title: '💠 Mix / Random',
     products: [
-      ['Dung Beetle [Random LvL]', '1x $1.99'],
-      ['Achatina [Random LvL]', '1x $1.99'],
-      ['Giant Bee [Random LvL]', '1x $1.99'],
-      ['Iguanodon [Random LvL]', '1x $1.99'],
-      ['Beelzebufo [Random LvL]', '1x $1.99'],
-      ['Diplocaulus [Random LvL]', '1x $1.99'],
-      ['Armadoggo [Random LvL]', '1x $1.99'],
-      ['Mammoth [Random LvL]', '1x $1.99'],
-      ['Otter [Random LvL]', '1x $1.99'],
-      ['Gachas', 'Male or Female $2.99\nPair $4.99', 'Multiple variants available'],
-      ['Maeguana', 'Male or Female $2.99\nPair $4.99', '64+26 HP • 62+102 Food'],
-      ['Oviraptor [338 LvL]', 'Male or Female $2.99\nPair $4.99', '262 Weight'],
-      ['Pegomastax [343 LvL]', 'Male or Female $2.99\nPair $4.99', '139 Weight'],
-      ['Procoptodon', 'Male or Female $2.99\nPair $4.99', '1199 Weight'],
-      ['Pelagornis', 'Male or Female $2.99\nPair $4.99', '475% Damage'],
-      ['Dunkleosteus', 'Male or Female $2.99\nPair $4.99', '2 variants available'],
-      ['Anglerfish', 'Male or Female $2.99\nPair $4.99', '851% Damage'],
-      ['Fasolasuchus', 'Male or Female $2.99\nPair $4.99', '972 Weight • 425% Damage'],
-      ['Doedicurus', 'Male or Female $2.99\nPair $4.99', '704% Damage'],
-      ['Deinotherium', 'Male or Female $2.99\nPair $4.99', '16450 Health']
+      ['Dung Beetle [Random LvL]', '1x $1.59'],
+      ['Achatina [Random LvL]', '1x $1.59'],
+      ['Giant Bee [Random LvL]', '1x $1.59'],
+      ['Iguanodon [Random LvL]', '1x $1.59'],
+      ['Beelzebufo [Random LvL]', '1x $1.59'],
+      ['Diplocaulus [Random LvL]', '1x $1.59'],
+      ['Armadoggo [Random LvL]', '1x $1.59'],
+      ['Mammoth [Random LvL]', '1x $1.59'],
+      ['Otter [Random LvL]', '1x $1.59'],
+      ['Gachas', 'Male or Female $2.39\nPair $3.99', 'Multiple variants available'],
+      ['Maeguana', 'Male or Female $2.39\nPair $3.99', '64+26 HP • 62+102 Food'],
+      ['Oviraptor [338 LvL]', 'Male or Female $2.39\nPair $3.99', '262 Weight'],
+      ['Pegomastax [343 LvL]', 'Male or Female $2.39\nPair $3.99', '139 Weight'],
+      ['Procoptodon', 'Male or Female $2.39\nPair $3.99', '1199 Weight'],
+      ['Pelagornis', 'Male or Female $2.39\nPair $3.99', '475% Damage'],
+      ['Dunkleosteus', 'Male or Female $2.39\nPair $3.99', '2 variants available'],
+      ['Anglerfish', 'Male or Female $2.39\nPair $3.99', '851% Damage'],
+      ['Fasolasuchus', 'Male or Female $2.39\nPair $3.99', '972 Weight • 425% Damage'],
+      ['Doedicurus', 'Male or Female $2.39\nPair $3.99', '704% Damage'],
+      ['Deinotherium', 'Male or Female $2.39\nPair $3.99', '16450 Health']
     ]
   },
 
   eggs: {
     title: '💠 Eggs & Embryos',
     products: [
-      ['Eggs — 10', '10 Eggs $7.50', '1x Dino • minimum 10 eggs per breed line'],
-      ['Eggs — 30', '30 Eggs $17.50', '3x Different dinos'],
-      ['Eggs — 50', '50 Eggs $24.99', '5x Different dinos'],
-      ['Eggs — 100', '100 Eggs $39.99', '10x Different dinos'],
-      ['Eggs — 200', '200 Eggs $69.99', '20x Different dinos'],
-      ['Eggs — 300', '300 Eggs $99.99', '30x Different dinos'],
+      ['Eggs — 30', '30 Eggs $5.99', '3x Different dinos'],
+      ['Eggs — 50', '50 Eggs $7.99', '5x Different dinos'],
+      ['Eggs — 100', '100 Eggs $10.00', '10x Different dinos'],
+      ['Eggs — 200', '200 Eggs $20.00', '20x Different dinos'],
+      ['Eggs — 300', '300 Eggs $30.00', '30x Different dinos'],
       ['Embryos — 10', '10 Embryos $11.25', '1x Dino'],
       ['Embryos — 30', '30 Embryos $26.25', '3x Different dinos'],
       ['Embryos — 50', '50 Embryos $37.50', '5x Different dinos'],
-      ['Embryos — 100', '100 Embryos $59.99', '10x Different dinos'],
-      ['Embryos — 200', '200 Embryos $104.99', '20x Different dinos'],
-      ['Embryos — 300', '300 Embryos $149.99', '30x Different dinos']
+      ['Embryos — 100', '100 Embryos $15.00', '10x Different dinos'],
+      ['Embryos — 200', '200 Embryos $30.00', '20x Different dinos'],
+      ['Embryos — 300', '300 Embryos $40.00', '30x Different dinos']
     ]
   },
 
   cloners: {
     title: '💠 Cloners',
     products: [
-      ['Phoenix', '1 clone $4.99\n6 clones $17.50\n20 clones $49.99', '6 LvL • Purple'],
-      ['Karkinos', '1 clone $4.99\n6 clones $9.99\n20 clones $29.99', '1 LvL'],
-      ['Reaper', '1 clone $4.99\n6 clones $9.99\n20 clones $29.99', '3 LvL'],
-      ['Tek Giga Female', '1 clone $4.99\n6 clones $9.99\n20 clones $29.99', '1 LvL']
+      ['Phoenix', '1 clone $3.99\n6 clones $14.00\n20 clones $39.99', '6 LvL • Purple'],
+      ['Karkinos', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '1 LvL'],
+      ['Reaper', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '3 LvL'],
+      ['Tek Giga Female', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '1 LvL']
     ]
   },
 
   ffa: {
     title: '💠 FFA Cryofridges',
     products: [
-      ['Fridges of Flyers', 'Pteras $34.99\nTapejaras $39.99\nQuetzals $49.99\nWyverns $44.99\nSnow Owl $34.99\nGriffin $39.99\nDesmodus $39.99', 'Top Stats'],
-      ['Fridges of DPS', 'Gigas $59.99\nCarchas $59.99\nTherizino $34.99\nThyla $44.99\nRex $34.99\nPyro $34.99\nBasilisk $39.99\nMegalos $34.99\nCarno $34.99\nSpino $44.99\nMana $49.99\nKarki $54.99', 'Top Stats'],
-      ['Fridges of Supports', 'Yuty $54.99\nYi Ling $24.99\nDaeodon $49.99\nArthro $39.99\nDimorph $34.99\nDeinonychus $34.99\nBeelzebufo $34.99\nOvis $29.99', 'Top Stats'],
-      ['Fridges of Waters', 'Plesio $54.99\nShasta $89.99\nXipha $29.99\nBasilo $44.99\nMegalodon $44.99\nBary $39.99\nTuso $49.99', 'Top Stats'],
-      ['Fridges of Soakers', 'Carbo $24.99\nStego $29.99\nParacer $44.99\nDread $59.99', 'Top Stats'],
-      ['Fridges of Mixs', 'Random $49.99', 'Top Stats'],
-      ['Small Dinos', '1x FFA $0.99\n12x FFAs $5.99\n36x FFAs $12.50', '1 imprint during the event'],
-      ['Large Dinos', '1x FFA $1.99\n12x FFAs $14.99\n36x FFAs $24.50', '2–3 imprints during the event']
+      ['Fridges of Flyers', 'Pteras $27.99\nTapejaras $31.99\nQuetzals $39.99\nWyverns $35.99\nSnow Owl $27.99\nGriffin $31.99\nDesmodus $31.99', 'Top Stats'],
+      ['Fridges of DPS', 'Gigas $47.99\nCarchas $47.99\nTherizino $27.99\nThyla $35.99\nRex $27.99\nPyro $27.99\nBasilisk $31.99\nMegalos $27.99\nCarno $27.99\nSpino $35.99\nMana $39.99\nKarki $43.99', 'Top Stats'],
+      ['Fridges of Supports', 'Yuty $43.99\nYi Ling $19.99\nDaeodon $39.99\nArthro $31.99\nDimorph $27.99\nDeinonychus $27.99\nBeelzebufo $27.99\nOvis $23.99', 'Top Stats'],
+      ['Fridges of Waters', 'Plesio $43.99\nShasta $71.99\nXipha $23.99\nBasilo $35.99\nMegalodon $35.99\nBary $31.99\nTuso $39.99', 'Top Stats'],
+      ['Fridges of Soakers', 'Carbo $19.99\nStego $23.99\nParacer $35.99\nDread $47.99', 'Top Stats'],
+      ['Fridges of Mixs', 'Random $39.99', 'Top Stats'],
+      ['Small Dinos', '1x FFA $0.79\n12x FFAs $4.79\n36x FFAs $10.00', '1 imprint during the event'],
+      ['Large Dinos', '1x FFA $1.59\n12x FFAs $11.99\n36x FFAs $19.60', '2–3 imprints during the event']
     ]
   },
 
@@ -205,107 +204,107 @@ const categories = {
   resources: {
     title: '💠 Resources',
     products: [
-      [' Blue | Green Gems ', '30000 [300 slots] $3.99\n180000 [1800 slots] $9.99', ''],
-      [' Sulfur ', '10000 [100 slots] $3.99\n30000 [300 slots] $8.99', ''],
-      [' Chitin ', '180000 [1800 slots] $2.99', ''],
-      [' Silk ', '10000 [100 slots] $2.99\n30000 [300 slots] $8.99', ''],
-      [' Oil ', '30000 [300 slots] $3.99\n180000 [1800 slots] $13.99', ''],
-      [' Sap ', '3000 [100 slots] $1.99\n9000 [300 slots] $4.99', ''],
-      [' Hide ', '60000 [300 slots] $1.99\n360000 [1800 slots] $4.99', ''],
-      [' Silica Pearls ', '30000 [300 slots] $1.99\n180000 [1800 slots] $6.99', ''],
-      [' Electronics ', '30000 [300 slots] $4.99\n180000 [1800 slots] $19.99', ''],
-      [' Crystal ', '30000 [300 slots] $1.99\n180000 [1800 slots] $5.99', ''],
-      [' Cementing Paste ', '30000 [300 slots] $2.99\n180000 [1800 slots] $9.99', ''],
-      [' Black Pearls ', '60000 [300 slots] $4.99\n360000 [1800 slots] $19.99', ''],
-      [' Hard Polymer ', '30000 [300 slots] $4.99\n180000 [1800 slots] $14.99', ''],
-      [' Metal Ingots ', '90000 [300 slots] $1.99\n540000 [1800 slots] $9.99', '']
+      [' Blue | Green Gems ', '30000 [300 slots] $3.19\n180000 [1800 slots] $7.99', ''],
+      [' Sulfur ', '10000 [100 slots] $3.19\n30000 [300 slots] $7.19', ''],
+      [' Chitin ', '180000 [1800 slots] $2.39', ''],
+      [' Silk ', '10000 [100 slots] $2.39\n30000 [300 slots] $7.19', ''],
+      [' Oil ', '30000 [300 slots] $3.19\n180000 [1800 slots] $11.19', ''],
+      [' Sap ', '3000 [100 slots] $1.59\n9000 [300 slots] $3.99', ''],
+      [' Hide ', '60000 [300 slots] $1.59\n360000 [1800 slots] $3.99', ''],
+      [' Silica Pearls ', '30000 [300 slots] $1.59\n180000 [1800 slots] $5.59', ''],
+      [' Electronics ', '30000 [300 slots] $3.99\n180000 [1800 slots] $15.99', ''],
+      [' Crystal ', '30000 [300 slots] $1.59\n180000 [1800 slots] $4.79', ''],
+      [' Cementing Paste ', '30000 [300 slots] $2.39\n180000 [1800 slots] $7.99', ''],
+      [' Black Pearls ', '60000 [300 slots] $3.99\n360000 [1800 slots] $15.99', ''],
+      [' Hard Polymer ', '30000 [300 slots] $3.99\n180000 [1800 slots] $11.99', ''],
+      [' Metal Ingots ', '90000 [300 slots] $1.59\n540000 [1800 slots] $7.99', '']
     ]
   },
 
   structures: {
     title: '💠 Structures',
     products: [
-      [' Metal Foundations ', '100x = $1.99', ''],
-      [' Metal Walls ', '100x = $0.99', ''],
-      [' Metal Ceilings ', '100x = $1.49', ''],
-      [' Metal Triangle Foundations ', '100x = $0.99', ''],
-      [' Metal Pilars ', '100x = $0.99', ''],
-      [' Metal Gateways ', '100x = $4.99', ''],
-      [' Metal Cliff Platforms ', '3x = $1.79', ''],
-      [' Industrial Forges ', '1x = $0.49', ''],
-      [' Chemistry Benchs ', '1x = $0.49', ''],
-      [' Industrial Cookers ', '1x = $0.49', ''],
-      [' Industrial Grinders ', '1x = $0.49', ''],
-      [' Industrial Grills ', '1x = $0.10', ''],
-      [' Refrigerators ', '1x = $0.10', ''],
-      [' Vaults ', '1x = $0.25', ''],
-      [' Air Conditioners ', '1x = $0.09', ''],
-      [' Electrical Generators ', '1x = $0.09', ''],
-      [' Cryofridges ', '1x = $0.09', ''],
-      [' Motorboats ', '1x = $1.49', ''],
-      [' Zeppelins ', '1x = $0.69', ''],
-      [' Clockfaces ', '1x = $0.69', ''],
-      [' Linked Storage Boxs ', '1x = $0.69', ''],
-      [' Steam Forges ', '1x = $1.49', ''],
-      [' Makeshift Megalab ', '1x = $0.69', ''],
-      [' Embryo Incubators ', '1x = $0.69', ''],
-      [' Sir5RM8 ', '1x = $0.99', ''],
-      [' Gene Scanners ', '1x = $0.69', ''],
-      [' Gene Storages ', '1x = $0.69', ''],
-      [' Industrial Preserving Bins ', '1x = $0.69', ''],
-      [' Tinkering Desks ', '1x = $0.69', ''],
-      [' Bio Grinder ', '1x = $0.69', ''],
-      [' Library Storage ', '1x = $0.69', ''],
-      [' Battlerig Garage ', '1x = $0.69', '']
+      [' Metal Foundations ', '100x = $1.59', ''],
+      [' Metal Walls ', '100x = $0.79', ''],
+      [' Metal Ceilings ', '100x = $1.19', ''],
+      [' Metal Triangle Foundations ', '100x = $0.79', ''],
+      [' Metal Pilars ', '100x = $0.79', ''],
+      [' Metal Gateways ', '100x = $3.99', ''],
+      [' Metal Cliff Platforms ', '3x = $1.43', ''],
+      [' Industrial Forges ', '1x = $0.39', ''],
+      [' Chemistry Benchs ', '1x = $0.39', ''],
+      [' Industrial Cookers ', '1x = $0.39', ''],
+      [' Industrial Grinders ', '1x = $0.39', ''],
+      [' Industrial Grills ', '1x = $0.08', ''],
+      [' Refrigerators ', '1x = $0.08', ''],
+      [' Vaults ', '1x = $0.20', ''],
+      [' Air Conditioners ', '1x = $0.07', ''],
+      [' Electrical Generators ', '1x = $0.07', ''],
+      [' Cryofridges ', '1x = $0.07', ''],
+      [' Motorboats ', '1x = $1.19', ''],
+      [' Zeppelins ', '1x = $0.55', ''],
+      [' Clockfaces ', '1x = $0.55', ''],
+      [' Linked Storage Boxs ', '1x = $0.55', ''],
+      [' Steam Forges ', '1x = $1.19', ''],
+      [' Makeshift Megalab ', '1x = $0.55', ''],
+      [' Embryo Incubators ', '1x = $0.55', ''],
+      [' Sir5RM8 ', '1x = $0.79', ''],
+      [' Gene Scanners ', '1x = $0.55', ''],
+      [' Gene Storages ', '1x = $0.55', ''],
+      [' Industrial Preserving Bins ', '1x = $0.55', ''],
+      [' Tinkering Desks ', '1x = $0.55', ''],
+      [' Bio Grinder ', '1x = $0.55', ''],
+      [' Library Storage ', '1x = $0.55', ''],
+      [' Battlerig Garage ', '1x = $0.55', '']
     ]
   },
 
   tekstructures: {
     title: '💠 Tek Structures',
     products: [
-      [' Tek Foundations ', '100x = $1.99'],
-      [' Tek Walls ', '100x = $0.99'],
-      [' Tek Ceilings ', '100x = $1.49'],
-      [' Tek Triangle Foundations ', '100x = $0.99'],
-      [' Tek Pillars ', '100x = $0.99'],
-      [' Tek Gateways ', '100x = $4.99'],
-      [' Vacuum Compartments ', '5x = $1.99'],
-      [' Tek Troughs ', '1x = $1.49'],
-      [' Small Tek Teleporters ', '1x = $1.49'],
-      [' Medium Tek Teleporters ', '1x = $2.49'],
-      [' Large Tek Teleporters ', '1x = $4.49'],
-      [' Tek Generators ', '1x = $2.49'],
-      [' Tek Replicators ', '1x = $4.49'],
-      [' Tek Transmiters ', '1x = $3.49'],
-      [' Tek Forcefields ', '1x = $4.49'],
-      [' Cloning Chambers ', '1x = $4.49'],
-      [' Tek Dedicated Storages ', '10x = $0.99'],
-      [' Tek Sleeping Pods ', '1x = $0.19'],
-      [' Behemoth Tek Cellar Doors ', '100x = $2.99'],
-      [' Tek Crop Plots ', '10x = $0.99'],
-      [' Tek Sensor ', '1x = $0.49'],
-      [' Tek Hover Skiff ', '1x = $4.99'],
-      [' Tek Jump Pad ', '1x = $0.49']
+      [' Tek Foundations ', '100x = $1.59'],
+      [' Tek Walls ', '100x = $0.79'],
+      [' Tek Ceilings ', '100x = $1.19'],
+      [' Tek Triangle Foundations ', '100x = $0.79'],
+      [' Tek Pillars ', '100x = $0.79'],
+      [' Tek Gateways ', '100x = $3.99'],
+      [' Vacuum Compartments ', '5x = $1.59'],
+      [' Tek Troughs ', '1x = $1.19'],
+      [' Small Tek Teleporters ', '1x = $1.19'],
+      [' Medium Tek Teleporters ', '1x = $1.99'],
+      [' Large Tek Teleporters ', '1x = $3.59'],
+      [' Tek Generators ', '1x = $1.99'],
+      [' Tek Replicators ', '1x = $3.59'],
+      [' Tek Transmiters ', '1x = $2.79'],
+      [' Tek Forcefields ', '1x = $3.59'],
+      [' Cloning Chambers ', '1x = $3.59'],
+      [' Tek Dedicated Storages ', '10x = $0.79'],
+      [' Tek Sleeping Pods ', '1x = $0.15'],
+      [' Behemoth Tek Cellar Doors ', '100x = $2.39'],
+      [' Tek Crop Plots ', '10x = $0.79'],
+      [' Tek Sensor ', '1x = $0.39'],
+      [' Tek Hover Skiff ', '1x = $3.99'],
+      [' Tek Jump Pad ', '1x = $0.39']
     ]
   },
 
   turrets: {
     title: '💠 Turrets',
     products: [
-      [' Auto Turrets ', '1x = $0.19\n10x = $1.49\n100x = $9.99\n300x = $24.99'],
-      [' Bladewasp Hive Turrets ', '1x = $0.89\n10x = $7.99\n100x = $69.99\n300x = $179.99'],
-      [' Heavy Turrets ', '1x = $0.45\n10x = $4.49\n100x = $13.49\n300x = $35.99'],
-      [' Tek Turrets ', '1x = $0.45\n10x = $4.49\n100x = $13.49\n300x = $29.99'],
-      [' Tesla Turrets ', '1x = $0.45\n10x = $4.49\n100x = $26.99\n300x = $62.99']
+      [' Auto Turrets ', '1x = $0.15\n10x = $1.19\n100x = $7.99\n300x = $19.99'],
+      [' Bladewasp Hive Turrets ', '1x = $0.71\n10x = $6.39\n100x = $55.99\n300x = $143.99'],
+      [' Heavy Turrets ', '1x = $0.36\n10x = $3.59\n100x = $10.79\n300x = $28.79'],
+      [' Tek Turrets ', '1x = $0.36\n10x = $3.59\n100x = $10.79\n300x = $23.99'],
+      [' Tesla Turrets ', '1x = $0.36\n10x = $3.59\n100x = $21.59\n300x = $50.39']
     ]
   },
 
   breeder: {
     title: '💠 Breeder Packs',
     products: [
-      ['Gamma PvP Pack', 'Pair $39.99\nMale only $24.50', 'Carcha or Giga • Thylacoleo • Therizinosaur • Pyromane'],
-      ['Beta PvP Pack', 'Pair $59.99\nMale only $37.50', 'Carcha or Giga • Thylacoleo • Basilisk • Velonasaur • Rex • Pyromane • Therizinosaur • Managarmr'],
-      ['Alpha PvP Pack', 'Pair $99.99\nMale only $57.99', 'Carcha • Thylacoleo • Basilisk • Velonasaur • Spino • Rex • Pyromane • Therizinosaur • Managarmr • Karkinos • Giga • Woolly Rhino • Aber Megalosaurus • Carnotaurus • Dreadmare']
+      ['Gamma PvP Pack', 'Pair $31.99\nMale only $19.60', 'Carcha or Giga • Thylacoleo • Therizinosaur • Pyromane'],
+      ['Beta PvP Pack', 'Pair $47.99\nMale only $30.00', 'Carcha or Giga • Thylacoleo • Basilisk • Velonasaur • Rex • Pyromane • Therizinosaur • Managarmr'],
+      ['Alpha PvP Pack', 'Pair $79.99\nMale only $46.39', 'Carcha • Thylacoleo • Basilisk • Velonasaur • Spino • Rex • Pyromane • Therizinosaur • Managarmr • Karkinos • Giga • Woolly Rhino • Aber Megalosaurus • Carnotaurus • Dreadmare']
     ]
   }
 };
@@ -672,12 +671,12 @@ client.on('messageCreate', async (message) => {
     const arb = {
       title: '💠 Advanced Rifle Bullet [ARB]',
       products: [
-        ['10,000 ARB', '$0.99', '100 slots'],
-        ['30,000 ARB', '$1.99', '300 slots'],
-        ['90,000 ARB', '$4.99', '900 slots'],
-        ['180,000 ARB', '$9.99', '1 dedi'],
-        ['360,000 ARB', '$16.99', '2 dedis'],
-        ['540,000 ARB', '$22.99', '3 dedis']
+        ['10,000 ARB', '$0.79', '100 slots'],
+        ['30,000 ARB', '$1.59', '300 slots'],
+        ['90,000 ARB', '$3.99', '900 slots'],
+        ['180,000 ARB', '$7.99', '1 dedi'],
+        ['360,000 ARB', '$13.59', '2 dedis'],
+        ['540,000 ARB', '$18.39', '3 dedis']
       ]
     };
 
