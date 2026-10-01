@@ -578,4 +578,4 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.DISCORD_TOKEN);\n// !soon\nconst soonCommand = "Create ticket for price list";\n
