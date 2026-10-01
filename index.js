@@ -452,7 +452,7 @@ function makeDinoEmbed(category, product, index, total) {
   const [name, price, stats] = product;
   const embed = new EmbedBuilder()
     .setColor(config.embedColor)
-    .setAuthor({ name: 'Infinity Market - Small Tribes Crossplay' })
+    .setAuthor({ name: 'Small Tribes Crossplay' })
     .setTitle(`💠 ${name}`)
     .setDescription(
       `${stats ? `💠 **${stats}**\n\n` : ''}` +
@@ -532,7 +532,7 @@ client.on('messageCreate', async (message) => {
       embeds: [
         new EmbedBuilder()
           .setColor(config.embedColor)
-          .setAuthor({ name: 'Infinity Market - Small Tribes Crossplay' })
+          .setAuthor({ name: 'Small Tribes Crossplay' })
           .setTitle('💠 Advanced Rifle Bullet [ARB]')
           .setDescription(arb.products.map(p => `**${p[0]}** — ${p[1]}\n${p[2]}`).join('\n\n'))
           .setFooter({ text: 'ARK FLEX MARKET • ARB' })
