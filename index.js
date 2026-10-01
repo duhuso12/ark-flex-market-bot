@@ -55,7 +55,7 @@ const categories = {
       ['Cap Managarmrs', 'Male or Female $4.99\nPair $7.99', '55+0 HP • 54+20 STAM • 55+200 DMG'],
       ['Karkinos', 'Male or Female $4.99\nPair $7.99', '62+100 HP'],
       ['Ossidon', 'Male or Female $4.99\nPair $7.99', '49+60 HP • 49+60 DMG'],
-      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG'],
+      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
     ]
   },
 
@@ -63,12 +63,13 @@ const categories = {
     title: '💠 Water Dinos',
     products: [
       ['Plesiosaur', 'Male or Female $4.99\nPair $7.99', '62+130 HP'],
-      ['Shastasaurus', 'Male or Female $7.50\nPair $12.50', '51+254 HP'],
+      ['Shastasaurus', 'Male or Female $7.50\nPair $12.50', '51+254 HP Clone\n58+88 HP'],
       ['Cap Xiphactinus [387 LvL]', 'Male or Female $4.99\nPair $7.99', '24390 Health • 839% Damage'],
       ['Cap Basilosaurus', 'Male or Female $4.99\nPair $7.99', '69+254 HP'],
       ['Cap Megalodon', 'Male or Female $4.99\nPair $7.99', '68+254 HP'],
       ['Cap Baryonyx [364 LvL]', 'Male or Female $4.99\nPair $7.99', '65+254 HP'],
       ['Cap Tuso [376 LvL]', 'Male or Female $7.50\nPair $12.50', '62+38 HP • 69+186 DMG'],
+      ['Cap Deinosuchus', 'Create ticket for price', '55+22 HP • 65+218 DMG'],
     ]
   },
 
@@ -78,11 +79,12 @@ const categories = {
       ['Cap Quetzal [378 LvL]', 'Male or Female $7.50\nPair $12.50', '63240 Health • 305 pts'],
       ['Cap Tapejara', 'Male or Female $4.99\nPair $7.99', '53+254 HP'],
       ['Cap Pteranodons', 'Male or Female $2.99\nPair $4.99', '2 variants available'],
-      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\nVeilwyrn: 57+96 HP • 52+118 DMG'],
+      ['Cap Wyverns', 'Male or Female $7.50\nPair $12.50', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
       ['Cap Griffins', 'Male or Female $4.99\nPair $7.99', '45+40 HP • 54+152 DMG'],
       ['Cap Desmodus', 'Male or Female $4.99\nPair $7.99', 'V1: 53+254 HP • V2: 53+50 HP / 62+142 DMG'],
       ['Gigadesmodus', 'Male or Female $7.50\nPair $12.50', '14585 • 429%'],
-      ['Aureliax', 'Male or Female $4.99\nPair $7.99', '42160 Health']
+      ['Aureliax', 'Male or Female $4.99\nPair $7.99', '42160 Health'],
+      ['Argentavis', 'Create ticket for price', '49+20 HP • 49+14 STAM • 59+14 Weight • 58+16 DMG']
     ]
   },
 
@@ -90,8 +92,10 @@ const categories = {
     title: '💠 Farm Dinos',
     products: [
       ['Cap Mantis', 'Male or Female $2.99\nPair $4.99', '54 HP • 52+202 DMG'],
+      ['Cap Ankylosaurus', 'Male or Female $2.99\nPair $4.99', '51+254 DMG'],
       ['Karkinos', 'Male or Female $4.99\nPair $7.99', '62+100 HP'],
       ['Cap Ovis', 'Male or Female $2.99\nPair $4.99', '51+254 HP'],
+      ['Gachas', 'Male or Female $2.99\nPair $4.99', 'Multiple variants available'],
     ]
   },
 
@@ -105,6 +109,11 @@ const categories = {
       ['Cap Yi Ling [389 LvL]', 'Male or Female $4.99\nPair $7.99', '51+254 HP'],
       ['Cap Arthropluera', 'Male or Female $4.99\nPair $7.99', '62+254 DMG'],
       ['Cap Veilwyn', 'Male or Female $4.99\nPair $7.99', '57+96 HP • 52+118 DMG'],
+      ['Cap Deinonychus', 'Create ticket for price', '34+254 HP • 36+28 DMG'],
+      ['Cap Daeodon', 'Create ticket for price', '61+254 Food'],
+      ['Cap Terror Bird', 'Create ticket for price', '53+254 HP'],
+      ['Cap Drakeling', 'Create ticket for price', '55+102 HP'],
+      ['Tideup', 'Create ticket for price', '43 Food'],
     ]
   },
 
@@ -435,6 +444,7 @@ const LOCAL_IMAGES = {
   'Cap Pteranodons': ['flyers', 'pteranodon.png'],
   'Cap Tapejara': ['flyers', 'tapejara.png'],
   'Cap Quetzal': ['flyers', 'quetzal.png'],
+  'Argentavis': ['flyers', 'argentavis.png'],
   'Cap Xiphactinus': ['water', 'xiphactinus.png'],
   'Cap Tuso': ['water', 'tusoteuthis.png'],
   'Cap Baryonyx': ['water', 'baryonyx.png'],
@@ -442,8 +452,11 @@ const LOCAL_IMAGES = {
   'Cap Basilosaurus': ['water', 'basilosaurus.png'],
   'Shastasaurus': ['water', 'shastasaurus.png'],
   'Plesiosaur': ['water', 'plesiosaur.png'],
+  'Cap Deinosuchus': ['water', 'deinosuchus.png'],
   'Cap Mantis': ['farm', 'mantis.png'],
+  'Cap Ankylosaurus': ['farm', 'ankylosaurus.png'],
   'Cap Ovis': ['farm', 'ovis.png'],
+  'Gachas': ['farm', 'gacha.png'],
   'Reaper': ['support', 'reaper.png'],
   'Maeguana': ['support', 'maeguana.png'],
   'Cap Yutyrannus': ['support', 'yutyrannus.png'],
@@ -451,6 +464,10 @@ const LOCAL_IMAGES = {
   'Cap Arthropluera': ['support', 'arthropluera.png'],
   'Gloon': ['support', 'gloon.png'],
   'Cap Veilwyn': ['support', 'veilwyn.png'],
+  'Cap Deinonychus': ['support', 'deinonychus.png'],
+  'Cap Daeodon': ['support', 'daeodon.png'],
+  'Cap Terror Bird': ['support', 'terrorbird.png'],
+  'Cap Drakeling': ['support', 'drakeling.png'],
   'Karkinos@farm': ['farm', 'karkinos.png']
 };
 
@@ -492,12 +509,10 @@ function makeDinoEmbed(category, product, index, total, localImageName = null) {
   const [name, price, stats] = product;
   const isSoaker = category.title.includes('Soakers');
   const isCarbonemys = name === 'Cap Carbonemys';
-  const isPvpWyverns = category.title.includes('PvP') && name === 'Cap Wyverns';
   const displayTitle = isSoaker
     ? `${isCarbonemys ? '💠 ' : ''}${name}`
-    : isPvpWyverns
-      ? name
-      : `💠 ${name}`;
+    : `💠 ${name}`;
+  const isPvpWyverns = category.title.includes('PvP') && name === 'Cap Wyverns';
   const statsPrefix = (isSoaker || isPvpWyverns) ? '' : '💠 ';
 
   const embed = new EmbedBuilder()
