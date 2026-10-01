@@ -553,12 +553,12 @@ client.on('messageCreate', async (message) => {
       .setColor(config.embedColor)
       .setTitle('Dust')
       .setDescription(
-        '100000 [100 slots] 0.99 $\\n' +
-        '300000 [300 slots] 1.49 $\\n' +
-        '900000 [900 slots] 2.99 $\\n' +
-        '1800000 [1 dedi] 4.99 $\\n' +
-        '3600000 [2 dedis] 8.49 $\\n' +
-        '5400000 [3 dedis] 11.49 $\\n' +
+        '100000 [100 slots] 0.99 $\n' +
+        '300000 [300 slots] 1.49 $\n' +
+        '900000 [900 slots] 2.99 $\n' +
+        '1800000 [1 dedi] 4.99 $\n' +
+        '3600000 [2 dedis] 8.49 $\n' +
+        '5400000 [3 dedis] 11.49 $\n' +
         '7200000 [4 dedis] 13.99 $'
       )
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
