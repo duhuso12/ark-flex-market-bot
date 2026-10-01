@@ -142,10 +142,12 @@ const categories = {
   soakers: {
     title: '💠 Soakers',
     products: [
-      ['Karkinos', 'Male or Female » $4.99\nPair » $7.99', '2416 Weight'],
-      ['Cap Kentrosaurus [375 LvL]', '1x » $4.99', '20150 Health • 990% Damage'],
-      ['Cap Brontosaurus', 'Male or Female » $4.99\nPair » $7.99', '2 variants available'],
-      ['Cap Woolly Rhino [382 LvL]', 'Male or Female » $4.99\nPair » $7.99', '1936% Damage']
+      ['Cap Carbonemys [376 LvL]', 'Male or Female » $2.99\nPair » $4.99', '40950 Health [66+254=320p]'],
+      ['Cap Stegosaurus [385 LvL]', 'Male or Female » $4.99\nPair » $7.99', '41080 Health [63+254=311p] • 825 Oxygen [46p] • 930 Stamina [21p]'],
+      ['Cap Paraceratherium [373 LvL]', 'Male or Female » $4.99\nPair » $7.99', '65458 Health [60+254=314p]'],
+      ['Cap Tek Triceratops [317 LvL]', 'Male or Female » $4.99\nPair » $7.99', '24075 Health [62+254=316p]'],
+      ['Cap Gasbags [389 LvL]', 'Male or Female » $4.99\nPair » $7.99', '32370 Health [50+194=244p] • 9550 Oxygen [41+54=95p] • 3060 Stamina [41p]'],
+      ['Dreadnoughtus', 'Male or Female » $7.50\nPair » $12.50', 'V1: 580640 Health [48+212=260p] • 510% Damage [51+72=123p]\nV2: 674080 Health [52+254=306p] • 356% Damage [51+26=77p]\nV3: 456480 Health [50+144=194p] • 673% Damage [48+124=172p]']
     ]
   },
     mix: {
