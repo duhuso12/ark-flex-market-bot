@@ -716,6 +716,8 @@ const DOSSIER_ALIASES = {
   "Cap Griffins": "Griffin",
   "Cap Desmodus": "Desmodus",
   "Gigadesmodus": "Desmodus",
+  "Giga Desmodus": "Desmodus",
+  "GigaDesmodus": "Desmodus",
   "Aureliax": "Aureliax",
   "Cap Yutyrannus": "Yutyrannus",
   "Cap Yi Ling": "Yi Ling",
@@ -756,8 +758,28 @@ const DOSSIER_ALIASES = {
   "Reaper": "Reaper",
   "Dimorphodon": "Dimorphodon",
   "Rock Drake": "Rock Drake",
-  "Cap Gloon": "Gloon"
+  "Cap Gloon": "Gloon", 
+  "Cap Ankylosaurus": "Ankylosaurus",
+  "Anky": "Ankylosaurus",
+  // Official ARK creature dossiers
+  "Beelzebufo": "Beelzebufo",
+  "Mantis": "Mantis",
+  "Moschops": "Moschops",
+  "Yuty": "Yutyrannus",
+  "Yutyrannus": "Yutyrannus",
+  "Deinonychus": "Deinonychus",
 };
+// These are official ARK dossier files on ark.wiki.gg.
+// Custom/non-official creatures are intentionally NOT mapped to fabricated images.
+const DOSSIER_OVERRIDES = {
+  "Gigadesmodus": "https://ark.wiki.gg/wiki/Special:Redirect/file/Dossier_Desmodus.png",
+  "Giga Desmodus": "https://ark.wiki.gg/wiki/Special:Redirect/file/Dossier_Desmodus.png",
+  "GigaDesmodus": "https://ark.wiki.gg/wiki/Special:Redirect/file/Dossier_Desmodus.png",
+  "Cap Ankylosaurus": "https://ark.wiki.gg/wiki/Special:Redirect/file/Dossier_Ankylosaurus.png",
+  "Ankylosaurus": "https://ark.wiki.gg/wiki/Special:Redirect/file/Dossier_Ankylosaurus.png",
+  "Anky": "https://ark.wiki.gg/wiki/Special:Redirect/file/Dossier_Ankylosaurus.png"
+};
+
 const CLONER_IMAGES = {
   "Phoenix": "https://media.discordapp.net/attachments/1358733897126510761/1358880402218942685/Phoenix.png?format=webp&quality=lossless&width=640&height=360",
   "Karkinos": "https://media.discordapp.net/attachments/1358733897126510761/1358886254862798989/Karkinos_farm.png?format=webp&quality=lossless&width=640&height=360",
@@ -775,6 +797,7 @@ function getImageUrl(name, categoryKey) {
     return CLONER_IMAGES[cleanName(name)];
   }
   const base = cleanName(name);
+  if (DOSSIER_OVERRIDES[base]) return DOSSIER_OVERRIDES[base];
   const file = DOSSIER_ALIASES[base];
   if (!file) return null;
   return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(`Dossier ${file}.png`)}`;
