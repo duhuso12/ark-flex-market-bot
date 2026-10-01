@@ -334,7 +334,7 @@ const categories = {
 function makeButtonRow() {
   return new ActionRowBuilder().addComponents(
     new ButtonBuilder()
-      .setLabel('Create ticket for price list')
+      .setLabel('Open ticket')
       .setStyle(ButtonStyle.Link)
       .setURL(TICKET_URL || 'https://discord.com/channels/@me')
   );
