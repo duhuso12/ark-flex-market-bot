@@ -334,10 +334,9 @@ const categories = {
 function makeButtonRow() {
   return new ActionRowBuilder().addComponents(
     new ButtonBuilder()
-      .setLabel('OPEN TICKET')
-      .setEmoji('🎫')
+      .setLabel('Create ticket for price list')
       .setStyle(ButtonStyle.Link)
-      .setURL(TICKET_URL || 'https://discord.com/')
+      .setURL(TICKET_URL || 'https://discord.com/channels/@me')
   );
 }
 
@@ -546,23 +545,30 @@ client.on('messageCreate', async (message) => {
     .slice(PREFIX.length)
     .split(/\s+/)[0];
 
-  if (key === 'soon') {
-    const row = new ActionRowBuilder().addComponents(
-      new ButtonBuilder()
-        .setLabel('Create ticket for price list')
-        .setStyle(ButtonStyle.Link)
-        .setURL(TICKET_URL || 'https://discord.com/channels/@me')
-    );
+  if (key === 'dust') {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setTitle('Dust')
+      .setDescription(
+        '**100000 [100 slots] 0.99**\\n' +
+        '**300000 [300 slots] 1.49**\\n' +
+        '**900000 [900 slots] 2.99**\\n' +
+        '**1800000 [1 dedi] 4.99**\\n' +
+        '**3600000 [2 dedis] 8.49**\\n' +
+        '**5400000 [3 dedis] 11.49**\\n' +
+        '**7200000 [4 dedis] 13.99**'
+      )
+      .setFooter({ text: 'ARK FLEX MARKET • Dust' });
 
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    return;
+  }
+  if (key === 'soon') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
       .setTitle('Create ticket for price list')
-      .setDescription('Click the button below to open the ticket system.');
-
-    await message.channel.send({
-      embeds: [embed],
-      components: [row]
-    });
+      .setDescription('Use the ticket button at the bottom.');
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
     return;
   }
 
@@ -572,7 +578,7 @@ client.on('messageCreate', async (message) => {
       .setTitle('Boss Prices')
       .setDescription(pricesText)
       .setFooter({ text: 'ARK FLEX MARKET • Boss Prices' });
-    await message.channel.send({ embeds: [embed] });
+    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
     return;
   }
 
