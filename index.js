@@ -551,15 +551,22 @@ client.on('messageCreate', async (message) => {
   if (key === 'dust') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
-      .setTitle('Dust')
+      .setTitle('Advanced Dust')
       .setDescription(
-        '100000 [100 slots] 0.99 $\n\n' +
-        '300000 [300 slots] 1.49 $\n\n' +
-        '900000 [900 slots] 2.99 $\n\n' +
-        '1800000 [1 dedi] 4.99 $\n\n' +
-        '3600000 [2 dedis] 8.49 $\n\n' +
-        '5400000 [3 dedis] 11.49 $\n\n' +
-        '7200000 [4 dedis] 13.99 $'
+        '100000 [100 slots] — 0.99 $\n' +
+        '100 slots\n\n' +
+        '300000 [300 slots] — 1.49 $\n' +
+        '300 slots\n\n' +
+        '900000 [900 slots] — 2.99 $\n' +
+        '900 slots\n\n' +
+        '1800000 [1 dedi] — 4.99 $\n' +
+        '1 dedi\n\n' +
+        '3600000 [2 dedis] — 8.49 $\n' +
+        '2 dedis\n\n' +
+        '5400000 [3 dedis] — 11.49 $\n' +
+        '3 dedis\n\n' +
+        '7200000 [4 dedis] — 13.99 $\n' +
+        '4 dedis'
       )
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
 
