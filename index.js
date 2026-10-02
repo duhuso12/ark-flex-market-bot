@@ -562,7 +562,6 @@ async function sendCategory(message, key) {
     await message.channel.send(payload);
   }
 
-  await message.channel.send({ components: [makeButtonRow()] });
 }
 
 client.once('ready', () => {
@@ -641,7 +640,7 @@ client.on('messageCreate', async (message) => {
       )
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
 
-    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
   if (key === 'soon') {
@@ -649,7 +648,7 @@ client.on('messageCreate', async (message) => {
       .setColor(config.embedColor)
       .setTitle('Create ticket for price list')
       .setDescription('Use the ticket button at the bottom.');
-    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
@@ -659,7 +658,7 @@ client.on('messageCreate', async (message) => {
       .setTitle('Boss Prices')
       .setDescription(pricesText)
       .setFooter({ text: 'ARK FLEX MARKET • Boss Prices' });
-    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
@@ -686,7 +685,6 @@ client.on('messageCreate', async (message) => {
           .setDescription(arb.products.map(p => `**${p[0]}** — ${p[1]}\n${p[2]}`).join('\n\n'))
           .setFooter({ text: 'ARK FLEX MARKET • ARB' })
       ],
-      components: [makeButtonRow()]
     });
 
     return;
@@ -732,7 +730,7 @@ client.on('messageCreate', async (message) => {
         '**Just open up a ticket!**'
       )
       .setFooter({ text: 'ARK FLEX MARKET • Crafting' });
-    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
@@ -746,7 +744,7 @@ client.on('messageCreate', async (message) => {
         '**Just open up a ticket!**'
       )
       .setFooter({ text: 'ARK FLEX MARKET • Demo' });
-    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
@@ -761,7 +759,7 @@ client.on('messageCreate', async (message) => {
         '**(For more information, open up a ticket.)**'
       )
       .setFooter({ text: 'ARK FLEX MARKET • Gacha Tower' });
-    await message.channel.send({ embeds: [embed], components: [makeButtonRow()] });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
