@@ -647,7 +647,7 @@ client.on('messageCreate', async (message) => {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
       .setTitle('Create ticket for price list')
-      .setDescription('Use the ticket button at the bottom.');
+      .setDescription('For this, please create a ticket.');
     await message.channel.send({ embeds: [embed] });
     return;
   }
