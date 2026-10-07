@@ -615,7 +615,7 @@ client.on('messageCreate', async (message) => {
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
       .setTitle('<:dust:1557299027219849236> Dust')
-      .setDescription('**Prices:**\n\n**100000 [100 slots]**  0.69 🪙\n\n**300000 [300 slots]**  1.04 🪙\n\n**900000 [900 slots]**  2.09 🪙\n\n**1800000 [1 dedi]**  3.49 🪙\n\n**3600000 [2 dedis]**  5.94 🪙\n\n**5400000 [3 dedis]**  8.04 🪙\n\n**7200000 [4 dedis]**  9.79 🪙')
+      .setDescription('**Prices:**\n\n<:dust:1557299027219849236> **100000 [100 slots]**  0.69 🪙\n\n<:dust:1557299027219849236> **300000 [300 slots]**  1.04 🪙\n\n<:dust:1557299027219849236> **900000 [900 slots]**  2.09 🪙\n\n<:dust:1557299027219849236> **1800000 [1 dedi]**  3.49 🪙\n\n<:dust:1557299027219849236> **3600000 [2 dedis]**  5.94 🪙\n\n<:dust:1557299027219849236> **5400000 [3 dedis]**  8.04 🪙\n\n<:dust:1557299027219849236> **7200000 [4 dedis]**  9.79 🪙')
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
     await message.channel.send({ embeds: [embed] });
     return;
@@ -647,7 +647,7 @@ client.on('messageCreate', async (message) => {
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
       .setTitle('<:advancedriflebul:1557294574572011560> Advanced Rifle Bullet [ARB]')
-      .setDescription('**Prices:**\n\n**10,000 [100 slots]**  0.69 🪙\n\n**30,000 [300 slots]**  1.39 🪙\n\n**90,000 [900 slots]**  3.49 🪙\n\n**180,000 [1 dedi]**  6.99 🪙\n\n**360,000 [2 dedis]**  11.89 🪙\n\n**540,000 [3 dedis]**  16.09 🪙')
+      .setDescription('**Prices:**\n\n<:advancedriflebul:1557294574572011560> **10,000 [100 slots]**  0.69 🪙\n\n<:advancedriflebul:1557294574572011560> **30,000 [300 slots]**  1.39 🪙\n\n<:advancedriflebul:1557294574572011560> **90,000 [900 slots]**  3.49 🪙\n\n<:advancedriflebul:1557294574572011560> **180,000 [1 dedi]**  6.99 🪙\n\n<:advancedriflebul:1557294574572011560> **360,000 [2 dedis]**  11.89 🪙\n\n<:advancedriflebul:1557294574572011560> **540,000 [3 dedis]**  16.09 🪙')
       .setFooter({ text: 'ARK FLEX MARKET • ARB' });
     await message.channel.send({ embeds: [embed] });
     return;
