@@ -299,9 +299,9 @@ const categories = {
   breeder: {
     title: '💠 Breeder Packs',
     products: [
-      ['Gamma PvP Pack', 'Pair $31.99\nMale only $19.60', 'Carcha or Giga • Thylacoleo • Therizinosaur • Pyromane'],
-      ['Beta PvP Pack', 'Pair $47.99\nMale only $30.00', 'Carcha or Giga • Thylacoleo • Basilisk • Velonasaur • Rex • Pyromane • Therizinosaur • Managarmr'],
-      ['Alpha PvP Pack', 'Pair $79.99\nMale only $46.39', 'Carcha • Thylacoleo • Basilisk • Velonasaur • Spino • Rex • Pyromane • Therizinosaur • Managarmr • Karkinos • Giga • Woolly Rhino • Aber Megalosaurus • Carnotaurus • Dreadmare']
+      ['Gamma PvP Pack', 'Pair $22.39\nMale only $13.72', 'Carcha or Giga • Thylacoleo • Therizinosaur • Pyromane'],
+      ['Beta PvP Pack', 'Pair $33.59\nMale only $21.00', 'Carcha or Giga • Thylacoleo • Basilisk • Velonasaur • Rex • Pyromane • Therizinosaur • Managarmr'],
+      ['Alpha PvP Pack', 'Pair $55.99\nMale only $32.47', 'Carcha • Thylacoleo • Basilisk • Velonasaur • Spino • Rex • Pyromane • Therizinosaur • Managarmr • Karkinos • Giga • Woolly Rhino • Aber Megalosaurus • Carnotaurus • Dreadmare']
     ]
   }
 };
@@ -575,37 +575,29 @@ client.once('ready', () => {
   );
 });
 
-const pricesText = `**Rockwell**
-1x Seat 14.99
-2x Seats 26.99
-3x Seats 37.49
-4x Seats 44.99
-5x Seats 52.49
-6x Seats 59.99
+const pricesText = `💠 **ROCKWELL**
+1x Seat 10.49
+2x Seats 18.89
+3x Seats 26.24
+4x Seats 31.49
+5x Seats 36.74
+6x Seats 41.99
 
-**Manticore**
-1x Seat 9.99
-2x Seats 17.99
-3x Seats 24.99
-4x Seats 29.99
-5x Seats 34.99
-6x Seats 39.99
+💠 **ISLAND BOSS PACK**
+1x Seat 17.49
+2x Seats 31.49
+3x Seats 43.74
+4x Seats 52.49
+5x Seats 61.24
+6x Seats 69.99
 
-**Island boss pack**
-1x Seat 24.99
-2x Seats 44.99
-3x Seats 62.49
-4x Seats 74.99
-5x Seats 87.49
-6x Seats 99.99
-
-**Tek cave**
-1x Seat 11.99
-2x Seats 21.99
-3x Seats 29.99
-4x Seats 35.99
-5x Seats 41.99
-6x Seats 47.99`;
+💠 **TEK CAVE**
+1x Seat 8.39
+2x Seats 15.39
+3x Seats 20.99
+4x Seats 25.19
+5x Seats 29.39
+6x Seats 33.59`;
 
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
@@ -622,7 +614,7 @@ client.on('messageCreate', async (message) => {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
-      .setTitle('<:dust:1457300122630095024> Dust <:dust:1457300122630095024>')
+      .setTitle(':1457300122630095024: Dust')
       .setDescription('**Prices:**\n\n**100000 [100 slots]**  0.69\n\n**300000 [300 slots]**  1.04\n\n**900000 [900 slots]**  2.09\n\n**1800000 [1 dedi]**  3.49\n\n**3600000 [2 dedis]**  5.94\n\n**5400000 [3 dedis]**  8.04\n\n**7200000 [4 dedis]**  9.79')
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
     await message.channel.send({ embeds: [embed] });
@@ -641,9 +633,10 @@ client.on('messageCreate', async (message) => {
   if (key === 'prices') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
-      .setTitle('Boss Prices')
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('💠 Boss Fight Prices')
       .setDescription(pricesText)
-      .setFooter({ text: 'ARK FLEX MARKET • Boss Prices' });
+      .setFooter({ text: 'ARK FLEX MARKET • Boss Fights' });
     await message.channel.send({ embeds: [embed] });
     return;
   }
@@ -653,7 +646,7 @@ client.on('messageCreate', async (message) => {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
-      .setTitle('Advanced Rifle Bullet [ARB]')
+      .setTitle(':advancedriflebul: Advanced Rifle Bullet [ARB]')
       .setDescription('**Prices:**\n\n**10,000 [100 slots]**  0.69\n\n**30,000 [300 slots]**  1.39\n\n**90,000 [900 slots]**  3.49\n\n**180,000 [1 dedi]**  6.99\n\n**360,000 [2 dedis]**  11.89\n\n**540,000 [3 dedis]**  16.09')
       .setFooter({ text: 'ARK FLEX MARKET • ARB' });
     await message.channel.send({ embeds: [embed] });
