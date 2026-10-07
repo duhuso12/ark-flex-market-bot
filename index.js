@@ -621,28 +621,14 @@ client.on('messageCreate', async (message) => {
   if (key === 'dust') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
-      .setTitle('💠 Dust')
-      .setDescription(
-        '100000 [100 slots] — 0.99 $\n' +
-        '100 slots\n\n' +
-        '300000 [300 slots] — 1.49 $\n' +
-        '300 slots\n\n' +
-        '900000 [900 slots] — 2.99 $\n' +
-        '900 slots\n\n' +
-        '1800000 [1 dedi] — 4.99 $\n' +
-        '1 dedi\n\n' +
-        '3600000 [2 dedis] — 8.49 $\n' +
-        '2 dedis\n\n' +
-        '5400000 [3 dedis] — 11.49 $\n' +
-        '3 dedis\n\n' +
-        '7200000 [4 dedis] — 13.99 $\n' +
-        '4 dedis'
-      )
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('<:dust:1457300122630095024> Dust <:dust:1457300122630095024>')
+      .setDescription('**Prices:**\n\n**100000 [100 slots]**  0.69\n\n**300000 [300 slots]**  1.04\n\n**900000 [900 slots]**  2.09\n\n**1800000 [1 dedi]**  3.49\n\n**3600000 [2 dedis]**  5.94\n\n**5400000 [3 dedis]**  8.04\n\n**7200000 [4 dedis]**  9.79')
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
-
     await message.channel.send({ embeds: [embed] });
     return;
   }
+
   if (key === 'soon') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
@@ -664,29 +650,13 @@ client.on('messageCreate', async (message) => {
 
   // ARB command
   if (key === 'arb') {
-    const arb = {
-      title: '💠 Advanced Rifle Bullet [ARB]',
-      products: [
-        ['10,000 ARB', '$0.79', '100 slots'],
-        ['30,000 ARB', '$1.59', '300 slots'],
-        ['90,000 ARB', '$3.99', '900 slots'],
-        ['180,000 ARB', '$7.99', '1 dedi'],
-        ['360,000 ARB', '$13.59', '2 dedis'],
-        ['540,000 ARB', '$18.39', '3 dedis']
-      ]
-    };
-
-    await message.channel.send({
-      embeds: [
-        new EmbedBuilder()
-          .setColor(config.embedColor)
-          .setAuthor({ name: 'Small Tribes Crossplay' })
-          .setTitle('💠 Advanced Rifle Bullet [ARB]')
-          .setDescription(arb.products.map(p => `**${p[0]}** — ${p[1]}\n${p[2]}`).join('\n\n'))
-          .setFooter({ text: 'ARK FLEX MARKET • ARB' })
-      ],
-    });
-
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'Small Tribes Crossplay' })
+      .setTitle('Advanced Rifle Bullet [ARB]')
+      .setDescription('**Prices:**\n\n**10,000 [100 slots]**  0.69\n\n**30,000 [300 slots]**  1.39\n\n**90,000 [900 slots]**  3.49\n\n**180,000 [1 dedi]**  6.99\n\n**360,000 [2 dedis]**  11.89\n\n**540,000 [3 dedis]**  16.09')
+      .setFooter({ text: 'ARK FLEX MARKET • ARB' });
+    await message.channel.send({ embeds: [embed] });
     return;
   }
 
