@@ -37,157 +37,157 @@ const categories = {
   pvp: {
     title: '💠 PvP Dinos',
     products: [
-            ['Cap Unicorn', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '48 HP • 50+230 DMG'],
-      ['Cap Carcharodontosaurus', 'Male or Female $5.25 🪙\nPair $8.75 🪙', '51 HP • 51+254 DMG'],
-      ['Cap Therizinosaur', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '53+42 HP • 59+230 DMG'],
-      ['Cap Thylacoleo', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '54+254 HP'],
-      ['Cap Rexs', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '61+80 HP • 56+192 DMG'],
-      ['Cap Pyromanes', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '52+16 HP • 53+200 DMG'],
-      ['Cap Basilisk', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '58+40 HP • 62+192 DMG'],
-      ['Cap Dreadmare', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '50+200 HP • 50+38 Weight'],
-      ['Cap Aber Megalosaurus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '52+70 HP • 53+73 DMG'],
-      ['Cap Aber Carnotaurus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '45+200 HP'],
-      ['Cap Aberrant Spino', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '54+24 HP • 48+124 DMG'],
-      ['Cap Velonasaurs', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '49 HP • 44 STAM • 58+232 DMG'],
-      ['Cap Managarmrs', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '55+0 HP • 54+20 STAM • 55+200 DMG'],
-      ['Karkinos', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '62+100 HP'],
-      ['Ossidon', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '49+60 HP • 49+60 DMG'],
-      ['Cap Wyverns', 'Male or Female $5.25 🪙\nPair $8.75 🪙', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
+            ['Cap Unicorn', 'Male or Female $3.99\nPair $6.39', '48 HP • 50+230 DMG'],
+      ['Cap Carcharodontosaurus', 'Male or Female $6.00\nPair $10.00', '51 HP • 51+254 DMG'],
+      ['Cap Therizinosaur', 'Male or Female $3.99\nPair $6.39', '53+42 HP • 59+230 DMG'],
+      ['Cap Thylacoleo', 'Male or Female $3.99\nPair $6.39', '54+254 HP'],
+      ['Cap Rexs', 'Male or Female $3.99\nPair $6.39', '61+80 HP • 56+192 DMG'],
+      ['Cap Pyromanes', 'Male or Female $3.99\nPair $6.39', '52+16 HP • 53+200 DMG'],
+      ['Cap Basilisk', 'Male or Female $3.99\nPair $6.39', '58+40 HP • 62+192 DMG'],
+      ['Cap Dreadmare', 'Male or Female $3.99\nPair $6.39', '50+200 HP • 50+38 Weight'],
+      ['Cap Aber Megalosaurus', 'Male or Female $3.99\nPair $6.39', '52+70 HP • 53+73 DMG'],
+      ['Cap Aber Carnotaurus', 'Male or Female $3.99\nPair $6.39', '45+200 HP'],
+      ['Cap Aberrant Spino', 'Male or Female $3.99\nPair $6.39', '54+24 HP • 48+124 DMG'],
+      ['Cap Velonasaurs', 'Male or Female $3.99\nPair $6.39', '49 HP • 44 STAM • 58+232 DMG'],
+      ['Cap Managarmrs', 'Male or Female $3.99\nPair $6.39', '55+0 HP • 54+20 STAM • 55+200 DMG'],
+      ['Karkinos', 'Male or Female $3.99\nPair $6.39', '62+100 HP'],
+      ['Ossidon', 'Male or Female $3.99\nPair $6.39', '49+60 HP • 49+60 DMG'],
+      ['Cap Wyverns', 'Male or Female $6.00\nPair $10.00', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
     ]
   },
 
   water: {
     title: '💠 Water Dinos',
     products: [
-      ['Plesiosaur', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '62+130 HP'],
-      ['Shastasaurus', 'Male or Female $5.25 🪙\nPair $8.75 🪙', '51+254 HP Clone\n58+88 HP'],
-      ['Cap Xiphactinus [387 LvL]', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '24390 Health • 839% Damage'],
-      ['Cap Basilosaurus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '69+254 HP'],
-      ['Cap Megalodon', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '68+254 HP'],
-      ['Cap Baryonyx [364 LvL]', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '65+254 HP'],
-      ['Cap Tuso [376 LvL]', 'Male or Female $5.25 🪙\nPair $8.75 🪙', '62+38 HP • 69+186 DMG'],
-      ['Cap Deinosuchus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '55+22 HP • 65+218 DMG'],
+      ['Plesiosaur', 'Male or Female $3.99\nPair $6.39', '62+130 HP'],
+      ['Shastasaurus', 'Male or Female $6.00\nPair $10.00', '51+254 HP Clone\n58+88 HP'],
+      ['Cap Xiphactinus [387 LvL]', 'Male or Female $3.99\nPair $6.39', '24390 Health • 839% Damage'],
+      ['Cap Basilosaurus', 'Male or Female $3.99\nPair $6.39', '69+254 HP'],
+      ['Cap Megalodon', 'Male or Female $3.99\nPair $6.39', '68+254 HP'],
+      ['Cap Baryonyx [364 LvL]', 'Male or Female $3.99\nPair $6.39', '65+254 HP'],
+      ['Cap Tuso [376 LvL]', 'Male or Female $6.00\nPair $10.00', '62+38 HP • 69+186 DMG'],
+      ['Cap Deinosuchus', 'Male or Female $3.99\nPair $6.39', '55+22 HP • 65+218 DMG'],
     ]
   },
 
   flyers: {
     title: '💠 Flyers',
     products: [
-      ['Cap Quetzal [378 LvL]', 'Male or Female $5.25 🪙\nPair $8.75 🪙', '63240 Health • 305 pts'],
-      ['Cap Tapejara', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '53+254 HP'],
-      ['Cap Pteranodons', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '2 variants available'],
-      ['Cap Wyverns', 'Male or Female $5.25 🪙\nPair $8.75 🪙', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
-      ['Cap Griffins', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '45+40 HP • 54+152 DMG'],
-      ['Cap Desmodus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', 'V1: 53+254 HP • V2: 53+50 HP / 62+142 DMG'],
-      ['Gigadesmodus', 'Male or Female $5.25 🪙\nPair $8.75 🪙', '14585 • 429%'],
-      ['Aureliax', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '42160 Health'],
-      ['Argentavis', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '49+20 HP • 49+14 STAM • 59+14 Weight • 58+16 DMG']
+      ['Cap Quetzal [378 LvL]', 'Male or Female $6.00\nPair $10.00', '63240 Health • 305 pts'],
+      ['Cap Tapejara', 'Male or Female $3.99\nPair $6.39', '53+254 HP'],
+      ['Cap Pteranodons', 'Male or Female $2.39\nPair $3.99', '2 variants available'],
+      ['Cap Wyverns', 'Male or Female $6.00\nPair $10.00', 'Fire Wyvern: 48+150 HP • 41 STAM • 46+12 DMG\n\nPoison Wyvern: 43+94 HP • 41 STAM • 44+156 DMG\n\nLightning Wyvern: 56+62 HP • 45 STAM • 51+136 DMG\n\nAggro Lightning Wyvern: 56+74 HP • 51+208 DMG'],
+      ['Cap Griffins', 'Male or Female $3.99\nPair $6.39', '45+40 HP • 54+152 DMG'],
+      ['Cap Desmodus', 'Male or Female $3.99\nPair $6.39', 'V1: 53+254 HP • V2: 53+50 HP / 62+142 DMG'],
+      ['Gigadesmodus', 'Male or Female $6.00\nPair $10.00', '14585 • 429%'],
+      ['Aureliax', 'Male or Female $3.99\nPair $6.39', '42160 Health'],
+      ['Argentavis', 'Male or Female $2.39\nPair $3.99', '49+20 HP • 49+14 STAM • 59+14 Weight • 58+16 DMG']
     ]
   },
 
   farm: {
     title: '💠 Farm Dinos',
     products: [
-      ['Cap Mantis', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '54 HP • 52+202 DMG'],
-      ['Cap Ankylosaurus', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '51+254 DMG'],
-      ['Karkinos', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '62+100 HP'],
-      ['Cap Ovis', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '51+254 HP'],
-      ['Gachas', 'Male or Female $2.09 🪙\nPair $3.49 🪙', 'Multiple variants available'],
+      ['Cap Mantis', 'Male or Female $2.39\nPair $3.99', '54 HP • 52+202 DMG'],
+      ['Cap Ankylosaurus', 'Male or Female $2.39\nPair $3.99', '51+254 DMG'],
+      ['Karkinos', 'Male or Female $3.99\nPair $6.39', '62+100 HP'],
+      ['Cap Ovis', 'Male or Female $2.39\nPair $3.99', '51+254 HP'],
+      ['Gachas', 'Male or Female $2.39\nPair $3.99', 'Multiple variants available'],
     ]
   },
 
   support: {
     title: '💠 Supports',
     products: [
-      ['Reaper', '1 clone $3.49 🪙\n6 clones $6.99 🪙\n20 clones $20.99 🪙', '59 HP • 36 DMG'],
-      ['Maeguana', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '64+26 HP • 62+102 Food'],
-      ['Gloon', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '44 HP • 51+200 DMG'],
-      ['Cap Yutyrannus [384 LvL]', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '58+254 HP'],
-      ['Cap Yi Ling [389 LvL]', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '51+254 HP'],
-      ['Cap Arthropluera', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '62+254 DMG'],
-      ['Cap Veilwyn', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '57+96 HP • 52+118 DMG'],
-      ['Cap Deinonychus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '34+254 HP • 36+28 DMG'],
-      ['Cap Daeodon', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '61+254 Food'],
-      ['Cap Terror Bird', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '53+254 HP'],
-      ['Cap Drakeling', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '55+102 HP'],
-      ['Tideup', 'Male or Female $2.79 🪙\nPair $4.89 🪙', '43 Food'],
+      ['Reaper', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '59 HP • 36 DMG'],
+      ['Maeguana', 'Male or Female $2.39\nPair $3.99', '64+26 HP • 62+102 Food'],
+      ['Gloon', 'Male or Female $3.99\nPair $6.39', '44 HP • 51+200 DMG'],
+      ['Cap Yutyrannus [384 LvL]', 'Male or Female $3.99\nPair $6.39', '58+254 HP'],
+      ['Cap Yi Ling [389 LvL]', 'Male or Female $3.99\nPair $6.39', '51+254 HP'],
+      ['Cap Arthropluera', 'Male or Female $3.99\nPair $6.39', '62+254 DMG'],
+      ['Cap Veilwyn', 'Male or Female $3.99\nPair $6.39', '57+96 HP • 52+118 DMG'],
+      ['Cap Deinonychus', 'Male or Female $3.99\nPair $6.39', '34+254 HP • 36+28 DMG'],
+      ['Cap Daeodon', 'Male or Female $3.99\nPair $6.39', '61+254 Food'],
+      ['Cap Terror Bird', 'Male or Female $2.39\nPair $3.99', '53+254 HP'],
+      ['Cap Drakeling', 'Male or Female $3.99\nPair $6.39', '55+102 HP'],
+      ['Tideup', 'Male or Female $3.19\nPair $5.59', '43 Food'],
     ]
   },
 
   soakers: {
     title: '💠 Soakers',
     products: [
-      ['Cap Carbonemys', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '40950 Health [66+254=320p]'],
-      ['Cap Stegosaurus', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '63+254 HP'],
-      ['Cap Paraceratherium', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '60+254 HP'],
-      ['Cap Gasbags', 'Male or Female $3.49 🪙\nPair $5.59 🪙', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
-      ['Dreadnoughtus', 'Male or Female $5.25 🪙\nPair $8.75 🪙', 'V1: 50+254 HP\n\nV2: 50+152 HP • 51+124 DMG']
+      ['Cap Carbonemys', 'Male or Female $2.39\nPair $3.99', '40950 Health [66+254=320p]'],
+      ['Cap Stegosaurus', 'Male or Female $3.99\nPair $6.39', '63+254 HP'],
+      ['Cap Paraceratherium', 'Male or Female $3.99\nPair $6.39', '60+254 HP'],
+      ['Cap Gasbags', 'Male or Female $3.99\nPair $6.39', '32370 Health [50+194=244p]\n9550 Oxygen [41+54=95p]\n3060 Stamina [41p]'],
+      ['Dreadnoughtus', 'Male or Female $6.00\nPair $10.00', 'V1: 50+254 HP\n\nV2: 50+152 HP • 51+124 DMG']
     ]
   },
     mix: {
     title: '💠 Mix / Random',
     products: [
-      ['Dung Beetle [Random LvL]', '1x $1.39 🪙'],
-      ['Achatina [Random LvL]', '1x $1.39 🪙'],
-      ['Giant Bee [Random LvL]', '1x $1.39 🪙'],
-      ['Iguanodon [Random LvL]', '1x $1.39 🪙'],
-      ['Beelzebufo [Random LvL]', '1x $1.39 🪙'],
-      ['Diplocaulus [Random LvL]', '1x $1.39 🪙'],
-      ['Armadoggo [Random LvL]', '1x $1.39 🪙'],
-      ['Mammoth [Random LvL]', '1x $1.39 🪙'],
-      ['Otter [Random LvL]', '1x $1.39 🪙'],
-      ['Gachas', 'Male or Female $2.09 🪙\nPair $3.49 🪙', 'Multiple variants available'],
-      ['Maeguana', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '64+26 HP • 62+102 Food'],
-      ['Oviraptor [338 LvL]', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '262 Weight'],
-      ['Pegomastax [343 LvL]', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '139 Weight'],
-      ['Procoptodon', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '1199 Weight'],
-      ['Pelagornis', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '475% Damage'],
-      ['Dunkleosteus', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '2 variants available'],
-      ['Anglerfish', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '851% Damage'],
-      ['Fasolasuchus', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '972 Weight • 425% Damage'],
-      ['Doedicurus', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '704% Damage'],
-      ['Deinotherium', 'Male or Female $2.09 🪙\nPair $3.49 🪙', '16450 Health']
+      ['Dung Beetle [Random LvL]', '1x $1.59'],
+      ['Achatina [Random LvL]', '1x $1.59'],
+      ['Giant Bee [Random LvL]', '1x $1.59'],
+      ['Iguanodon [Random LvL]', '1x $1.59'],
+      ['Beelzebufo [Random LvL]', '1x $1.59'],
+      ['Diplocaulus [Random LvL]', '1x $1.59'],
+      ['Armadoggo [Random LvL]', '1x $1.59'],
+      ['Mammoth [Random LvL]', '1x $1.59'],
+      ['Otter [Random LvL]', '1x $1.59'],
+      ['Gachas', 'Male or Female $2.39\nPair $3.99', 'Multiple variants available'],
+      ['Maeguana', 'Male or Female $2.39\nPair $3.99', '64+26 HP • 62+102 Food'],
+      ['Oviraptor [338 LvL]', 'Male or Female $2.39\nPair $3.99', '262 Weight'],
+      ['Pegomastax [343 LvL]', 'Male or Female $2.39\nPair $3.99', '139 Weight'],
+      ['Procoptodon', 'Male or Female $2.39\nPair $3.99', '1199 Weight'],
+      ['Pelagornis', 'Male or Female $2.39\nPair $3.99', '475% Damage'],
+      ['Dunkleosteus', 'Male or Female $2.39\nPair $3.99', '2 variants available'],
+      ['Anglerfish', 'Male or Female $2.39\nPair $3.99', '851% Damage'],
+      ['Fasolasuchus', 'Male or Female $2.39\nPair $3.99', '972 Weight • 425% Damage'],
+      ['Doedicurus', 'Male or Female $2.39\nPair $3.99', '704% Damage'],
+      ['Deinotherium', 'Male or Female $2.39\nPair $3.99', '16450 Health']
     ]
   },
 
   eggs: {
     title: '💠 Eggs & Embryos',
     products: [
-      ['Eggs — 30', '30 Eggs $4.19 🪙', '3x Different dinos'],
-      ['Eggs — 50', '50 Eggs $5.59 🪙', '5x Different dinos'],
-      ['Eggs — 100', '100 Eggs $7.00 🪙', '10x Different dinos'],
-      ['Eggs — 200', '200 Eggs $14.00 🪙', '20x Different dinos'],
-      ['Eggs — 300', '300 Eggs $21.00 🪙', '30x Different dinos'],
-      ['Embryos — 10', '10 Embryos $7.88 🪙', '1x Dino'],
-      ['Embryos — 30', '30 Embryos $18.38 🪙', '3x Different dinos'],
-      ['Embryos — 50', '50 Embryos $26.25 🪙', '5x Different dinos'],
-      ['Embryos — 100', '100 Embryos $10.50 🪙', '10x Different dinos'],
-      ['Embryos — 200', '200 Embryos $21.00 🪙', '20x Different dinos'],
-      ['Embryos — 300', '300 Embryos $28.00 🪙', '30x Different dinos']
+      ['Eggs — 30', '30 Eggs $5.99', '3x Different dinos'],
+      ['Eggs — 50', '50 Eggs $7.99', '5x Different dinos'],
+      ['Eggs — 100', '100 Eggs $10.00', '10x Different dinos'],
+      ['Eggs — 200', '200 Eggs $20.00', '20x Different dinos'],
+      ['Eggs — 300', '300 Eggs $30.00', '30x Different dinos'],
+      ['Embryos — 10', '10 Embryos $11.25', '1x Dino'],
+      ['Embryos — 30', '30 Embryos $26.25', '3x Different dinos'],
+      ['Embryos — 50', '50 Embryos $37.50', '5x Different dinos'],
+      ['Embryos — 100', '100 Embryos $15.00', '10x Different dinos'],
+      ['Embryos — 200', '200 Embryos $30.00', '20x Different dinos'],
+      ['Embryos — 300', '300 Embryos $40.00', '30x Different dinos']
     ]
   },
 
   cloners: {
     title: '💠 Cloners',
     products: [
-      ['Phoenix', '1 clone $3.49 🪙\n6 clones $12.25 🪙\n20 clones $34.99 🪙', '6 LvL • Purple'],
-      ['Karkinos', '1 clone $3.49 🪙\n6 clones $6.99 🪙\n20 clones $20.99 🪙', '1 LvL'],
-      ['Reaper', '1 clone $3.49 🪙\n6 clones $6.99 🪙\n20 clones $20.99 🪙', '3 LvL'],
-      ['Tek Giga Female', '1 clone $3.49 🪙\n6 clones $6.99 🪙\n20 clones $20.99 🪙', '1 LvL']
+      ['Phoenix', '1 clone $3.99\n6 clones $14.00\n20 clones $39.99', '6 LvL • Purple'],
+      ['Karkinos', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '1 LvL'],
+      ['Reaper', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '3 LvL'],
+      ['Tek Giga Female', '1 clone $3.99\n6 clones $7.99\n20 clones $23.99', '1 LvL']
     ]
   },
 
   ffa: {
     title: '💠 FFA Cryofridges',
     products: [
-      ['Fridges of Flyers', 'Pteras $24.49 🪙\nTapejaras $27.99 🪙\nQuetzals $34.99 🪙\nWyverns $31.49 🪙\nSnow Owl $24.49 🪙\nGriffin $27.99 🪙\nDesmodus $27.99 🪙', 'Top Stats'],
-      ['Fridges of DPS', 'Gigas $41.99 🪙\nCarchas $41.99 🪙\nTherizino $24.49 🪙\nThyla $31.49 🪙\nRex $24.49 🪙\nPyro $24.49 🪙\nBasilisk $27.99 🪙\nMegalos $24.49 🪙\nCarno $24.49 🪙\nSpino $31.49 🪙\nMana $34.99 🪙\nKarki $38.49 🪙', 'Top Stats'],
-      ['Fridges of Supports', 'Yuty $38.49 🪙\nYi Ling $17.49 🪙\nDaeodon $34.99 🪙\nArthro $27.99 🪙\nDimorph $24.49 🪙\nDeinonychus $24.49 🪙\nBeelzebufo $24.49 🪙\nOvis $20.99 🪙', 'Top Stats'],
-      ['Fridges of Waters', 'Plesio $38.49 🪙\nShasta $62.99 🪙\nXipha $20.99 🪙\nBasilo $31.49 🪙\nMegalodon $31.49 🪙\nBary $27.99 🪙\nTuso $34.99 🪙', 'Top Stats'],
-      ['Fridges of Soakers', 'Carbo $17.49 🪙\nStego $20.99 🪙\nParacer $31.49 🪙\nDread $41.99 🪙', 'Top Stats'],
-      ['Fridges of Mixs', 'Random $34.99 🪙', 'Top Stats'],
-      ['Small Dinos', '1x FFA $0.69 🪙\n12x FFAs $4.19 🪙\n36x FFAs $8.75 🪙', '1 imprint during the event'],
-      ['Large Dinos', '1x FFA $1.39 🪙\n12x FFAs $10.49 🪙\n36x FFAs $17.15 🪙', '2–3 imprints during the event']
+      ['Fridges of Flyers', 'Pteras $27.99\nTapejaras $31.99\nQuetzals $39.99\nWyverns $35.99\nSnow Owl $27.99\nGriffin $31.99\nDesmodus $31.99', 'Top Stats'],
+      ['Fridges of DPS', 'Gigas $47.99\nCarchas $47.99\nTherizino $27.99\nThyla $35.99\nRex $27.99\nPyro $27.99\nBasilisk $31.99\nMegalos $27.99\nCarno $27.99\nSpino $35.99\nMana $39.99\nKarki $43.99', 'Top Stats'],
+      ['Fridges of Supports', 'Yuty $43.99\nYi Ling $19.99\nDaeodon $39.99\nArthro $31.99\nDimorph $27.99\nDeinonychus $27.99\nBeelzebufo $27.99\nOvis $23.99', 'Top Stats'],
+      ['Fridges of Waters', 'Plesio $43.99\nShasta $71.99\nXipha $23.99\nBasilo $35.99\nMegalodon $35.99\nBary $31.99\nTuso $39.99', 'Top Stats'],
+      ['Fridges of Soakers', 'Carbo $19.99\nStego $23.99\nParacer $35.99\nDread $47.99', 'Top Stats'],
+      ['Fridges of Mixs', 'Random $39.99', 'Top Stats'],
+      ['Small Dinos', '1x FFA $0.79\n12x FFAs $4.79\n36x FFAs $10.00', '1 imprint during the event'],
+      ['Large Dinos', '1x FFA $1.59\n12x FFAs $11.99\n36x FFAs $19.60', '2–3 imprints during the event']
     ]
   },
 
@@ -201,110 +201,196 @@ const categories = {
   resources: {
     title: '💠 Resources',
     products: [
-      [' Blue | Green Gems ', '30000 [300 slots] $2.79 🪙\n180000 [1800 slots] $6.99 🪙', ''],
-      [' Sulfur ', '10000 [100 slots] $2.79 🪙\n30000 [300 slots] $6.29 🪙', ''],
-      [' Chitin ', '180000 [1800 slots] $2.09 🪙', ''],
-      [' Silk ', '10000 [100 slots] $2.09 🪙\n30000 [300 slots] $6.29 🪙', ''],
-      [' Oil ', '30000 [300 slots] $2.79 🪙\n180000 [1800 slots] $9.79 🪙', ''],
-      [' Sap ', '3000 [100 slots] $1.39 🪙\n9000 [300 slots] $3.49 🪙', ''],
-      [' Hide ', '60000 [300 slots] $1.39 🪙\n360000 [1800 slots] $3.49 🪙', ''],
-      [' Silica Pearls ', '30000 [300 slots] $1.39 🪙\n180000 [1800 slots] $4.89 🪙', ''],
-      [' Electronics ', '30000 [300 slots] $3.49 🪙\n180000 [1800 slots] $13.99 🪙', ''],
-      [' Crystal ', '30000 [300 slots] $1.39 🪙\n180000 [1800 slots] $4.19 🪙', ''],
-      [' Cementing Paste ', '30000 [300 slots] $2.09 🪙\n180000 [1800 slots] $6.99 🪙', ''],
-      [' Black Pearls ', '60000 [300 slots] $3.49 🪙\n360000 [1800 slots] $13.99 🪙', ''],
-      [' Hard Polymer ', '30000 [300 slots] $3.49 🪙\n180000 [1800 slots] $10.49 🪙', ''],
-      [' Metal Ingots ', '90000 [300 slots] $1.39 🪙\n540000 [1800 slots] $6.99 🪙', '']
+      [' Blue | Green Gems ', '30000 [300 slots] $3.19\n180000 [1800 slots] $7.99', ''],
+      [' Sulfur ', '10000 [100 slots] $3.19\n30000 [300 slots] $7.19', ''],
+      [' Chitin ', '180000 [1800 slots] $2.39', ''],
+      [' Silk ', '10000 [100 slots] $2.39\n30000 [300 slots] $7.19', ''],
+      [' Oil ', '30000 [300 slots] $3.19\n180000 [1800 slots] $11.19', ''],
+      [' Sap ', '3000 [100 slots] $1.59\n9000 [300 slots] $3.99', ''],
+      [' Hide ', '60000 [300 slots] $1.59\n360000 [1800 slots] $3.99', ''],
+      [' Silica Pearls ', '30000 [300 slots] $1.59\n180000 [1800 slots] $5.59', ''],
+      [' Electronics ', '30000 [300 slots] $3.99\n180000 [1800 slots] $15.99', ''],
+      [' Crystal ', '30000 [300 slots] $1.59\n180000 [1800 slots] $4.79', ''],
+      [' Cementing Paste ', '30000 [300 slots] $2.39\n180000 [1800 slots] $7.99', ''],
+      [' Black Pearls ', '60000 [300 slots] $3.99\n360000 [1800 slots] $15.99', ''],
+      [' Hard Polymer ', '30000 [300 slots] $3.99\n180000 [1800 slots] $11.99', ''],
+      [' Metal Ingots ', '90000 [300 slots] $1.59\n540000 [1800 slots] $7.99', '']
     ]
   },
 
   structures: {
     title: '💠 Structures',
     products: [
-      [' Metal Foundations ', '100x = $1.39 🪙', ''],
-      ['<:wall:1557345711216009276> Metal Walls', '100x = $0.69 🪙', ''],
-      ['<:ceiling:1557345740827926559> Metal Ceilings', '100x = $1.04 🪙', ''],
-      ['<:trianglefoundation:1557345761472028774> Metal Triangle Foundations', '100x = $0.69 🪙', ''],
-      ['<:pillar:1557345785308389488> Metal Pilars', '100x = $0.69 🪙', ''],
-      ['<:gate:1557345192405893161> Metal Gateways', '100x = $3.49 🪙', ''],
-      ['<:cliff:1557345926732062790> Metal Cliff Platforms', '3x = $1.25 🪙', ''],
-      ['<:forge:1557345806632099890> Industrial Forges', '1x = $0.34 🪙', ''],
-      ['<:chemistrybench:1557345824621469736> Chemistry Benchs', '1x = $0.34 🪙', ''],
-      ['<:cooker:1557345107072655380> Industrial Cookers', '1x = $0.34 🪙', ''],
-      ['<:grinder:1557345242259136562> Industrial Grinders', '1x = $0.34 🪙', ''],
-      ['<:industrialgrill:1557345131009544223> Industrial Grills', '1x = $0.08 🪙', ''],
-      ['<:fridge:1557345088495951942> Refrigerators', '1x = $0.08 🪙', ''],
-      [' Vaults ', '1x = $0.18 🪙', ''],
-      ['<:airconditioner:1557345172243750923> Air Conditioners', '1x = $0.06 🪙', ''],
-      ['<:electricalgenerator:1557345261225779257> Electrical Generators', '1x = $0.06 🪙', ''],
-      ['<:cryofridge:1557345853872545832> Cryofridges', '1x = $0.06 🪙', ''],
-      ['<:motorboat:1557345225507213423> Motorboats', '1x = $1.04 🪙', ''],
-      ['<:zeppelin:1557345282142769152> Zeppelins', '1x = $0.49 🪙', ''],
-      [' Clockfaces ', '1x = $0.49 🪙', ''],
-      ['<:linked:1557345299507191892> Linked Storage Boxs', '1x = $0.49 🪙', ''],
-      ['<:steamforges:1557345905148174366> Steam Forges', '1x = $1.04 🪙', ''],
-      ['<:megalab:1557346107884052561> Makeshift Megalab', '1x = $0.49 🪙', ''],
-      ['<:embryoincubator:1557346045287993504> Embryo Incubators', '1x = $0.49 🪙', ''],
-      ['<:sir:1557345318121771038> Sir5RM8', '1x = $0.69 🪙', ''],
-      ['<:genescanner:1557346087466045470> Gene Scanners', '1x = $0.49 🪙', ''],
-      ['<:genestorage:1557345335699836968> Gene Storages', '1x = $0.49 🪙', ''],
-      ['<:preservingbins:1557345354553237504> Industrial Preserving Bins', '1x = $0.49 🪙', ''],
-      ['<:tinkeringdesk:1557345373347905656> Tinkering Desks', '1x = $0.49 🪙', ''],
-      [' Bio Grinder ', '1x = $0.49 🪙', ''],
-      [' Library Storage ', '1x = $0.49 🪙', ''],
-      [' Battlerig Garage ', '1x = $0.49 🪙', '']
+      [' Metal Foundations ', '100x = $1.59', ''],
+      [' Metal Walls ', '100x = $0.79', ''],
+      [' Metal Ceilings ', '100x = $1.19', ''],
+      [' Metal Triangle Foundations ', '100x = $0.79', ''],
+      [' Metal Pilars ', '100x = $0.79', ''],
+      [' Metal Gateways ', '100x = $3.99', ''],
+      [' Metal Cliff Platforms ', '3x = $1.43', ''],
+      [' Industrial Forges ', '1x = $0.39', ''],
+      [' Chemistry Benchs ', '1x = $0.39', ''],
+      [' Industrial Cookers ', '1x = $0.39', ''],
+      [' Industrial Grinders ', '1x = $0.39', ''],
+      [' Industrial Grills ', '1x = $0.08', ''],
+      [' Refrigerators ', '1x = $0.08', ''],
+      [' Vaults ', '1x = $0.20', ''],
+      [' Air Conditioners ', '1x = $0.07', ''],
+      [' Electrical Generators ', '1x = $0.07', ''],
+      [' Cryofridges ', '1x = $0.07', ''],
+      [' Motorboats ', '1x = $1.19', ''],
+      [' Zeppelins ', '1x = $0.55', ''],
+      [' Clockfaces ', '1x = $0.55', ''],
+      [' Linked Storage Boxs ', '1x = $0.55', ''],
+      [' Steam Forges ', '1x = $1.19', ''],
+      [' Makeshift Megalab ', '1x = $0.55', ''],
+      [' Embryo Incubators ', '1x = $0.55', ''],
+      [' Sir5RM8 ', '1x = $0.79', ''],
+      [' Gene Scanners ', '1x = $0.55', ''],
+      [' Gene Storages ', '1x = $0.55', ''],
+      [' Industrial Preserving Bins ', '1x = $0.55', ''],
+      [' Tinkering Desks ', '1x = $0.55', ''],
+      [' Bio Grinder ', '1x = $0.55', ''],
+      [' Library Storage ', '1x = $0.55', ''],
+      [' Battlerig Garage ', '1x = $0.55', '']
     ]
   },
 
   tekstructures: {
     title: '💠 Tek Structures',
     products: [
-      [' Tek Foundations ', '100x = $1.39 🪙'],
-      [' Tek Walls ', '100x = $0.69 🪙'],
-      [' Tek Ceilings ', '100x = $1.04 🪙'],
-      [' Tek Triangle Foundations ', '100x = $0.69 🪙'],
-      [' Tek Pillars ', '100x = $0.69 🪙'],
-      [' Tek Gateways ', '100x = $3.49 🪙'],
-      [' Vacuum Compartments ', '5x = $1.39 🪙'],
-      [' Tek Troughs ', '1x = $1.04 🪙'],
-      [' Small Tek Teleporters ', '1x = $1.04 🪙'],
-      [' Medium Tek Teleporters ', '1x = $1.74 🪙'],
-      [' Large Tek Teleporters ', '1x = $3.14 🪙'],
-      [' Tek Generators ', '1x = $1.74 🪙'],
-      [' Tek Replicators ', '1x = $3.14 🪙'],
-      [' Tek Transmiters ', '1x = $2.44 🪙'],
-      [' Tek Forcefields ', '1x = $3.14 🪙'],
-      [' Cloning Chambers ', '1x = $3.14 🪙'],
-      [' Tek Dedicated Storages ', '10x = $0.69 🪙'],
-      [' Tek Sleeping Pods ', '1x = $0.14 🪙'],
-      [' Behemoth Tek Cellar Doors ', '100x = $2.09 🪙'],
-      [' Tek Crop Plots ', '10x = $0.69 🪙'],
-      [' Tek Sensor ', '1x = $0.34 🪙'],
-      [' Tek Hover Skiff ', '1x = $3.49 🪙'],
-      [' Tek Jump Pad ', '1x = $0.34 🪙']
+      [' Tek Foundations ', '100x = $1.59'],
+      [' Tek Walls ', '100x = $0.79'],
+      [' Tek Ceilings ', '100x = $1.19'],
+      [' Tek Triangle Foundations ', '100x = $0.79'],
+      [' Tek Pillars ', '100x = $0.79'],
+      [' Tek Gateways ', '100x = $3.99'],
+      [' Vacuum Compartments ', '5x = $1.59'],
+      [' Tek Troughs ', '1x = $1.19'],
+      [' Small Tek Teleporters ', '1x = $1.19'],
+      [' Medium Tek Teleporters ', '1x = $1.99'],
+      [' Large Tek Teleporters ', '1x = $3.59'],
+      [' Tek Generators ', '1x = $1.99'],
+      [' Tek Replicators ', '1x = $3.59'],
+      [' Tek Transmiters ', '1x = $2.79'],
+      [' Tek Forcefields ', '1x = $3.59'],
+      [' Cloning Chambers ', '1x = $3.59'],
+      [' Tek Dedicated Storages ', '10x = $0.79'],
+      [' Tek Sleeping Pods ', '1x = $0.15'],
+      [' Behemoth Tek Cellar Doors ', '100x = $2.39'],
+      [' Tek Crop Plots ', '10x = $0.79'],
+      [' Tek Sensor ', '1x = $0.39'],
+      [' Tek Hover Skiff ', '1x = $3.99'],
+      [' Tek Jump Pad ', '1x = $0.39']
     ]
   },
 
   turrets: {
     title: '💠 Turrets',
     products: [
-      [' Auto Turrets ', '1x = $0.14 🪙\n10x = $1.04 🪙\n100x = $6.99 🪙\n300x = $17.49 🪙'],
-      [' Bladewasp Hive Turrets ', '1x = $0.63 🪙\n10x = $5.59 🪙\n100x = $48.99 🪙\n300x = $125.99 🪙'],
-      [' Heavy Turrets ', '1x = $0.31 🪙\n10x = $3.14 🪙\n100x = $9.44 🪙\n300x = $25.19 🪙'],
-      [' Tek Turrets ', '1x = $0.31 🪙\n10x = $3.14 🪙\n100x = $9.44 🪙\n300x = $20.99 🪙'],
-      [' Tesla Turrets ', '1x = $0.31 🪙\n10x = $3.14 🪙\n100x = $18.89 🪙\n300x = $44.09 🪙']
+      [' Auto Turrets ', '1x = $0.15\n10x = $1.19\n100x = $7.99\n300x = $19.99'],
+      [' Bladewasp Hive Turrets ', '1x = $0.71\n10x = $6.39\n100x = $55.99\n300x = $143.99'],
+      [' Heavy Turrets ', '1x = $0.36\n10x = $3.59\n100x = $10.79\n300x = $28.79'],
+      [' Tek Turrets ', '1x = $0.36\n10x = $3.59\n100x = $10.79\n300x = $23.99'],
+      [' Tesla Turrets ', '1x = $0.36\n10x = $3.59\n100x = $21.59\n300x = $50.39']
     ]
   },
 
   breeder: {
     title: '💠 Breeder Packs',
     products: [
-      ['Gamma PvP Pack', 'Pair $19.59 🪙\nMale only $12.00 🪙', 'Carcha or Giga • Thylacoleo • Therizinosaur • Pyromane'],
-      ['Beta PvP Pack', 'Pair $29.39 🪙\nMale only $18.38 🪙', 'Carcha or Giga • Thylacoleo • Basilisk • Velonasaur • Rex • Pyromane • Therizinosaur • Managarmr'],
-      ['Alpha PvP Pack', 'Pair $48.99 🪙\nMale only $28.41 🪙', 'Carcha • Thylacoleo • Basilisk • Velonasaur • Spino • Rex • Pyromane • Therizinosaur • Managarmr • Karkinos • Giga • Woolly Rhino • Aber Megalosaurus • Carnotaurus • Dreadmare']
+      ['Gamma PvP Pack', 'Pair $31.99\nMale only $19.60', 'Carcha or Giga • Thylacoleo • Therizinosaur • Pyromane'],
+      ['Beta PvP Pack', 'Pair $47.99\nMale only $30.00', 'Carcha or Giga • Thylacoleo • Basilisk • Velonasaur • Rex • Pyromane • Therizinosaur • Managarmr'],
+      ['Alpha PvP Pack', 'Pair $79.99\nMale only $46.39', 'Carcha • Thylacoleo • Basilisk • Velonasaur • Spino • Rex • Pyromane • Therizinosaur • Managarmr • Karkinos • Giga • Woolly Rhino • Aber Megalosaurus • Carnotaurus • Dreadmare']
     ]
   }
 };
+
+// Shop emoji names match the uploaded Flex Market PNG filenames.
+const SHOP_EMOJIS = {
+  "resources": {
+    "Blue | Green Gems": "flex_market_blue_gem",
+    "Sulfur": "flex_market_sulfur",
+    "Chitin": "flex_market_chitin",
+    "Oil": "flex_market_oil",
+    "Sap": "flex_market_sap",
+    "Hide": "flex_market_hide",
+    "Silica Pearls": "flex_market_silica_pearls",
+    "Electronics": "flex_market_electronics",
+    "Crystal": "flex_market_crystal",
+    "Cementing Paste": "flex_market_cementing_paste",
+    "Black Pearls": "flex_market_black_pearls",
+    "Hard Polymer": "flex_market_polymer",
+    "Metal Ingots": "flex_market_metal_ingot"
+  },
+  "structures": {
+    "Metal Foundations": "flex_market_metal_foundation",
+    "Metal Walls": "flex_market_metal_wall",
+    "Metal Ceilings": "flex_market_metal_ceiling",
+    "Metal Triangle Foundations": "flex_market_metal_tri_foundation",
+    "Metal Pilars": "flex_market_metal_pillar",
+    "Metal Gateways": "flex_market_metal_gate",
+    "Metal Cliff Platforms": "flex_market_metal_cliff",
+    "Industrial Forges": "flex_market_ind_forge",
+    "Chemistry Benchs": "flex_market_chemistry_bench",
+    "Industrial Cookers": "flex_market_ind_cooker",
+    "Industrial Grinders": "flex_market_ind_grinder",
+    "Industrial Grills": "flex_market_industrial_grill",
+    "Refrigerators": "flex_market_refrigerator",
+    "Vaults": "flex_market_vault",
+    "Air Conditioners": "flex_market_air_conditioner",
+    "Electrical Generators": "flex_market_electric_generator",
+    "Cryofridges": "flex_market_cryofridge",
+    "Motorboats": "flex_market_motorboat",
+    "Zeppelins": "flex_market_zeppelin",
+    "Linked Storage Boxs": "flex_market_linked_storage",
+    "Steam Forges": "flex_market_steam_forge",
+    "Makeshift Megalab": "flex_market_makeshift_megalab",
+    "Embryo Incubators": "flex_market_embryo_incubator",
+    "Sir5RM8": "flex_market_sir_5rm8",
+    "Gene Scanners": "flex_market_gene_scanner",
+    "Gene Storages": "flex_market_gene_storage",
+    "Industrial Preserving Bins": "flex_market_ind_preserving_bin",
+    "Tinkering Desks": "flex_market_tinkering_desk"
+  },
+  "tekstructures": {
+    "Tek Foundations": "flex_market_tek_foundation",
+    "Tek Walls": "flex_market_tek_wall",
+    "Tek Troughs": "flex_market_tek_trough",
+    "Small Tek Teleporters": "flex_market_tek_teleporter",
+    "Medium Tek Teleporters": "flex_market_tek_teleporter",
+    "Large Tek Teleporters": "flex_market_tek_teleporter",
+    "Tek Generators": "flex_market_tek_generator",
+    "Tek Replicators": "flex_market_tek_replicator",
+    "Tek Transmiters": "flex_market_tek_transmitter",
+    "Tek Forcefields": "flex_market_tek_forcefield",
+    "Tek Sleeping Pods": "flex_market_tek_sleeping_pod"
+  },
+  "turrets": {
+    "Auto Turrets": "flex_market_auto_turret",
+    "Heavy Turrets": "flex_market_heavy_turret",
+    "Tek Turrets": "flex_market_tek_turret"
+  },
+  "dust": {
+    "Dust": "flex_market_element_dust"
+  }
+};
+
+function getArbEmoji(guild) {
+  if (!guild) return "";
+  for (const name of ["flex_market_arb", "arb", "ARB", "flex_market_rifle_bullet"]) {
+    const emoji = guild.emojis.cache.find(item => item.name === name && item.available !== false);
+    if (emoji) return emoji.toString();
+  }
+  return "";
+}
+
+function getShopEmoji(guild, categoryKey, productName) {
+  const name = SHOP_EMOJIS[categoryKey]?.[productName.trim()];
+  if (!name || !guild) return "";
+  const emoji = guild.emojis.cache.find(item => item.name === name && item.available !== false);
+  return emoji ? emoji.toString() : "";
+}
 
 function makeButtonRow() {
   return new ActionRowBuilder().addComponents(
@@ -501,7 +587,7 @@ function getImageUrl(name) {
   return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(file)}`;
 }
 
-function makeDinoEmbed(category, product, index, total, localImageName = null) {
+function makeDinoEmbed(category, product, index, total, localImageName = null, shopEmoji = "", isShopProduct = false) {
   const [name, price, stats] = product;
   const isSoaker = category.title.includes('Soakers');
   const isCarbonemys = name === 'Cap Carbonemys';
@@ -514,13 +600,16 @@ function makeDinoEmbed(category, product, index, total, localImageName = null) {
   const embed = new EmbedBuilder()
     .setColor(config.embedColor)
     .setAuthor({ name: 'Small Tribes Crossplay' })
-    .setTitle(displayTitle)
+    .setTitle(isShopProduct ? name.trim() : displayTitle)
     .setDescription(
+      `${shopEmoji ? `${shopEmoji} **${name.trim()}**\n\n` : ''}` +
       `${stats ? `${statsPrefix}**${stats}**\n\n` : ''}` +
       `💰 **Price:**\n` +
       `${price}`
     )
     .setFooter({ text: `ARK FLEX MARKET • ${category.title.replace('💠 ', '')} • ${index}/${total}` });
+
+  if (shopEmoji) embed.setTitle(null);
 
   if (localImageName) {
     embed.setImage(`attachment://${localImageName}`);
@@ -535,6 +624,8 @@ function makeDinoEmbed(category, product, index, total, localImageName = null) {
 async function sendCategory(message, key) {
   const category = categories[key];
   if (!category) return;
+
+  if (SHOP_EMOJIS[key] && message.guild) await message.guild.emojis.fetch();
 
   // Send each dino separately so every embed can carry its own local image.
   for (let i = 0; i < category.products.length; i++) {
@@ -554,7 +645,7 @@ async function sendCategory(message, key) {
     }
 
     const payload = {
-      embeds: [makeDinoEmbed(category, product, i + 1, category.products.length, local)]
+      embeds: [makeDinoEmbed(category, product, i + 1, category.products.length, local, getShopEmoji(message.guild, key, product[0]), Boolean(SHOP_EMOJIS[key]))]
     };
     if (local && folder) {
       payload.files = [new AttachmentBuilder(path.join(__dirname, 'assets', folder, local), { name: local })];
@@ -575,29 +666,37 @@ client.once('ready', () => {
   );
 });
 
-const pricesText = `💠 **ROCKWELL**
-1x Seat 10.49
-2x Seats 18.89
-3x Seats 26.24
-4x Seats 31.49
-5x Seats 36.74
-6x Seats 41.99
+const pricesText = `**Rockwell**
+1x Seat 14.99
+2x Seats 26.99
+3x Seats 37.49
+4x Seats 44.99
+5x Seats 52.49
+6x Seats 59.99
 
-💠 **ISLAND BOSS PACK**
-1x Seat 17.49
-2x Seats 31.49
-3x Seats 43.74
-4x Seats 52.49
-5x Seats 61.24
-6x Seats 69.99
+**Manticore**
+1x Seat 9.99
+2x Seats 17.99
+3x Seats 24.99
+4x Seats 29.99
+5x Seats 34.99
+6x Seats 39.99
 
-💠 **TEK CAVE**
-1x Seat 8.39
-2x Seats 15.39
-3x Seats 20.99
-4x Seats 25.19
-5x Seats 29.39
-6x Seats 33.59`;
+**Island boss pack**
+1x Seat 24.99
+2x Seats 44.99
+3x Seats 62.49
+4x Seats 74.99
+5x Seats 87.49
+6x Seats 99.99
+
+**Tek cave**
+1x Seat 11.99
+2x Seats 21.99
+3x Seats 29.99
+4x Seats 35.99
+5x Seats 41.99
+6x Seats 47.99`;
 
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
@@ -611,12 +710,15 @@ client.on('messageCreate', async (message) => {
     .split(/\s+/)[0];
 
   if (key === 'dust') {
+    if (message.guild) await message.guild.emojis.fetch();
+    const dustEmoji = getShopEmoji(message.guild, 'dust', 'Dust');
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
-      .setTitle('<:dust:1557299027219849236> Dust')
-      .setDescription('**Prices:**\n\n<:dust:1557299027219849236> **100000 [100 slots]**  0.69 🪙\n\n<:dust:1557299027219849236> **300000 [300 slots]**  1.04 🪙\n\n<:dust:1557299027219849236> **900000 [900 slots]**  2.09 🪙\n\n<:dust:1557299027219849236> **1800000 [1 dedi]**  3.49 🪙\n\n<:dust:1557299027219849236> **3600000 [2 dedis]**  5.94 🪙\n\n<:dust:1557299027219849236> **5400000 [3 dedis]**  8.04 🪙\n\n<:dust:1557299027219849236> **7200000 [4 dedis]**  9.79 🪙')
+      .setTitle('Dust')
+      .setDescription(`${dustEmoji ? `${dustEmoji} **Dust**\n\n` : ''}` + '**Prices:**\n\n**100000 [100 slots]**  0.69\n\n**300000 [300 slots]**  1.04\n\n**900000 [900 slots]**  2.09\n\n**1800000 [1 dedi]**  3.49\n\n**3600000 [2 dedis]**  5.94\n\n**5400000 [3 dedis]**  8.04\n\n**7200000 [4 dedis]**  9.79')
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
+    if (dustEmoji) embed.setTitle(null);
     await message.channel.send({ embeds: [embed] });
     return;
   }
@@ -633,22 +735,24 @@ client.on('messageCreate', async (message) => {
   if (key === 'prices') {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
-      .setAuthor({ name: 'Small Tribes Crossplay' })
-      .setTitle('💠 Boss Fight Prices')
+      .setTitle('Boss Prices')
       .setDescription(pricesText)
-      .setFooter({ text: 'ARK FLEX MARKET • Boss Fights' });
+      .setFooter({ text: 'ARK FLEX MARKET • Boss Prices' });
     await message.channel.send({ embeds: [embed] });
     return;
   }
 
   // ARB command
   if (key === 'arb') {
+    if (message.guild) await message.guild.emojis.fetch();
+    const arbEmoji = getArbEmoji(message.guild);
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
-      .setTitle('<:advancedriflebul:1557294574572011560> Advanced Rifle Bullet [ARB]')
-      .setDescription('**Prices:**\n\n<:advancedriflebul:1557294574572011560> **10,000 [100 slots]**  0.69 🪙\n\n<:advancedriflebul:1557294574572011560> **30,000 [300 slots]**  1.39 🪙\n\n<:advancedriflebul:1557294574572011560> **90,000 [900 slots]**  3.49 🪙\n\n<:advancedriflebul:1557294574572011560> **180,000 [1 dedi]**  6.99 🪙\n\n<:advancedriflebul:1557294574572011560> **360,000 [2 dedis]**  11.89 🪙\n\n<:advancedriflebul:1557294574572011560> **540,000 [3 dedis]**  16.09 🪙')
+      .setTitle('Advanced Rifle Bullet [ARB]')
+      .setDescription(`${arbEmoji ? `${arbEmoji} **Advanced Rifle Bullet [ARB]**\n\n` : ''}` + '**Prices:**\n\n**10,000 [100 slots]**  0.69\n\n**30,000 [300 slots]**  1.39\n\n**90,000 [900 slots]**  3.49\n\n**180,000 [1 dedi]**  6.99\n\n**360,000 [2 dedis]**  11.89\n\n**540,000 [3 dedis]**  16.09')
       .setFooter({ text: 'ARK FLEX MARKET • ARB' });
+    if (arbEmoji) embed.setTitle(null);
     await message.channel.send({ embeds: [embed] });
     return;
   }
