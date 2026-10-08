@@ -587,6 +587,18 @@ function getImageUrl(name) {
   return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(file)}`;
 }
 
+function formatShopDescription(name, price, emoji = '') {
+  const prefix = emoji ? `${emoji} ` : '';
+  const lines = price.split(/\n+/).filter(line => line.trim()).map(line => {
+    const clean = line.replace(/\*\*/g, '').trim();
+    const match = clean.match(/^(.*?)\s*(?:=\s*)?\$?\s*(\d+(?:\.\d+)?)\s*\$?$/);
+    if (!match) return `${prefix}${clean}`;
+    const quantity = match[1].replace(/\s*=\s*$/, '').trim();
+    return `${prefix}**${quantity}** ${match[2]} 🪙`;
+  });
+  return `${prefix}**${name.trim()}**\n\n**Prices:**\n\n${lines.join('\n\n')}`;
+}
+
 function makeDinoEmbed(category, product, index, total, localImageName = null, shopEmoji = "", isShopProduct = false) {
   const [name, price, stats] = product;
   const isSoaker = category.title.includes('Soakers');
@@ -601,7 +613,7 @@ function makeDinoEmbed(category, product, index, total, localImageName = null, s
     .setColor(config.embedColor)
     .setAuthor({ name: 'Small Tribes Crossplay' })
     .setTitle(isShopProduct ? name.trim() : displayTitle)
-    .setDescription(
+    .setDescription(isShopProduct ? formatShopDescription(name, price, shopEmoji) :
       `${shopEmoji ? `${shopEmoji} **${name.trim()}**\n\n` : ''}` +
       `${stats ? `${statsPrefix}**${stats}**\n\n` : ''}` +
       `💰 **Price:**\n` +
@@ -609,7 +621,7 @@ function makeDinoEmbed(category, product, index, total, localImageName = null, s
     )
     .setFooter({ text: `ARK FLEX MARKET • ${category.title.replace('💠 ', '')} • ${index}/${total}` });
 
-  if (shopEmoji) embed.setTitle(null);
+  if (isShopProduct) embed.setTitle(null);
 
   if (localImageName) {
     embed.setImage(`attachment://${localImageName}`);
@@ -716,9 +728,9 @@ client.on('messageCreate', async (message) => {
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
       .setTitle('Dust')
-      .setDescription(`${dustEmoji ? `${dustEmoji} **Dust**\n\n` : ''}` + '**Prices:**\n\n**100000 [100 slots]**  0.69\n\n**300000 [300 slots]**  1.04\n\n**900000 [900 slots]**  2.09\n\n**1800000 [1 dedi]**  3.49\n\n**3600000 [2 dedis]**  5.94\n\n**5400000 [3 dedis]**  8.04\n\n**7200000 [4 dedis]**  9.79')
+      .setDescription(formatShopDescription('Dust', '**100000 [100 slots]**  0.69\n\n**300000 [300 slots]**  1.04\n\n**900000 [900 slots]**  2.09\n\n**1800000 [1 dedi]**  3.49\n\n**3600000 [2 dedis]**  5.94\n\n**5400000 [3 dedis]**  8.04\n\n**7200000 [4 dedis]**  9.79', dustEmoji))
       .setFooter({ text: 'ARK FLEX MARKET • Dust' });
-    if (dustEmoji) embed.setTitle(null);
+    embed.setTitle(null);
     await message.channel.send({ embeds: [embed] });
     return;
   }
@@ -750,9 +762,9 @@ client.on('messageCreate', async (message) => {
       .setColor(config.embedColor)
       .setAuthor({ name: 'Small Tribes Crossplay' })
       .setTitle('Advanced Rifle Bullet [ARB]')
-      .setDescription(`${arbEmoji ? `${arbEmoji} **Advanced Rifle Bullet [ARB]**\n\n` : ''}` + '**Prices:**\n\n**10,000 [100 slots]**  0.69\n\n**30,000 [300 slots]**  1.39\n\n**90,000 [900 slots]**  3.49\n\n**180,000 [1 dedi]**  6.99\n\n**360,000 [2 dedis]**  11.89\n\n**540,000 [3 dedis]**  16.09')
+      .setDescription(formatShopDescription('Advanced Rifle Bullet [ARB]', '**10,000 [100 slots]**  0.69\n\n**30,000 [300 slots]**  1.39\n\n**90,000 [900 slots]**  3.49\n\n**180,000 [1 dedi]**  6.99\n\n**360,000 [2 dedis]**  11.89\n\n**540,000 [3 dedis]**  16.09', arbEmoji))
       .setFooter({ text: 'ARK FLEX MARKET • ARB' });
-    if (arbEmoji) embed.setTitle(null);
+    embed.setTitle(null);
     await message.channel.send({ embeds: [embed] });
     return;
   }
