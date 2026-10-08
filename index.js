@@ -721,6 +721,30 @@ client.on('messageCreate', async (message) => {
     .slice(PREFIX.length)
     .split(/\s+/)[0];
 
+  if (key === 'emojicheck') {
+    if (!message.guild) return;
+    const emojis = await message.guild.emojis.fetch();
+    const wanted = [...new Set(Object.values(SHOP_EMOJIS).flatMap(items => Object.values(items)))];
+    const lines = [
+      `Server: ${message.guild.name} (${message.guild.id})`,
+      `Bot: ${client.user.tag}`,
+      `Server-Emojis: ${emojis.size}`,
+      '',
+      'Erwartete Shop-Emojis:'
+    ];
+    for (const name of wanted) {
+      const emoji = emojis.find(item => item.name === name);
+      lines.push(emoji ? `GEFUNDEN ${name} | ID ${emoji.id} | available=${emoji.available}` : `FEHLT ${name}`);
+    }
+    lines.push('', 'Alle Emoji-Namen auf diesem Server:');
+    for (const emoji of emojis.values()) lines.push(`${emoji.name} | ${emoji.id}`);
+    await message.channel.send({
+      content: `Emoji-Prüfung: ${wanted.filter(name => emojis.some(item => item.name === name)).length}/${wanted.length} Shop-Emojis gefunden.`,
+      files: [new AttachmentBuilder(Buffer.from(lines.join('\n'), 'utf8'), { name: 'emoji-pruefung.txt' })]
+    });
+    return;
+  }
+
   if (key === 'dust') {
     if (message.guild) await message.guild.emojis.fetch();
     const dustEmoji = getShopEmoji(message.guild, 'dust', 'Dust');
