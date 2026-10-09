@@ -1,0 +1,13 @@
+Die index.js ersetzt die bisherige index.js. Andere Bot-Dateien und Dino-Assets behalten.
+
+54 vorhandene Emotes sind nach Kategorie und Shopartikel zugeordnet. Die Discord-Emotes müssen exakt wie die PNG-Dateien heißen (flex_market_...). Der Bot liest ihre IDs automatisch vom Server. Danach die Shop-Kategorien mit den bisherigen Befehlen neu posten. Vorhandene Discord-Nachrichten werden nicht nachträglich geändert.
+
+Die drei Tek-Teleporter-Größen verwenden dasselbe Teleporter-Emoji. Blue | Green Gems verwendet das vorhandene Blue-Gem-Emoji. Für Silk, Clockfaces, Bio Grinder, Library Storage, Battlerig Garage und mehrere noch fehlende Tek-/Turret-Icons bleibt die Anzeige ohne eigenes Emoji.
+
+Anzeige: Emoji + Artikelname, darunter die Preise. Auch !arb und !dust verwenden diese Anzeige. Für ARB erkennt der Bot flex_market_arb, arb, ARB oder flex_market_rifle_bullet.
+
+Format wie im Screenshot: Emoji vor Artikelname und jeder Preiszeile, Menge fett, Leerzeilen zwischen Angeboten, Münze hinter dem Preis. Bestehende Preise unverändert.
+
+Neue Kategorie PvP Kit: !pvpkit (auch !kit oder !kits). 32 Artikel inklusive Gamma-/Beta-/Alpha-Kit. Alle 143 Preisstaffeln aus der Vorlage um 30 Prozent reduziert, auf Cent gerundet. Vorhandene Item-Emojis werden per flex_market_-Name oder Originalnamen aus der Vorlage erkannt; fehlende Icons bleiben leer.
+
+Base Kits: !basekits oder !basekit. Gamma 8.40, Beta 21.00, Alpha 42.00 (30 Prozent Rabatt). Alle Kit-Mengen aus der Vorlage unverändert. Zusätzlich Custom Base Kits mit bestehendem Ticket-Link.

@@ -34,6 +34,226 @@ const PREFIX = '!';
 const TICKET_URL = 'https://discord.com/channels/1554939641507872778/1554959741724131348';
 
 const categories = {
+  armor: {
+  "title": "💠 Armor",
+  "products": [
+    [
+      "Scuba — Tank + Flippers",
+      "1x Tank + Flippers = $0.35\n12x Tank + Flippers = $1.75\n100x Tank + Flippers = $12.25\n175x Tank + Flippers [1 full vault] = $19.25",
+      "Crafted with good blueprints."
+    ],
+    [
+      "Hazard — Helmet",
+      "1x Helmets = $0.35\n24x Helmets = $6.99\n96x Helmets = $24.49\n192x Helmets = $41.99\n350x [1 full vault] Helmets = $69.99",
+      "Crafted with good blueprints."
+    ],
+    [
+      "Fur",
+      "1x Full set = $0.69\n6x Full sets = $3.49",
+      "Crafted with good blueprints."
+    ],
+    [
+      "Riot",
+      "1x Full set = $0.69\n6x Full sets = $3.49",
+      "Crafted with good blueprints."
+    ],
+    [
+      "Ghillie",
+      "1x Full set = $0.69\n6x Full sets = $3.49",
+      "Crafted with good blueprints."
+    ],
+    [
+      "Primitive Tek Suit [300 Dura]",
+      "1x Full set = $2.79\n6x Full sets = $13.99",
+      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+    ],
+    [
+      "Decent Tek Suit [300–1000 Dura]",
+      "1x Full set = $6.29\n6x Full sets = $31.49",
+      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+    ],
+    [
+      "Capped Tek Suit [1000–1500 Dura]",
+      "1x Full set = $10.49\n6x Full sets = $52.49",
+      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+    ],
+    [
+      "Cursed Capped Tek Suit [1949 Dura]",
+      "1x Full set = $12.25\n6x Full sets = $66.49",
+      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+    ],
+    [
+      "Flak Sets",
+      "1x Set = $0.35\n6x Sets = $1.75\n30x Sets = $6.99\n70x Sets [1 full vault] = $13.99\n140x Sets [2 full vaults] = $24.49\n280x Sets [3 full vaults] = $34.99\n420x Sets [4 full vaults] = $45.49\n560x Sets [5 full vaults] = $52.49",
+      "Crafted with the best blueprints.\nAll Flak has 1000+ durability."
+    ]
+  ]
+},
+  pvpkit: {
+  "title": "💠 PvP Kit",
+  "products": [
+    [
+      "Cap 298% dmg Fabricated Sniper",
+      "1 = $0.62\n6 = $3.14\n12 = $4.89\n25 = $7.87\n50 = $12.59\n100 = $22.39\n200 = $39.89\n350 = $62.99",
+      ""
+    ],
+    [
+      "Ammo for Fabricated Sniper Rifle",
+      "100 = $0.62\n1000 = $3.14\n10000 = $15.74\n20000 = $27.99\n30000 = $38.49",
+      ""
+    ],
+    [
+      "Cap 298% dmg Shotgun",
+      "1 = $0.62\n6 = $3.14\n12 = $4.89\n25 = $7.87\n50 = $12.59\n100 = $22.39\n200 = $39.89\n350 = $62.99",
+      ""
+    ],
+    [
+      "Ammo for Shotgun",
+      "100 = $0.62\n1000 = $3.14\n10000 = $15.74\n20000 = $27.99\n30000 = $38.49",
+      ""
+    ],
+    [
+      "Cap 298% dmg Compound Bow",
+      "1 = $0.62\n6 = $3.14\n12 = $4.89\n25 = $7.87\n50 = $12.59\n100 = $22.39\n200 = $39.89\n350 = $62.99",
+      ""
+    ],
+    [
+      "Ammo for Compound Bow",
+      "100 = $0.62\n1000 = $3.14\n10000 = $15.74\n20000 = $27.99\n30000 = $38.49",
+      ""
+    ],
+    [
+      "Cap 298% dmg Crossbow",
+      "1 = $0.62\n6 = $3.14\n12 = $4.89\n25 = $7.69\n50 = $12.59\n100 = $22.39",
+      ""
+    ],
+    [
+      "Ammo for Crossbow [Grappling Hook]",
+      "100 = $0.62\n1000 = $3.14\n10000 = $15.74\n20000 = $27.99\n30000 = $38.49",
+      ""
+    ],
+    [
+      "Ammo for Crossbow [Tranq Arrow]",
+      "100 = $0.34\n1000 = $2.44",
+      ""
+    ],
+    [
+      "Best 229%+ dmg Whip [243+Dura]",
+      "1 = $0.34\n6 = $1.39\n12 = $2.09\n25 = $3.14\n50 = $5.59\n100 = $9.79\n200 = $16.79\n350 = $27.99",
+      ""
+    ],
+    [
+      "Cap 298% dmg Hatchet",
+      "1 = $0.34\n6 = $1.39\n12 = $2.09\n25 = $3.14\n50 = $5.59\n100 = $9.79",
+      ""
+    ],
+    [
+      "Cap 298% dmg Metal Sword",
+      "1 = $1.39\n6 = $6.99",
+      ""
+    ],
+    [
+      "Cap 298% dmg Chainsaw",
+      "1 = $1.39\n6 = $6.99",
+      ""
+    ],
+    [
+      "Cap 159% dmg Tek Rifle",
+      "1 = $3.14\n6 = $16.79",
+      ""
+    ],
+    [
+      "Primitive 100% dmg Tek Rifle",
+      "1 = $0.90\n6 = $4.89",
+      ""
+    ],
+    [
+      "Primitive Tek Sword",
+      "1 = $0.90\n6 = $4.89",
+      ""
+    ],
+    [
+      "Capped Tek Sword",
+      "1 = $3.14\n6 = $16.79",
+      ""
+    ],
+    [
+      "Tek Shields",
+      "1 = $0.62\n6 = $3.14",
+      ""
+    ],
+    [
+      "Best Tek Shields",
+      "1 = $3.14\n6 = $16.79",
+      ""
+    ],
+    [
+      "Best Riot Shields",
+      "1 = $0.62\n10 = $3.49\n25 = $7.69\n50 = $12.59\n100 = $20.99\n300 = $48.99",
+      ""
+    ],
+    [
+      "Primitive Tek Grenade Launcher",
+      "1 = $0.90\n6 = $4.89\n12 = $9.09\n25 = $17.49\n50 = $31.49\n100 = $55.99",
+      ""
+    ],
+    [
+      "Primitive 100% dmg Flamethrower",
+      "1 = $0.62\n6 = $3.14\n12 = $4.89\n25 = $7.69\n50 = $12.59\n100 = $18.89",
+      ""
+    ],
+    [
+      "Ammo for Flamethrower",
+      "10 = $0.62\n90 = $3.14\n270 = $6.29\n500 = $10.49",
+      ""
+    ],
+    [
+      "C4 Detonator",
+      "1 = $0.12\n6 = $0.62\n12 = $1.04\n25 = $1.74\n50 = $2.79\n100 = $4.89\n200 = $8.39\n350 = $12.59",
+      ""
+    ],
+    [
+      "C4 Charges",
+      "100 = $0.62\n1000 = $4.68\n10000 = $25.19\n20000 = $45.49\n30000 = $62.99",
+      ""
+    ],
+    [
+      "Rocket Launcher",
+      "1 = $0.12\n6 = $0.62\n12 = $1.04\n25 = $1.74\n50 = $2.79\n100 = $4.89\n200 = $8.39\n350 = $12.59",
+      ""
+    ],
+    [
+      "Rockets",
+      "100 = $0.62\n1000 = $4.68\n10000 = $25.19\n20000 = $45.49\n30000 = $62.99",
+      ""
+    ],
+    [
+      "Tek Grenades",
+      "1 Slot = $0.62\n10 Slots = $4.68\n25 Slots = $9.79\n50 Slots = $16.09\n100 Slots = $25.19",
+      ""
+    ],
+    [
+      "Tek Gravity Grenades",
+      "1 Slot = $0.53\n10 Slots = $3.98\n25 Slots = $8.32\n50 Slots = $13.64\n100 Slots = $21.34",
+      ""
+    ],
+    [
+      "Gamma Weapons Kit",
+      "1 Kit = $8.92",
+      "x2 Cap 298% dmg Fabricated Sniper Rifle + 200 Ammo\nx2 Cap 298% dmg Shotgun + 200 Ammo\nx2 Cap 298% dmg Compound Bow + 200 Ammo\nx2 Primitive 100% dmg Flamethrower + 10 Ammo\nx2 Cap 298% dmg Crossbow + 100 Grappling Hooks\nx2 Best 229%+ dmg Whip [243+Dura]\nx2 Cap 298% dmg Hatchet\nx2 C4 Detonator + 100 C4\nx2 Rocket Launcher + 40 Rockets"
+    ],
+    [
+      "Beta Weapons Kit",
+      "1 Kit = $35.69",
+      "x12 Cap 298% dmg Fabricated Sniper Rifle + 1200 Ammo\nx12 Cap 298% dmg Shotgun + 1200 Ammo\nx12 Cap 298% dmg Compound Bow + 1200 Ammo\nx12 Primitive 100% dmg Flamethrower + 60 Ammo\nx12 Cap 298% dmg Crossbow + 600 Grappling Hooks\nx12 Best 229%+ dmg Whip [243+Dura]\nx12 Cap 298% dmg Hatchet\nx12 C4 Detonator + 1200 C4\nx12 Rocket Launcher + 240 Rockets"
+    ],
+    [
+      "Alpha Weapons Kit [Full Vault]",
+      "1 Kit = $89.24",
+      "x50 Cap 298% dmg Fabricated Sniper Rifle + 5000 Ammo\nx50 Cap 298% dmg Shotgun + 5000 Ammo\nx50 Cap 298% dmg Compound Bow + 5000 Ammo\nx50 Primitive 100% dmg Flamethrower + 100 Ammo\nx50 Cap 298% dmg Crossbow + 2500 Grappling Hooks\nx50 Best 229%+ dmg Whip [243+Dura]\nx50 Cap 298% dmg Hatchet\nx50 C4 Detonator + 5000 C4\nx50 Rocket Launcher + 1000 Rockets"
+    ]
+  ]
+},
   pvp: {
     title: '💠 PvP Dinos',
     products: [
@@ -308,6 +528,52 @@ const categories = {
 
 // Shop emoji names match the uploaded Flex Market PNG filenames.
 const SHOP_EMOJIS = {
+  armor: {
+  "Scuba — Tank + Flippers": "flex_market_scuba",
+  "Hazard — Helmet": "flex_market_hazard",
+  "Fur": "flex_market_fur",
+  "Riot": "flex_market_riot",
+  "Ghillie": "flex_market_ghillie",
+  "Primitive Tek Suit [300 Dura]": "flex_market_tek_suit",
+  "Decent Tek Suit [300–1000 Dura]": "flex_market_tek_suit",
+  "Capped Tek Suit [1000–1500 Dura]": "flex_market_tek_suit",
+  "Cursed Capped Tek Suit [1949 Dura]": "flex_market_tek_suit",
+  "Flak Sets": "flex_market_flak"
+},
+  pvpkit: {
+  "Cap 298% dmg Fabricated Sniper": "flex_market_fabricated_sniper",
+  "Ammo for Fabricated Sniper Rifle": "flex_market_sniper_ammo",
+  "Cap 298% dmg Shotgun": "flex_market_shotgun",
+  "Ammo for Shotgun": "flex_market_shotgun_ammo",
+  "Cap 298% dmg Compound Bow": "flex_market_compound_bow",
+  "Ammo for Compound Bow": "flex_market_metal_arrow",
+  "Cap 298% dmg Crossbow": "flex_market_crossbow",
+  "Ammo for Crossbow [Grappling Hook]": "flex_market_grappling_hook",
+  "Ammo for Crossbow [Tranq Arrow]": "flex_market_tranq_arrow",
+  "Best 229%+ dmg Whip [243+Dura]": "flex_market_whip",
+  "Cap 298% dmg Hatchet": "flex_market_hatchet",
+  "Cap 298% dmg Metal Sword": "flex_market_metal_sword",
+  "Cap 298% dmg Chainsaw": "flex_market_chainsaw",
+  "Cap 159% dmg Tek Rifle": "flex_market_tek_rifle",
+  "Primitive 100% dmg Tek Rifle": "flex_market_tek_rifle",
+  "Primitive Tek Sword": "flex_market_tek_sword",
+  "Capped Tek Sword": "flex_market_tek_sword",
+  "Tek Shields": "flex_market_tek_shield",
+  "Best Tek Shields": "flex_market_tek_shield",
+  "Best Riot Shields": "flex_market_riot_shield",
+  "Primitive Tek Grenade Launcher": "flex_market_tek_grenade_launcher",
+  "Primitive 100% dmg Flamethrower": "flex_market_flamethrower",
+  "Ammo for Flamethrower": "flex_market_flamethrower_ammo",
+  "C4 Detonator": "flex_market_c4_detonator",
+  "C4 Charges": "flex_market_c4",
+  "Rocket Launcher": "flex_market_rocket_launcher",
+  "Rockets": "flex_market_rocket",
+  "Tek Grenades": "flex_market_tek_grenade",
+  "Tek Gravity Grenades": "flex_market_tek_gravity_grenade",
+  "Gamma Weapons Kit": "flex_market_gamma_weapons_kit",
+  "Beta Weapons Kit": "flex_market_beta_weapons_kit",
+  "Alpha Weapons Kit [Full Vault]": "flex_market_alpha_weapons_kit"
+},
   "resources": {
     "Blue | Green Gems": "flex_market_blue_gem",
     "Sulfur": "flex_market_sulfur",
@@ -385,11 +651,524 @@ function getArbEmoji(guild) {
   return "";
 }
 
+const PVP_KIT_EMOJI_ALIASES = {
+  "flex_market_fabricated_sniper": [
+    "S_"
+  ],
+  "flex_market_sniper_ammo": [
+    "ASniper"
+  ],
+  "flex_market_shotgun": [
+    "Shotgunk"
+  ],
+  "flex_market_shotgun_ammo": [
+    "AShotgun"
+  ],
+  "flex_market_compound_bow": [
+    "Bow"
+  ],
+  "flex_market_metal_arrow": [
+    "AmmoBow"
+  ],
+  "flex_market_crossbow": [
+    "Crossbow"
+  ],
+  "flex_market_grappling_hook": [
+    "Grapghook"
+  ],
+  "flex_market_tranq_arrow": [
+    "Tranqarrow"
+  ],
+  "flex_market_whip": [
+    "Whip"
+  ],
+  "flex_market_hatchet": [
+    "Hatchet"
+  ],
+  "flex_market_metal_sword": [
+    "MetalSword"
+  ],
+  "flex_market_chainsaw": [
+    "Chainsaw"
+  ],
+  "flex_market_tek_rifle": [
+    "TekRifle"
+  ],
+  "flex_market_tek_sword": [
+    "T_~5"
+  ],
+  "flex_market_tek_shield": [
+    "T_~4"
+  ],
+  "flex_market_riot_shield": [
+    "Shield~1"
+  ],
+  "flex_market_tek_grenade_launcher": [
+    "GrenadeL"
+  ],
+  "flex_market_flamethrower": [
+    "Flamethrower"
+  ],
+  "flex_market_flamethrower_ammo": [
+    "AmmoFlame"
+  ],
+  "flex_market_c4_detonator": [
+    "C4Det"
+  ],
+  "flex_market_c4": [
+    "C4"
+  ],
+  "flex_market_rocket_launcher": [
+    "RocketLau"
+  ],
+  "flex_market_rocket": [
+    "Rockets"
+  ],
+  "flex_market_tek_grenade": [
+    "TekGrenade"
+  ],
+  "flex_market_tek_gravity_grenade": [
+    "TekGravityGrenade"
+  ],
+  "flex_market_gamma_weapons_kit": [
+    "A8_"
+  ],
+  "flex_market_beta_weapons_kit": [
+    "A8_"
+  ],
+  "flex_market_alpha_weapons_kit": [
+    "A8_"
+  ]
+};
+
 function getShopEmoji(guild, categoryKey, productName) {
   const name = SHOP_EMOJIS[categoryKey]?.[productName.trim()];
   if (!name || !guild) return "";
-  const emoji = guild.emojis.cache.find(item => item.name === name && item.available !== false);
-  return emoji ? emoji.toString() : "";
+  const emoji = guild.emojis.cache.find(item => (item.name === name || (PVP_KIT_EMOJI_ALIASES[name] || []).includes(item.name)) && item.available !== false);
+  if (emoji) return emoji.toString();
+  if (categoryKey === 'armor') {
+    const supplied = {
+      flex_market_scuba: '<:Scuba_Infinity_Market_Ark:1472548444253065328>',
+      flex_market_hazard: '<:HazHel_Infinity_Market_Ark:1472548460203868160>',
+      flex_market_tek_suit: '<:Teksuit_Infinity_Market_Ark:1472530873269092434>'
+    };
+    return supplied[name] || '🛡️';
+  }
+  return "";
+}
+
+const BASE_KITS = [
+  {
+    "name": "GAMMA BASE KIT",
+    "price": "8.40",
+    "items": [
+      [
+        "150x Metal Structures Of Choice (Foundation, Ceiling, Pillar etc.)",
+        "structures",
+        "Metal Foundations"
+      ],
+      [
+        "3x Generator With 100x Gasoline",
+        "structures",
+        "Electrical Generators"
+      ],
+      [
+        "15x Heavy Auto Turret",
+        "turrets",
+        "Heavy Turrets"
+      ],
+      [
+        "12000x ARB",
+        "arb",
+        ""
+      ],
+      [
+        "2x Refrigerator",
+        "structures",
+        "Refrigerators"
+      ],
+      [
+        "2x Smithy",
+        "",
+        ""
+      ],
+      [
+        "2x Industrial Forge",
+        "structures",
+        "Industrial Forges"
+      ],
+      [
+        "1x Industrial Grill",
+        "structures",
+        "Industrial Grills"
+      ],
+      [
+        "2x Chemistry Bench",
+        "structures",
+        "Chemistry Benchs"
+      ],
+      [
+        "1x Embryo Incubator",
+        "structures",
+        "Embryo Incubators"
+      ],
+      [
+        "1x Egg Incubator",
+        "",
+        ""
+      ],
+      [
+        "2x Feeding Trough",
+        "",
+        ""
+      ],
+      [
+        "2x Vault",
+        "structures",
+        "Vaults"
+      ],
+      [
+        "2x Fabricator",
+        "",
+        ""
+      ],
+      [
+        "5x Bed",
+        "",
+        ""
+      ],
+      [
+        "2x Cryofridge",
+        "structures",
+        "Cryofridges"
+      ],
+      [
+        "3x FFA Dinos Of Your Choice",
+        "",
+        ""
+      ],
+      [
+        "20x Empty Cryos",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "name": "BETA BASE KIT",
+    "price": "21.00",
+    "items": [
+      [
+        "350x Metal Structures Of Choice (Foundation, Ceiling, Pillar etc.)",
+        "structures",
+        "Metal Foundations"
+      ],
+      [
+        "2x Tek Generator",
+        "tekstructures",
+        "Tek Generators"
+      ],
+      [
+        "2x Small Teleporter",
+        "tekstructures",
+        "Small Tek Teleporters"
+      ],
+      [
+        "1x Replicator",
+        "tekstructures",
+        "Tek Replicators"
+      ],
+      [
+        "1x Transmitter",
+        "tekstructures",
+        "Tek Transmiters"
+      ],
+      [
+        "300,000x Dust",
+        "dust",
+        "Dust"
+      ],
+      [
+        "2x Generator and 100x Gasoline",
+        "structures",
+        "Electrical Generators"
+      ],
+      [
+        "20x Dedis",
+        "",
+        ""
+      ],
+      [
+        "10x Tesla",
+        "",
+        ""
+      ],
+      [
+        "7,500x Crystal",
+        "resources",
+        "Crystal"
+      ],
+      [
+        "20x Heavy Auto Turret",
+        "turrets",
+        "Heavy Turrets"
+      ],
+      [
+        "20,000x ARB",
+        "arb",
+        ""
+      ],
+      [
+        "20x Tek Turret",
+        "turrets",
+        "Tek Turrets"
+      ],
+      [
+        "5x Refrigerator",
+        "structures",
+        "Refrigerators"
+      ],
+      [
+        "1x Embryo Incubator",
+        "structures",
+        "Embryo Incubators"
+      ],
+      [
+        "1x Egg Incubator",
+        "",
+        ""
+      ],
+      [
+        "1x Steam Forge",
+        "structures",
+        "Steam Forges"
+      ],
+      [
+        "3x Industrial Forge",
+        "structures",
+        "Industrial Forges"
+      ],
+      [
+        "2x Industrial Grill",
+        "structures",
+        "Industrial Grills"
+      ],
+      [
+        "2x Industrial Cooker",
+        "structures",
+        "Industrial Cookers"
+      ],
+      [
+        "2x Chemistry Bench",
+        "structures",
+        "Chemistry Benchs"
+      ],
+      [
+        "2x Makeshift Megalab",
+        "structures",
+        "Makeshift Megalab"
+      ],
+      [
+        "5x Vault",
+        "structures",
+        "Vaults"
+      ],
+      [
+        "3x Fabricator",
+        "",
+        ""
+      ],
+      [
+        "2x Tek Trough",
+        "tekstructures",
+        "Tek Troughs"
+      ],
+      [
+        "10x Bed",
+        "",
+        ""
+      ],
+      [
+        "1x Tek Sleeping Pod",
+        "tekstructures",
+        "Tek Sleeping Pods"
+      ],
+      [
+        "8x Cryofridge",
+        "structures",
+        "Cryofridges"
+      ],
+      [
+        "8x FFA Dinos",
+        "",
+        ""
+      ],
+      [
+        "40x Empty Cryopods",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "name": "ALPHA BASE KIT",
+    "price": "42.00",
+    "items": [
+      [
+        "600x Metal Structures Of Choice (Foundation, Ceiling, Pillar etc.)",
+        "structures",
+        "Metal Foundations"
+      ],
+      [
+        "6x Tek Generator",
+        "tekstructures",
+        "Tek Generators"
+      ],
+      [
+        "6x Small Teleporter",
+        "tekstructures",
+        "Small Tek Teleporters"
+      ],
+      [
+        "2x Replicator",
+        "tekstructures",
+        "Tek Replicators"
+      ],
+      [
+        "2x Transmitter",
+        "tekstructures",
+        "Tek Transmiters"
+      ],
+      [
+        "900,000x Dust",
+        "dust",
+        "Dust"
+      ],
+      [
+        "40x Dedis",
+        "",
+        ""
+      ],
+      [
+        "25x Tesla",
+        "",
+        ""
+      ],
+      [
+        "20,000x Crystal",
+        "resources",
+        "Crystal"
+      ],
+      [
+        "50x Heavy Auto Turret",
+        "turrets",
+        "Heavy Turrets"
+      ],
+      [
+        "75,000 ARB",
+        "arb",
+        ""
+      ],
+      [
+        "50x Tek Turret",
+        "turrets",
+        "Tek Turrets"
+      ],
+      [
+        "10x Refrigerator",
+        "structures",
+        "Refrigerators"
+      ],
+      [
+        "4x Embryo Incubator",
+        "structures",
+        "Embryo Incubators"
+      ],
+      [
+        "4x Egg Incubator",
+        "",
+        ""
+      ],
+      [
+        "4x Steam Forge",
+        "structures",
+        "Steam Forges"
+      ],
+      [
+        "2x Industrial Forge",
+        "structures",
+        "Industrial Forges"
+      ],
+      [
+        "6x Industrial Grill",
+        "structures",
+        "Industrial Grills"
+      ],
+      [
+        "4x Industrial Cooker",
+        "structures",
+        "Industrial Cookers"
+      ],
+      [
+        "6x Chemistry Bench",
+        "structures",
+        "Chemistry Benchs"
+      ],
+      [
+        "3x Makeshift Megalab",
+        "structures",
+        "Makeshift Megalab"
+      ],
+      [
+        "15x Vault",
+        "structures",
+        "Vaults"
+      ],
+      [
+        "5x Tek Trough",
+        "tekstructures",
+        "Tek Troughs"
+      ],
+      [
+        "10x Bed",
+        "",
+        ""
+      ],
+      [
+        "6x Tek Sleeping Pod",
+        "tekstructures",
+        "Tek Sleeping Pods"
+      ],
+      [
+        "40x Cryofridge",
+        "structures",
+        "Cryofridges"
+      ],
+      [
+        "15x FFA Dinos Of Your Choice",
+        "",
+        ""
+      ]
+    ]
+  }
+];
+
+async function sendBaseKits(message) {
+  for (const kit of BASE_KITS) {
+    const filename = 'flex_market_' + kit.name.toLowerCase().replace(/ /g, '_') + '.png';
+    const image = new AttachmentBuilder(path.join(__dirname, 'assets', 'base-kits', filename), { name: filename });
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setImage(`attachment://${filename}`)
+      .setFooter({ text: 'ARK FLEX MARKET • Base Kits' });
+    await message.channel.send({ embeds: [embed], files: [image] });
+  }
+  const custom = new EmbedBuilder()
+    .setColor(config.embedColor)
+    .setAuthor({ name: 'Small Tribes Crossplay' })
+    .setDescription(`💠 **Custom Base Kits**\n\nLooking for something that isn't listed? We can create a custom base kit based on your needs and budget.\n\n[Create a ticket](${TICKET_URL}), tell us what you need, and our team will prepare a personalized order.`)
+    .setFooter({ text: 'ARK FLEX MARKET • Base Kits' });
+  await message.channel.send({ embeds: [custom] });
 }
 
 function makeButtonRow() {
@@ -613,7 +1392,7 @@ function makeDinoEmbed(category, product, index, total, localImageName = null, s
     .setColor(config.embedColor)
     .setAuthor({ name: 'Small Tribes Crossplay' })
     .setTitle(isShopProduct ? name.trim() : displayTitle)
-    .setDescription(isShopProduct ? formatShopDescription(name, price, shopEmoji) :
+    .setDescription(isShopProduct ? formatShopDescription(name, price, shopEmoji) + (stats ? `\n\n**${category.title.includes("Armor") ? "Details" : "Contents"}:**\n${stats}` : "") :
       `${shopEmoji ? `${shopEmoji} **${name.trim()}**\n\n` : ''}` +
       `${stats ? `${statsPrefix}**${stats}**\n\n` : ''}` +
       `💰 **Price:**\n` +
@@ -672,7 +1451,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha','ticket']
+    ['armor','basekits','pvpkit','pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha','ticket']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -720,6 +1499,11 @@ client.on('messageCreate', async (message) => {
   const key = command
     .slice(PREFIX.length)
     .split(/\s+/)[0];
+
+  if (['basekit', 'basekits'].includes(key)) {
+    await sendBaseKits(message);
+    return;
+  }
 
   if (key === 'emojicheck') {
     if (!message.guild) return;
@@ -867,6 +1651,13 @@ client.on('messageCreate', async (message) => {
   }
 
   const aliases = {
+    armor: 'armor',
+    armour: 'armor',
+    armors: 'armor',
+    pvpkit: 'pvpkit',
+    pvpkits: 'pvpkit',
+    kit: 'pvpkit',
+    kits: 'pvpkit',
     pvp: 'pvp',
     soaker: 'soakers',
     soakers: 'soakers',

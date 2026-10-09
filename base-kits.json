@@ -1,0 +1,395 @@
+[
+  {
+    "name": "GAMMA BASE KIT",
+    "price": "8.40",
+    "items": [
+      [
+        "150x Metal Structures Of Choice (Foundation, Ceiling, Pillar etc.)",
+        "structures",
+        "Metal Foundations"
+      ],
+      [
+        "3x Generator With 100x Gasoline",
+        "structures",
+        "Electrical Generators"
+      ],
+      [
+        "15x Heavy Auto Turret",
+        "turrets",
+        "Heavy Turrets"
+      ],
+      [
+        "12000x ARB",
+        "arb",
+        ""
+      ],
+      [
+        "2x Refrigerator",
+        "structures",
+        "Refrigerators"
+      ],
+      [
+        "2x Smithy",
+        "",
+        ""
+      ],
+      [
+        "2x Industrial Forge",
+        "structures",
+        "Industrial Forges"
+      ],
+      [
+        "1x Industrial Grill",
+        "structures",
+        "Industrial Grills"
+      ],
+      [
+        "2x Chemistry Bench",
+        "structures",
+        "Chemistry Benchs"
+      ],
+      [
+        "1x Embryo Incubator",
+        "structures",
+        "Embryo Incubators"
+      ],
+      [
+        "1x Egg Incubator",
+        "",
+        ""
+      ],
+      [
+        "2x Feeding Trough",
+        "",
+        ""
+      ],
+      [
+        "2x Vault",
+        "structures",
+        "Vaults"
+      ],
+      [
+        "2x Fabricator",
+        "",
+        ""
+      ],
+      [
+        "5x Bed",
+        "",
+        ""
+      ],
+      [
+        "2x Cryofridge",
+        "structures",
+        "Cryofridges"
+      ],
+      [
+        "3x FFA Dinos Of Your Choice",
+        "",
+        ""
+      ],
+      [
+        "20x Empty Cryos",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "name": "BETA BASE KIT",
+    "price": "21.00",
+    "items": [
+      [
+        "350x Metal Structures Of Choice (Foundation, Ceiling, Pillar etc.)",
+        "structures",
+        "Metal Foundations"
+      ],
+      [
+        "2x Tek Generator",
+        "tekstructures",
+        "Tek Generators"
+      ],
+      [
+        "2x Small Teleporter",
+        "tekstructures",
+        "Small Tek Teleporters"
+      ],
+      [
+        "1x Replicator",
+        "tekstructures",
+        "Tek Replicators"
+      ],
+      [
+        "1x Transmitter",
+        "tekstructures",
+        "Tek Transmiters"
+      ],
+      [
+        "300,000x Dust",
+        "dust",
+        "Dust"
+      ],
+      [
+        "2x Generator and 100x Gasoline",
+        "structures",
+        "Electrical Generators"
+      ],
+      [
+        "20x Dedis",
+        "",
+        ""
+      ],
+      [
+        "10x Tesla",
+        "",
+        ""
+      ],
+      [
+        "7,500x Crystal",
+        "resources",
+        "Crystal"
+      ],
+      [
+        "20x Heavy Auto Turret",
+        "turrets",
+        "Heavy Turrets"
+      ],
+      [
+        "20,000x ARB",
+        "arb",
+        ""
+      ],
+      [
+        "20x Tek Turret",
+        "turrets",
+        "Tek Turrets"
+      ],
+      [
+        "5x Refrigerator",
+        "structures",
+        "Refrigerators"
+      ],
+      [
+        "1x Embryo Incubator",
+        "structures",
+        "Embryo Incubators"
+      ],
+      [
+        "1x Egg Incubator",
+        "",
+        ""
+      ],
+      [
+        "1x Steam Forge",
+        "structures",
+        "Steam Forges"
+      ],
+      [
+        "3x Industrial Forge",
+        "structures",
+        "Industrial Forges"
+      ],
+      [
+        "2x Industrial Grill",
+        "structures",
+        "Industrial Grills"
+      ],
+      [
+        "2x Industrial Cooker",
+        "structures",
+        "Industrial Cookers"
+      ],
+      [
+        "2x Chemistry Bench",
+        "structures",
+        "Chemistry Benchs"
+      ],
+      [
+        "2x Makeshift Megalab",
+        "structures",
+        "Makeshift Megalab"
+      ],
+      [
+        "5x Vault",
+        "structures",
+        "Vaults"
+      ],
+      [
+        "3x Fabricator",
+        "",
+        ""
+      ],
+      [
+        "2x Tek Trough",
+        "tekstructures",
+        "Tek Troughs"
+      ],
+      [
+        "10x Bed",
+        "",
+        ""
+      ],
+      [
+        "1x Tek Sleeping Pod",
+        "tekstructures",
+        "Tek Sleeping Pods"
+      ],
+      [
+        "8x Cryofridge",
+        "structures",
+        "Cryofridges"
+      ],
+      [
+        "8x FFA Dinos",
+        "",
+        ""
+      ],
+      [
+        "40x Empty Cryopods",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "name": "ALPHA BASE KIT",
+    "price": "42.00",
+    "items": [
+      [
+        "600x Metal Structures Of Choice (Foundation, Ceiling, Pillar etc.)",
+        "structures",
+        "Metal Foundations"
+      ],
+      [
+        "6x Tek Generator",
+        "tekstructures",
+        "Tek Generators"
+      ],
+      [
+        "6x Small Teleporter",
+        "tekstructures",
+        "Small Tek Teleporters"
+      ],
+      [
+        "2x Replicator",
+        "tekstructures",
+        "Tek Replicators"
+      ],
+      [
+        "2x Transmitter",
+        "tekstructures",
+        "Tek Transmiters"
+      ],
+      [
+        "900,000x Dust",
+        "dust",
+        "Dust"
+      ],
+      [
+        "40x Dedis",
+        "",
+        ""
+      ],
+      [
+        "25x Tesla",
+        "",
+        ""
+      ],
+      [
+        "20,000x Crystal",
+        "resources",
+        "Crystal"
+      ],
+      [
+        "50x Heavy Auto Turret",
+        "turrets",
+        "Heavy Turrets"
+      ],
+      [
+        "75,000 ARB",
+        "arb",
+        ""
+      ],
+      [
+        "50x Tek Turret",
+        "turrets",
+        "Tek Turrets"
+      ],
+      [
+        "10x Refrigerator",
+        "structures",
+        "Refrigerators"
+      ],
+      [
+        "4x Embryo Incubator",
+        "structures",
+        "Embryo Incubators"
+      ],
+      [
+        "4x Egg Incubator",
+        "",
+        ""
+      ],
+      [
+        "4x Steam Forge",
+        "structures",
+        "Steam Forges"
+      ],
+      [
+        "2x Industrial Forge",
+        "structures",
+        "Industrial Forges"
+      ],
+      [
+        "6x Industrial Grill",
+        "structures",
+        "Industrial Grills"
+      ],
+      [
+        "4x Industrial Cooker",
+        "structures",
+        "Industrial Cookers"
+      ],
+      [
+        "6x Chemistry Bench",
+        "structures",
+        "Chemistry Benchs"
+      ],
+      [
+        "3x Makeshift Megalab",
+        "structures",
+        "Makeshift Megalab"
+      ],
+      [
+        "15x Vault",
+        "structures",
+        "Vaults"
+      ],
+      [
+        "5x Tek Trough",
+        "tekstructures",
+        "Tek Troughs"
+      ],
+      [
+        "10x Bed",
+        "",
+        ""
+      ],
+      [
+        "6x Tek Sleeping Pod",
+        "tekstructures",
+        "Tek Sleeping Pods"
+      ],
+      [
+        "40x Cryofridge",
+        "structures",
+        "Cryofridges"
+      ],
+      [
+        "15x FFA Dinos Of Your Choice",
+        "",
+        ""
+      ]
+    ]
+  }
+]

@@ -1,0 +1,860 @@
+[
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "6",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "12",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "25",
+    "original": "11.24",
+    "discounted": "7.87"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "50",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "100",
+    "original": "31.99",
+    "discounted": "22.39"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "200",
+    "original": "56.99",
+    "discounted": "39.89"
+  },
+  {
+    "item": "Cap 298% dmg Fabricated Sniper",
+    "quantity": "350",
+    "original": "89.99",
+    "discounted": "62.99"
+  },
+  {
+    "item": "Ammo for Fabricated Sniper Rifle",
+    "quantity": "100",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Ammo for Fabricated Sniper Rifle",
+    "quantity": "1000",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Ammo for Fabricated Sniper Rifle",
+    "quantity": "10000",
+    "original": "22.49",
+    "discounted": "15.74"
+  },
+  {
+    "item": "Ammo for Fabricated Sniper Rifle",
+    "quantity": "20000",
+    "original": "39.99",
+    "discounted": "27.99"
+  },
+  {
+    "item": "Ammo for Fabricated Sniper Rifle",
+    "quantity": "30000",
+    "original": "54.99",
+    "discounted": "38.49"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "6",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "12",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "25",
+    "original": "11.24",
+    "discounted": "7.87"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "50",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "100",
+    "original": "31.99",
+    "discounted": "22.39"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "200",
+    "original": "56.99",
+    "discounted": "39.89"
+  },
+  {
+    "item": "Cap 298% dmg Shotgun",
+    "quantity": "350",
+    "original": "89.99",
+    "discounted": "62.99"
+  },
+  {
+    "item": "Ammo for Shotgun",
+    "quantity": "100",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Ammo for Shotgun",
+    "quantity": "1000",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Ammo for Shotgun",
+    "quantity": "10000",
+    "original": "22.49",
+    "discounted": "15.74"
+  },
+  {
+    "item": "Ammo for Shotgun",
+    "quantity": "20000",
+    "original": "39.99",
+    "discounted": "27.99"
+  },
+  {
+    "item": "Ammo for Shotgun",
+    "quantity": "30000",
+    "original": "54.99",
+    "discounted": "38.49"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "6",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "12",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "25",
+    "original": "11.24",
+    "discounted": "7.87"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "50",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "100",
+    "original": "31.99",
+    "discounted": "22.39"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "200",
+    "original": "56.99",
+    "discounted": "39.89"
+  },
+  {
+    "item": "Cap 298% dmg Compound Bow",
+    "quantity": "350",
+    "original": "89.99",
+    "discounted": "62.99"
+  },
+  {
+    "item": "Ammo for Compound Bow",
+    "quantity": "100",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Ammo for Compound Bow",
+    "quantity": "1000",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Ammo for Compound Bow",
+    "quantity": "10000",
+    "original": "22.49",
+    "discounted": "15.74"
+  },
+  {
+    "item": "Ammo for Compound Bow",
+    "quantity": "20000",
+    "original": "39.99",
+    "discounted": "27.99"
+  },
+  {
+    "item": "Ammo for Compound Bow",
+    "quantity": "30000",
+    "original": "54.99",
+    "discounted": "38.49"
+  },
+  {
+    "item": "Cap 298% dmg Crossbow",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Cap 298% dmg Crossbow",
+    "quantity": "6",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Cap 298% dmg Crossbow",
+    "quantity": "12",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Cap 298% dmg Crossbow",
+    "quantity": "25",
+    "original": "10.99",
+    "discounted": "7.69"
+  },
+  {
+    "item": "Cap 298% dmg Crossbow",
+    "quantity": "50",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Cap 298% dmg Crossbow",
+    "quantity": "100",
+    "original": "31.99",
+    "discounted": "22.39"
+  },
+  {
+    "item": "Ammo for Crossbow [Grappling Hook]",
+    "quantity": "100",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Ammo for Crossbow [Grappling Hook]",
+    "quantity": "1000",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Ammo for Crossbow [Grappling Hook]",
+    "quantity": "10000",
+    "original": "22.49",
+    "discounted": "15.74"
+  },
+  {
+    "item": "Ammo for Crossbow [Grappling Hook]",
+    "quantity": "20000",
+    "original": "39.99",
+    "discounted": "27.99"
+  },
+  {
+    "item": "Ammo for Crossbow [Grappling Hook]",
+    "quantity": "30000",
+    "original": "54.99",
+    "discounted": "38.49"
+  },
+  {
+    "item": "Ammo for Crossbow [Tranq Arrow]",
+    "quantity": "100",
+    "original": "0.49",
+    "discounted": "0.34"
+  },
+  {
+    "item": "Ammo for Crossbow [Tranq Arrow]",
+    "quantity": "1000",
+    "original": "3.49",
+    "discounted": "2.44"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "1",
+    "original": "0.49",
+    "discounted": "0.34"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "6",
+    "original": "1.99",
+    "discounted": "1.39"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "12",
+    "original": "2.99",
+    "discounted": "2.09"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "25",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "50",
+    "original": "7.99",
+    "discounted": "5.59"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "100",
+    "original": "13.99",
+    "discounted": "9.79"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "200",
+    "original": "23.99",
+    "discounted": "16.79"
+  },
+  {
+    "item": "Best 229%+ dmg Whip [243+Dura]",
+    "quantity": "350",
+    "original": "39.99",
+    "discounted": "27.99"
+  },
+  {
+    "item": "Cap 298% dmg Hatchet",
+    "quantity": "1",
+    "original": "0.49",
+    "discounted": "0.34"
+  },
+  {
+    "item": "Cap 298% dmg Hatchet",
+    "quantity": "6",
+    "original": "1.99",
+    "discounted": "1.39"
+  },
+  {
+    "item": "Cap 298% dmg Hatchet",
+    "quantity": "12",
+    "original": "2.99",
+    "discounted": "2.09"
+  },
+  {
+    "item": "Cap 298% dmg Hatchet",
+    "quantity": "25",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Cap 298% dmg Hatchet",
+    "quantity": "50",
+    "original": "7.99",
+    "discounted": "5.59"
+  },
+  {
+    "item": "Cap 298% dmg Hatchet",
+    "quantity": "100",
+    "original": "13.99",
+    "discounted": "9.79"
+  },
+  {
+    "item": "Cap 298% dmg Metal Sword",
+    "quantity": "1",
+    "original": "1.99",
+    "discounted": "1.39"
+  },
+  {
+    "item": "Cap 298% dmg Metal Sword",
+    "quantity": "6",
+    "original": "9.99",
+    "discounted": "6.99"
+  },
+  {
+    "item": "Cap 298% dmg Chainsaw",
+    "quantity": "1",
+    "original": "1.99",
+    "discounted": "1.39"
+  },
+  {
+    "item": "Cap 298% dmg Chainsaw",
+    "quantity": "6",
+    "original": "9.99",
+    "discounted": "6.99"
+  },
+  {
+    "item": "Cap 159% dmg Tek Rifle",
+    "quantity": "1",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Cap 159% dmg Tek Rifle",
+    "quantity": "6",
+    "original": "23.99",
+    "discounted": "16.79"
+  },
+  {
+    "item": "Primitive 100% dmg Tek Rifle",
+    "quantity": "1",
+    "original": "1.29",
+    "discounted": "0.90"
+  },
+  {
+    "item": "Primitive 100% dmg Tek Rifle",
+    "quantity": "6",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Primitive Tek Sword",
+    "quantity": "1",
+    "original": "1.29",
+    "discounted": "0.90"
+  },
+  {
+    "item": "Primitive Tek Sword",
+    "quantity": "6",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Capped Tek Sword",
+    "quantity": "1",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Capped Tek Sword",
+    "quantity": "6",
+    "original": "23.99",
+    "discounted": "16.79"
+  },
+  {
+    "item": "Tek Shields",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Tek Shields",
+    "quantity": "6",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Best Tek Shields",
+    "quantity": "1",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Best Tek Shields",
+    "quantity": "6",
+    "original": "23.99",
+    "discounted": "16.79"
+  },
+  {
+    "item": "Best Riot Shields",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Best Riot Shields",
+    "quantity": "10",
+    "original": "4.99",
+    "discounted": "3.49"
+  },
+  {
+    "item": "Best Riot Shields",
+    "quantity": "25",
+    "original": "10.99",
+    "discounted": "7.69"
+  },
+  {
+    "item": "Best Riot Shields",
+    "quantity": "50",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Best Riot Shields",
+    "quantity": "100",
+    "original": "29.99",
+    "discounted": "20.99"
+  },
+  {
+    "item": "Best Riot Shields",
+    "quantity": "300",
+    "original": "69.99",
+    "discounted": "48.99"
+  },
+  {
+    "item": "Primitive Tek Grenade Launcher",
+    "quantity": "1",
+    "original": "1.29",
+    "discounted": "0.90"
+  },
+  {
+    "item": "Primitive Tek Grenade Launcher",
+    "quantity": "6",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Primitive Tek Grenade Launcher",
+    "quantity": "12",
+    "original": "12.99",
+    "discounted": "9.09"
+  },
+  {
+    "item": "Primitive Tek Grenade Launcher",
+    "quantity": "25",
+    "original": "24.99",
+    "discounted": "17.49"
+  },
+  {
+    "item": "Primitive Tek Grenade Launcher",
+    "quantity": "50",
+    "original": "44.99",
+    "discounted": "31.49"
+  },
+  {
+    "item": "Primitive Tek Grenade Launcher",
+    "quantity": "100",
+    "original": "79.99",
+    "discounted": "55.99"
+  },
+  {
+    "item": "Primitive 100% dmg Flamethrower",
+    "quantity": "1",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Primitive 100% dmg Flamethrower",
+    "quantity": "6",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Primitive 100% dmg Flamethrower",
+    "quantity": "12",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Primitive 100% dmg Flamethrower",
+    "quantity": "25",
+    "original": "10.99",
+    "discounted": "7.69"
+  },
+  {
+    "item": "Primitive 100% dmg Flamethrower",
+    "quantity": "50",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Primitive 100% dmg Flamethrower",
+    "quantity": "100",
+    "original": "26.99",
+    "discounted": "18.89"
+  },
+  {
+    "item": "Ammo for Flamethrower",
+    "quantity": "10",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Ammo for Flamethrower",
+    "quantity": "90",
+    "original": "4.49",
+    "discounted": "3.14"
+  },
+  {
+    "item": "Ammo for Flamethrower",
+    "quantity": "270",
+    "original": "8.99",
+    "discounted": "6.29"
+  },
+  {
+    "item": "Ammo for Flamethrower",
+    "quantity": "500",
+    "original": "14.99",
+    "discounted": "10.49"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "1",
+    "original": "0.17",
+    "discounted": "0.12"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "6",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "12",
+    "original": "1.49",
+    "discounted": "1.04"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "25",
+    "original": "2.49",
+    "discounted": "1.74"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "50",
+    "original": "3.99",
+    "discounted": "2.79"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "100",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "200",
+    "original": "11.99",
+    "discounted": "8.39"
+  },
+  {
+    "item": "C4 Detonator",
+    "quantity": "350",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "C4 Charges",
+    "quantity": "100",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "C4 Charges",
+    "quantity": "1000",
+    "original": "6.69",
+    "discounted": "4.68"
+  },
+  {
+    "item": "C4 Charges",
+    "quantity": "10000",
+    "original": "35.99",
+    "discounted": "25.19"
+  },
+  {
+    "item": "C4 Charges",
+    "quantity": "20000",
+    "original": "64.99",
+    "discounted": "45.49"
+  },
+  {
+    "item": "C4 Charges",
+    "quantity": "30000",
+    "original": "89.99",
+    "discounted": "62.99"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "1",
+    "original": "0.17",
+    "discounted": "0.12"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "6",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "12",
+    "original": "1.49",
+    "discounted": "1.04"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "25",
+    "original": "2.49",
+    "discounted": "1.74"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "50",
+    "original": "3.99",
+    "discounted": "2.79"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "100",
+    "original": "6.99",
+    "discounted": "4.89"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "200",
+    "original": "11.99",
+    "discounted": "8.39"
+  },
+  {
+    "item": "Rocket Launcher",
+    "quantity": "350",
+    "original": "17.99",
+    "discounted": "12.59"
+  },
+  {
+    "item": "Rockets",
+    "quantity": "100",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Rockets",
+    "quantity": "1000",
+    "original": "6.69",
+    "discounted": "4.68"
+  },
+  {
+    "item": "Rockets",
+    "quantity": "10000",
+    "original": "35.99",
+    "discounted": "25.19"
+  },
+  {
+    "item": "Rockets",
+    "quantity": "20000",
+    "original": "64.99",
+    "discounted": "45.49"
+  },
+  {
+    "item": "Rockets",
+    "quantity": "30000",
+    "original": "89.99",
+    "discounted": "62.99"
+  },
+  {
+    "item": "Tek Grenades",
+    "quantity": "1 Slot",
+    "original": "0.89",
+    "discounted": "0.62"
+  },
+  {
+    "item": "Tek Grenades",
+    "quantity": "10 Slots",
+    "original": "6.69",
+    "discounted": "4.68"
+  },
+  {
+    "item": "Tek Grenades",
+    "quantity": "25 Slots",
+    "original": "13.99",
+    "discounted": "9.79"
+  },
+  {
+    "item": "Tek Grenades",
+    "quantity": "50 Slots",
+    "original": "22.99",
+    "discounted": "16.09"
+  },
+  {
+    "item": "Tek Grenades",
+    "quantity": "100 Slots",
+    "original": "35.99",
+    "discounted": "25.19"
+  },
+  {
+    "item": "Tek Gravity Grenades",
+    "quantity": "1 Slot",
+    "original": "0.75",
+    "discounted": "0.53"
+  },
+  {
+    "item": "Tek Gravity Grenades",
+    "quantity": "10 Slots",
+    "original": "5.69",
+    "discounted": "3.98"
+  },
+  {
+    "item": "Tek Gravity Grenades",
+    "quantity": "25 Slots",
+    "original": "11.89",
+    "discounted": "8.32"
+  },
+  {
+    "item": "Tek Gravity Grenades",
+    "quantity": "50 Slots",
+    "original": "19.49",
+    "discounted": "13.64"
+  },
+  {
+    "item": "Tek Gravity Grenades",
+    "quantity": "100 Slots",
+    "original": "30.49",
+    "discounted": "21.34"
+  },
+  {
+    "item": "Gamma Weapons Kit",
+    "quantity": "1 Kit",
+    "original": "14.99",
+    "discounted": "8.92"
+  },
+  {
+    "item": "Beta Weapons Kit",
+    "quantity": "1 Kit",
+    "original": "59.99",
+    "discounted": "35.69"
+  },
+  {
+    "item": "Alpha Weapons Kit [Full Vault]",
+    "quantity": "1 Kit",
+    "original": "149.99",
+    "discounted": "89.24"
+  }
+]

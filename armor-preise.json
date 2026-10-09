@@ -1,0 +1,188 @@
+[
+  {
+    "item": "Scuba — Tank + Flippers",
+    "quantity": "1x Tank + Flippers",
+    "original": "0.5",
+    "discounted": "0.35"
+  },
+  {
+    "item": "Scuba — Tank + Flippers",
+    "quantity": "12x Tank + Flippers",
+    "original": "2.5",
+    "discounted": "1.75"
+  },
+  {
+    "item": "Scuba — Tank + Flippers",
+    "quantity": "100x Tank + Flippers",
+    "original": "17.5",
+    "discounted": "12.25"
+  },
+  {
+    "item": "Scuba — Tank + Flippers",
+    "quantity": "175x Tank + Flippers [1 full vault]",
+    "original": "27.5",
+    "discounted": "19.25"
+  },
+  {
+    "item": "Hazard — Helmet",
+    "quantity": "1x Helmets",
+    "original": "0.5",
+    "discounted": "0.35"
+  },
+  {
+    "item": "Hazard — Helmet",
+    "quantity": "24x Helmets",
+    "original": "9.99",
+    "discounted": "6.99"
+  },
+  {
+    "item": "Hazard — Helmet",
+    "quantity": "96x Helmets",
+    "original": "34.99",
+    "discounted": "24.49"
+  },
+  {
+    "item": "Hazard — Helmet",
+    "quantity": "192x Helmets",
+    "original": "59.99",
+    "discounted": "41.99"
+  },
+  {
+    "item": "Hazard — Helmet",
+    "quantity": "350x [1 full vault] Helmets",
+    "original": "99.99",
+    "discounted": "69.99"
+  },
+  {
+    "item": "Fur",
+    "quantity": "1x Full set",
+    "original": "0.99",
+    "discounted": "0.69"
+  },
+  {
+    "item": "Fur",
+    "quantity": "6x Full sets",
+    "original": "4.99",
+    "discounted": "3.49"
+  },
+  {
+    "item": "Riot",
+    "quantity": "1x Full set",
+    "original": "0.99",
+    "discounted": "0.69"
+  },
+  {
+    "item": "Riot",
+    "quantity": "6x Full sets",
+    "original": "4.99",
+    "discounted": "3.49"
+  },
+  {
+    "item": "Ghillie",
+    "quantity": "1x Full set",
+    "original": "0.99",
+    "discounted": "0.69"
+  },
+  {
+    "item": "Ghillie",
+    "quantity": "6x Full sets",
+    "original": "4.99",
+    "discounted": "3.49"
+  },
+  {
+    "item": "Primitive Tek Suit [300 Dura]",
+    "quantity": "1x Full set",
+    "original": "3.99",
+    "discounted": "2.79"
+  },
+  {
+    "item": "Primitive Tek Suit [300 Dura]",
+    "quantity": "6x Full sets",
+    "original": "19.99",
+    "discounted": "13.99"
+  },
+  {
+    "item": "Decent Tek Suit [300–1000 Dura]",
+    "quantity": "1x Full set",
+    "original": "8.99",
+    "discounted": "6.29"
+  },
+  {
+    "item": "Decent Tek Suit [300–1000 Dura]",
+    "quantity": "6x Full sets",
+    "original": "44.99",
+    "discounted": "31.49"
+  },
+  {
+    "item": "Capped Tek Suit [1000–1500 Dura]",
+    "quantity": "1x Full set",
+    "original": "14.99",
+    "discounted": "10.49"
+  },
+  {
+    "item": "Capped Tek Suit [1000–1500 Dura]",
+    "quantity": "6x Full sets",
+    "original": "74.99",
+    "discounted": "52.49"
+  },
+  {
+    "item": "Cursed Capped Tek Suit [1949 Dura]",
+    "quantity": "1x Full set",
+    "original": "17.5",
+    "discounted": "12.25"
+  },
+  {
+    "item": "Cursed Capped Tek Suit [1949 Dura]",
+    "quantity": "6x Full sets",
+    "original": "94.99",
+    "discounted": "66.49"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "1x Set",
+    "original": "0.5",
+    "discounted": "0.35"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "6x Sets",
+    "original": "2.5",
+    "discounted": "1.75"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "30x Sets",
+    "original": "9.99",
+    "discounted": "6.99"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "70x Sets [1 full vault]",
+    "original": "19.99",
+    "discounted": "13.99"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "140x Sets [2 full vaults]",
+    "original": "34.99",
+    "discounted": "24.49"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "280x Sets [3 full vaults]",
+    "original": "49.99",
+    "discounted": "34.99"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "420x Sets [4 full vaults]",
+    "original": "64.99",
+    "discounted": "45.49"
+  },
+  {
+    "item": "Flak Sets",
+    "quantity": "560x Sets [5 full vaults]",
+    "original": "74.99",
+    "discounted": "52.49"
+  }
+]
