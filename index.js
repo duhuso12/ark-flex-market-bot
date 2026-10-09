@@ -40,52 +40,52 @@ const categories = {
     [
       "Scuba — Tank + Flippers",
       "1x Tank + Flippers = $0.35\n12x Tank + Flippers = $1.75\n100x Tank + Flippers = $12.25\n175x Tank + Flippers [1 full vault] = $19.25",
-      "Crafted with good blueprints."
+      ""
     ],
     [
       "Hazard — Helmet",
       "1x Helmets = $0.35\n24x Helmets = $6.99\n96x Helmets = $24.49\n192x Helmets = $41.99\n350x [1 full vault] Helmets = $69.99",
-      "Crafted with good blueprints."
+      ""
     ],
     [
       "Fur",
       "1x Full set = $0.69\n6x Full sets = $3.49",
-      "Crafted with good blueprints."
+      ""
     ],
     [
       "Riot",
       "1x Full set = $0.69\n6x Full sets = $3.49",
-      "Crafted with good blueprints."
+      ""
     ],
     [
       "Ghillie",
       "1x Full set = $0.69\n6x Full sets = $3.49",
-      "Crafted with good blueprints."
+      ""
     ],
     [
       "Primitive Tek Suit [300 Dura]",
       "1x Full set = $2.79\n6x Full sets = $13.99",
-      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+      "**OUT OF STOCK**\n\nYou need Tek engrams to use Tek suits."
     ],
     [
       "Decent Tek Suit [300–1000 Dura]",
       "1x Full set = $6.29\n6x Full sets = $31.49",
-      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+      "**OUT OF STOCK**\n\nYou need Tek engrams to use Tek suits."
     ],
     [
       "Capped Tek Suit [1000–1500 Dura]",
       "1x Full set = $10.49\n6x Full sets = $52.49",
-      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+      "**OUT OF STOCK**\n\nYou need Tek engrams to use Tek suits."
     ],
     [
       "Cursed Capped Tek Suit [1949 Dura]",
       "1x Full set = $12.25\n6x Full sets = $66.49",
-      "**OUT OF STOCK**\n\nCrafted with good blueprints.\nYou need Tek engrams to use Tek suits."
+      "**OUT OF STOCK**\n\nYou need Tek engrams to use Tek suits."
     ],
     [
       "Flak Sets",
       "1x Set = $0.35\n6x Sets = $1.75\n30x Sets = $6.99\n70x Sets [1 full vault] = $13.99\n140x Sets [2 full vaults] = $24.49\n280x Sets [3 full vaults] = $34.99\n420x Sets [4 full vaults] = $45.49\n560x Sets [5 full vaults] = $52.49",
-      "Crafted with the best blueprints.\nAll Flak has 1000+ durability."
+      "All Flak has 1000+ durability."
     ]
   ]
 },
@@ -441,38 +441,38 @@ const categories = {
   structures: {
     title: '💠 Structures',
     products: [
-      [' Metal Foundations ', '100x = $1.59', ''],
-      [' Metal Walls ', '100x = $0.79', ''],
-      [' Metal Ceilings ', '100x = $1.19', ''],
-      [' Metal Triangle Foundations ', '100x = $0.79', ''],
-      [' Metal Pilars ', '100x = $0.79', ''],
-      [' Metal Gateways ', '100x = $3.99', ''],
-      [' Metal Cliff Platforms ', '3x = $1.43', ''],
-      [' Industrial Forges ', '1x = $0.39', ''],
-      [' Chemistry Benchs ', '1x = $0.39', ''],
-      [' Industrial Cookers ', '1x = $0.39', ''],
-      [' Industrial Grinders ', '1x = $0.39', ''],
-      [' Industrial Grills ', '1x = $0.08', ''],
-      [' Refrigerators ', '1x = $0.08', ''],
-      [' Vaults ', '1x = $0.20', ''],
-      [' Air Conditioners ', '1x = $0.07', ''],
-      [' Electrical Generators ', '1x = $0.07', ''],
-      [' Cryofridges ', '1x = $0.07', ''],
-      [' Motorboats ', '1x = $1.19', ''],
-      [' Zeppelins ', '1x = $0.55', ''],
-      [' Clockfaces ', '1x = $0.55', ''],
-      [' Linked Storage Boxs ', '1x = $0.55', ''],
-      [' Steam Forges ', '1x = $1.19', ''],
-      [' Makeshift Megalab ', '1x = $0.55', ''],
-      [' Embryo Incubators ', '1x = $0.55', ''],
-      [' Sir5RM8 ', '1x = $0.79', ''],
-      [' Gene Scanners ', '1x = $0.55', ''],
-      [' Gene Storages ', '1x = $0.55', ''],
-      [' Industrial Preserving Bins ', '1x = $0.55', ''],
-      [' Tinkering Desks ', '1x = $0.55', ''],
-      [' Bio Grinder ', '1x = $0.55', ''],
-      [' Library Storage ', '1x = $0.55', ''],
-      [' Battlerig Garage ', '1x = $0.55', '']
+      [' Metal Foundations ', '100x = $2.07', ''],
+      [' Metal Walls ', '100x = $1.03', ''],
+      [' Metal Ceilings ', '100x = $1.55', ''],
+      [' Metal Triangle Foundations ', '100x = $1.03', ''],
+      [' Metal Pilars ', '100x = $1.03', ''],
+      [' Metal Gateways ', '100x = $5.19', ''],
+      [' Metal Cliff Platforms ', '3x = $1.86', ''],
+      [' Industrial Forges ', '1x = $0.51', ''],
+      [' Chemistry Benchs ', '1x = $0.51', ''],
+      [' Industrial Cookers ', '1x = $0.51', ''],
+      [' Industrial Grinders ', '1x = $0.51', ''],
+      [' Industrial Grills ', '1x = $0.10', ''],
+      [' Refrigerators ', '1x = $0.10', ''],
+      [' Vaults ', '1x = $0.26', ''],
+      [' Air Conditioners ', '1x = $0.09', ''],
+      [' Electrical Generators ', '1x = $0.09', ''],
+      [' Cryofridges ', '1x = $0.09', ''],
+      [' Motorboats ', '1x = $1.55', ''],
+      [' Zeppelins ', '1x = $0.72', ''],
+      [' Clockfaces ', '1x = $0.72', ''],
+      [' Linked Storage Boxs ', '1x = $0.72', ''],
+      [' Steam Forges ', '1x = $1.55', ''],
+      [' Makeshift Megalab ', '1x = $0.72', ''],
+      [' Embryo Incubators ', '1x = $0.72', ''],
+      [' Sir5RM8 ', '1x = $1.03', ''],
+      [' Gene Scanners ', '1x = $0.72', ''],
+      [' Gene Storages ', '1x = $0.72', ''],
+      [' Industrial Preserving Bins ', '1x = $0.72', ''],
+      [' Tinkering Desks ', '1x = $0.72', ''],
+      [' Bio Grinder ', '1x = $0.72', ''],
+      [' Library Storage ', '1x = $0.72', ''],
+      [' Battlerig Garage ', '1x = $0.72', '']
     ]
   },
 
@@ -747,12 +747,7 @@ function getShopEmoji(guild, categoryKey, productName) {
   const emoji = guild.emojis.cache.find(item => (item.name === name || (PVP_KIT_EMOJI_ALIASES[name] || []).includes(item.name)) && item.available !== false);
   if (emoji) return emoji.toString();
   if (categoryKey === 'armor') {
-    const supplied = {
-      flex_market_scuba: '<:Scuba_Infinity_Market_Ark:1472548444253065328>',
-      flex_market_hazard: '<:HazHel_Infinity_Market_Ark:1472548460203868160>',
-      flex_market_tek_suit: '<:Teksuit_Infinity_Market_Ark:1472530873269092434>'
-    };
-    return supplied[name] || '🛡️';
+    return '🛡️';
   }
   return "";
 }
@@ -1158,7 +1153,19 @@ async function sendKitImages(message, type) {
   for (const tier of ['gamma', 'beta', 'alpha']) {
     const filename = `flex_market_${tier}_${type}_kit.png`;
     const image = new AttachmentBuilder(path.join(__dirname, 'assets', folder, filename), { name: filename });
-    await message.channel.send({ files: [image] });
+    if (type === 'pvp') {
+      const prices = { gamma: '6.99', beta: '17.49', alpha: '31.49' };
+      const embed = new EmbedBuilder()
+        .setColor(config.embedColor)
+        .setAuthor({ name: 'ARK FLEX MARKET' })
+        .setTitle(`${tier.toUpperCase()} PvP Kit`)
+        .setDescription(`**Price:** ${prices[tier]} 🪙`)
+        .setImage(`attachment://${filename}`)
+        .setFooter({ text: 'ARK FLEX MARKET' });
+      await message.channel.send({ embeds: [embed], files: [image] });
+    } else {
+      await message.channel.send({ files: [image] });
+    }
   }
 }
 
@@ -1442,7 +1449,7 @@ client.once('ready', () => {
 
   console.log(
     'Commands:',
-    ['armor','basekits','pvpkit','pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha','ticket']
+    ['saddles','armor','basekits','pvpkit','pvp','soaker','flyer','water','farm','support','eggs','cloners','ffa','arb','resources','structures','tekstructures','turrets','soon','prices','giveaway','craft','demo','gacha','ticket']
       .map(command => `!${command}`)
       .join(', ')
   );
@@ -1631,18 +1638,46 @@ client.on('messageCreate', async (message) => {
     return;
   }
 
-  if (key === 'gacha') {
+  if (['saddles', 'saddle'].includes(key)) {
     const embed = new EmbedBuilder()
       .setColor(config.embedColor)
-      .setAuthor({ name: 'Small Tribes Crossplay' })
-      .setTitle('💠 Gacha Tower')
+      .setAuthor({ name: 'ARK FLEX MARKET' })
+      .setTitle('Saddles')
       .setDescription(
-        '**Tired of building your own Gacha Tower? We\'ve got you covered!**\n\n' +
-        '**Just open up a ticket!**\n\n' +
-        '**(For more information, open up a ticket.)**'
+        '**Normal Saddle:**\n' +
+        '• **1x:** 0.35 🪙\n' +
+        '• **10x:** 2.80 🪙\n' +
+        '• **100x:** 24.50 🪙\n' +
+        '• **300x:** 49.00 🪙\n\n' +
+        '**Tek Saddles:**\n' +
+        '• **1x:** 0.70 🪙\n' +
+        '• **10x:** 6.30 🪙\n' +
+        '• **100x:** 59.50 🪙'
       )
-      .setFooter({ text: 'ARK FLEX MARKET • Gacha Tower' });
-    await message.channel.send({ embeds: [embed] });
+      .setImage('attachment://flex_market_saddles.png')
+      .setFooter({ text: 'ARK FLEX MARKET' });
+    await message.channel.send({ embeds: [embed], files: [new AttachmentBuilder(path.join(__dirname, 'assets', 'saddles', 'flex_market_saddles.png'), { name: 'flex_market_saddles.png' })] });
+    return;
+  }
+
+  if (['gacha', 'gachakit', 'gachatower'].includes(key)) {
+    const embed = new EmbedBuilder()
+      .setColor(config.embedColor)
+      .setAuthor({ name: 'ARK FLEX MARKET' })
+      .setTitle('Gacha Tower Kit')
+      .setDescription(
+        '**Price:** 49 🪙\n\n' +
+        '• 20x Dust Gacha Pairs\n' +
+        '• 20x Flint / Stone / Wood Gacha Pairs\n' +
+        '• 5x Black Pearl Gacha Pairs\n' +
+        '• 10x Obsidian Gacha Pairs\n' +
+        '• 20x Pegomastax\n' +
+        '• 60x Dungbeetles\n' +
+        '• 60x Deinotheriums'
+      )
+      .setImage('attachment://flex_market_gacha_tower.png')
+      .setFooter({ text: 'ARK FLEX MARKET' });
+    await message.channel.send({ embeds: [embed], files: [new AttachmentBuilder(path.join(__dirname, 'assets', 'gacha', 'flex_market_gacha_tower.png'), { name: 'flex_market_gacha_tower.png' })] });
     return;
   }
 
