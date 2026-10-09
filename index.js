@@ -38,34 +38,9 @@ const categories = {
   "title": "💠 Armor",
   "products": [
     [
-      "Scuba — Tank + Flippers",
-      "1x Tank + Flippers = $0.35\n12x Tank + Flippers = $1.75\n100x Tank + Flippers = $12.25\n175x Tank + Flippers [1 full vault] = $19.25",
-      ""
-    ],
-    [
-      "Hazard — Helmet",
-      "1x Helmets = $0.35\n24x Helmets = $6.99\n96x Helmets = $24.49\n192x Helmets = $41.99\n350x [1 full vault] Helmets = $69.99",
-      ""
-    ],
-    [
-      "Fur",
-      "1x Full set = $0.69\n6x Full sets = $3.49",
-      ""
-    ],
-    [
-      "Riot",
-      "1x Full set = $0.69\n6x Full sets = $3.49",
-      ""
-    ],
-    [
-      "Ghillie",
-      "1x Full set = $0.69\n6x Full sets = $3.49",
-      ""
-    ],
-    [
       "Primitive Tek Suit [300 Dura]",
       "1x Full set = $2.79\n6x Full sets = $13.99",
-      "**OUT OF STOCK**\n\nYou need Tek engrams to use Tek suits."
+      "You need Tek engrams to use Tek suits."
     ],
     [
       "Decent Tek Suit [300–1000 Dura]",
@@ -534,11 +509,11 @@ const SHOP_EMOJIS = {
   "Fur": "flex_market_fur",
   "Riot": "flex_market_riot",
   "Ghillie": "flex_market_ghillie",
-  "Primitive Tek Suit [300 Dura]": "flex_market_tek_suit",
-  "Decent Tek Suit [300–1000 Dura]": "flex_market_tek_suit",
-  "Capped Tek Suit [1000–1500 Dura]": "flex_market_tek_suit",
-  "Cursed Capped Tek Suit [1949 Dura]": "flex_market_tek_suit",
-  "Flak Sets": "flex_market_flak"
+  "Primitive Tek Suit [300 Dura]": "flex_market_tek_chest",
+  "Decent Tek Suit [300–1000 Dura]": "flex_market_tek_chest",
+  "Capped Tek Suit [1000–1500 Dura]": "flex_market_tek_chest",
+  "Cursed Capped Tek Suit [1949 Dura]": "flex_market_tek_chest",
+  "Flak Sets": "flex_market_flak_chest"
 },
   pvpkit: {
   "Cap 298% dmg Fabricated Sniper": "flex_market_fabricated_sniper",
@@ -1410,9 +1385,38 @@ function makeDinoEmbed(category, product, index, total, localImageName = null, s
   return embed;
 }
 
+// Upload the original ARK armor icons once, then use their Discord IDs.
+const armorEmojiUploads = new Map();
+async function ensureArmorEmojis(guild) {
+  if (!guild) return;
+  if (armorEmojiUploads.has(guild.id)) return armorEmojiUploads.get(guild.id);
+  const pending = (async () => {
+    await guild.emojis.fetch();
+    for (const name of ['flex_market_flak_chest', 'flex_market_tek_chest']) {
+      if (!guild.emojis.cache.some(emoji => emoji.name === name && emoji.available !== false)) {
+        await guild.emojis.create({
+          attachment: path.join(__dirname, 'assets', 'armor', `${name}.png`),
+          name,
+          reason: 'Original ARK armor icons for the Flex Market shop'
+        });
+      }
+    }
+  })();
+  armorEmojiUploads.set(guild.id, pending);
+  try { await pending; } finally { armorEmojiUploads.delete(guild.id); }
+}
+
 async function sendCategory(message, key) {
   const category = categories[key];
   if (!category) return;
+
+  if (key === 'armor') {
+    try { await ensureArmorEmojis(message.guild); } catch (error) {
+      console.error('Armor emoji upload failed:', error.message);
+      await message.channel.send('Please give the bot permission to create server emojis and ensure two emoji slots are available, then run !armor again.');
+      return;
+    }
+  }
 
   if (SHOP_EMOJIS[key] && message.guild) await message.guild.emojis.fetch();
 
