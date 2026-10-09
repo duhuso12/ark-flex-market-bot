@@ -1153,22 +1153,13 @@ const BASE_KITS = [
   }
 ];
 
-async function sendBaseKits(message) {
-  for (const kit of BASE_KITS) {
-    const filename = 'flex_market_' + kit.name.toLowerCase().replace(/ /g, '_') + '.png';
-    const image = new AttachmentBuilder(path.join(__dirname, 'assets', 'base-kits', filename), { name: filename });
-    const embed = new EmbedBuilder()
-      .setColor(config.embedColor)
-      .setImage(`attachment://${filename}`)
-      .setFooter({ text: 'ARK FLEX MARKET • Base Kits' });
-    await message.channel.send({ embeds: [embed], files: [image] });
+async function sendKitImages(message, type) {
+  const folder = type === 'base' ? 'base-kits' : 'pvp-kits';
+  for (const tier of ['gamma', 'beta', 'alpha']) {
+    const filename = `flex_market_${tier}_${type}_kit.png`;
+    const image = new AttachmentBuilder(path.join(__dirname, 'assets', folder, filename), { name: filename });
+    await message.channel.send({ files: [image] });
   }
-  const custom = new EmbedBuilder()
-    .setColor(config.embedColor)
-    .setAuthor({ name: 'Small Tribes Crossplay' })
-    .setDescription(`💠 **Custom Base Kits**\n\nLooking for something that isn't listed? We can create a custom base kit based on your needs and budget.\n\n[Create a ticket](${TICKET_URL}), tell us what you need, and our team will prepare a personalized order.`)
-    .setFooter({ text: 'ARK FLEX MARKET • Base Kits' });
-  await message.channel.send({ embeds: [custom] });
 }
 
 function makeButtonRow() {
@@ -1501,7 +1492,12 @@ client.on('messageCreate', async (message) => {
     .split(/\s+/)[0];
 
   if (['basekit', 'basekits'].includes(key)) {
-    await sendBaseKits(message);
+    await sendKitImages(message, 'base');
+    return;
+  }
+
+  if (['pvpkit', 'pvpkits', 'kit', 'kits'].includes(key)) {
+    await sendKitImages(message, 'pvp');
     return;
   }
 
