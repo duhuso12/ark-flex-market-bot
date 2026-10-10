@@ -597,6 +597,11 @@ const SHOP_EMOJIS = {
   "tekstructures": {
     "Tek Foundations": "flex_market_tek_foundation",
     "Tek Walls": "flex_market_tek_wall",
+    "Tek Ceilings": "flex_market_tek_ceiling",
+    "Tek Triangle Foundations": "flex_market_tek_tri_found",
+    "Tek Pillars": "flex_market_tek_pillar",
+    "Tek Gateways": "flex_market_tek_gateway",
+    "Vacuum Compartments": "flex_market_vacuum_comp",
     "Tek Troughs": "flex_market_tek_trough",
     "Small Tek Teleporters": "flex_market_tek_teleporter",
     "Medium Tek Teleporters": "flex_market_tek_teleporter",
@@ -605,7 +610,14 @@ const SHOP_EMOJIS = {
     "Tek Replicators": "flex_market_tek_replicator",
     "Tek Transmiters": "flex_market_tek_transmitter",
     "Tek Forcefields": "flex_market_tek_forcefield",
-    "Tek Sleeping Pods": "flex_market_tek_sleeping_pod"
+    "Cloning Chambers": "flex_market_cloning_chamber",
+    "Tek Dedicated Storages": "flex_market_tek_dedi",
+    "Tek Sleeping Pods": "flex_market_tek_sleeping_pod",
+    "Behemoth Tek Cellar Doors": "flex_market_tek_cellar",
+    "Tek Crop Plots": "flex_market_tek_crop_plot",
+    "Tek Sensor": "flex_market_tek_sensor",
+    "Tek Hover Skiff": "flex_market_hover_skiff",
+    "Tek Jump Pad": "flex_market_tek_jump_pad"
   },
   "turrets": {
     "Auto Turrets": "flex_market_auto_turret",
