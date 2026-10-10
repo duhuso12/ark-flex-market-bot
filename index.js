@@ -597,27 +597,27 @@ const SHOP_EMOJIS = {
   "tekstructures": {
     "Tek Foundations": "flex_market_tek_foundation",
     "Tek Walls": "flex_market_tek_wall",
-    "Tek Ceilings": "flex_market_tek_ceiling",
-    "Tek Triangle Foundations": "flex_market_tek_tri_found",
-    "Tek Pillars": "flex_market_tek_pillar",
-    "Tek Gateways": "flex_market_tek_gateway",
-    "Vacuum Compartments": "flex_market_vacuum_comp",
-    "Tek Troughs": "flex_market_tek_trough",
-    "Small Tek Teleporters": "flex_market_tek_teleporter",
-    "Medium Tek Teleporters": "flex_market_tek_teleporter",
-    "Large Tek Teleporters": "flex_market_tek_teleporter",
-    "Tek Generators": "flex_market_tek_generator",
+    "Tek Ceilings": "flex_market_tek_tri_found",
+    "Tek Triangle Foundations": "flex_market_tek_pillar",
+    "Tek Pillars": "flex_market_tek_gateway",
+    "Tek Gateways": "flex_market_vacuum_comp",
+    "Vacuum Compartments": "flex_market_cloning_chamber",
+    "Tek Troughs": "flex_market_tek_generator",
+    "Small Tek Teleporters": "flex_market_tek_transmitter",
+    "Medium Tek Teleporters": "flex_market_tek_transmitter",
+    "Large Tek Teleporters": "flex_market_tek_transmitter",
+    "Tek Generators": "flex_market_tek_sleeping_pod",
     "Tek Replicators": "flex_market_tek_replicator",
-    "Tek Transmiters": "flex_market_tek_transmitter",
+    "Tek Transmiters": "flex_market_tek_trough",
     "Tek Forcefields": "flex_market_tek_forcefield",
-    "Cloning Chambers": "flex_market_cloning_chamber",
-    "Tek Dedicated Storages": "flex_market_tek_dedi",
-    "Tek Sleeping Pods": "flex_market_tek_sleeping_pod",
+    "Cloning Chambers": "flex_market_tek_dedi",
+    "Tek Dedicated Storages": "flex_market_tek_cellar",
+    "Tek Sleeping Pods": "flex_market_tek_teleporter",
     "Behemoth Tek Cellar Doors": "flex_market_tek_cellar",
     "Tek Crop Plots": "flex_market_tek_crop_plot",
-    "Tek Sensor": "flex_market_tek_sensor",
-    "Tek Hover Skiff": "flex_market_hover_skiff",
-    "Tek Jump Pad": "flex_market_tek_jump_pad"
+    "Tek Sensor": "flex_market_hover_skiff",
+    "Tek Hover Skiff": "flex_market_tek_jump_pad",
+    "Tek Jump Pad": "flex_market_tek_sensor"
   },
   "turrets": {
     "Auto Turrets": "flex_market_auto_turret",
@@ -1351,14 +1351,14 @@ function getImageUrl(name) {
   return `https://ark.wiki.gg/wiki/Special:Redirect/file/${encodeURIComponent(file)}`;
 }
 
-function formatShopDescription(name, price, emoji = '') {
+function formatShopDescription(name, price, emoji = '', emojiOnlyInHeading = false) {
   const prefix = emoji ? `${emoji} ` : '';
   const lines = price.split(/\n+/).filter(line => line.trim()).map(line => {
     const clean = line.replace(/\*\*/g, '').trim();
     const match = clean.match(/^(.*?)\s*(?:=\s*)?\$?\s*(\d+(?:\.\d+)?)\s*\$?$/);
-    if (!match) return `${prefix}${clean}`;
+    if (!match) return `${emojiOnlyInHeading ? '' : prefix}${clean}`;
     const quantity = match[1].replace(/\s*=\s*$/, '').trim();
-    return `${prefix}**${quantity}** ${match[2]} 🪙`;
+    return `${emojiOnlyInHeading ? '' : prefix}**${quantity}** ${match[2]} 🪙`;
   });
   return `${prefix}**${name.trim()}**\n\n**Prices:**\n\n${lines.join('\n\n')}`;
 }
@@ -1377,7 +1377,7 @@ function makeDinoEmbed(category, product, index, total, localImageName = null, s
     .setColor(config.embedColor)
     .setAuthor({ name: 'Small Tribes Crossplay' })
     .setTitle(isShopProduct ? name.trim() : displayTitle)
-    .setDescription(isShopProduct ? formatShopDescription(name, price, shopEmoji) + (stats ? `\n\n**${category.title.includes("Armor") ? "Details" : "Contents"}:**\n${stats}` : "") :
+    .setDescription(isShopProduct ? formatShopDescription(name, price, shopEmoji, category.title === '💠 Tek Structures') + (stats ? `\n\n**${category.title.includes("Armor") ? "Details" : "Contents"}:**\n${stats}` : "") :
       `${shopEmoji ? `${shopEmoji} **${name.trim()}**\n\n` : ''}` +
       `${stats ? `${statsPrefix}**${stats}**\n\n` : ''}` +
       `💰 **Price:**\n` +
